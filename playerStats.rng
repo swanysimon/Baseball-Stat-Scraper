@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- playerStats.rng -->
+<element name="players" xmlns="http://relaxng.org/ns/structure/1.0">
+	<zeroOrMore>
+		<element name="player">
+			<attribute name="name">
+				<text/>
+			</attribute>
+			<attribute name="id">
+				<text/>
+			</attribute>
+			<attribute name="age">
+				<text/>
+			</attribute>
+			<attribute name="available">
+				<text/>
+			</attribute>
+			<element name="positions">
+				<choice>
+					<element name="unknown">
+						<text/>
+					</element>
+					<element name="pitcher">
+						<optional>
+							<attribute name="type">
+								<text/>
+							</attribute>
+						</optional>
+					</element>
+					<zeroOrMore>
+						<element name="catcher">
+							<text/>
+						</element>
+						<element name="firstbase">
+							<text/>
+						</element>
+						<element name="secondbase">
+							<text/>
+						</element>
+						<element name="thirdbase">
+							<text/>
+						</element>
+						<element name="shortstop">
+							<text/>
+						</element>
+						<element name="centerfield">
+							<text/>
+						</element>
+						<element name="outfield">
+							<text/>
+						</element>
+						<element name="utility">
+							<text/>
+						</element>
+					</zeroOrMore>
+				</choice>
+			</element>
+			<zeroOrMore>
+				<element name="season">
+					<attribute name="year">
+						<text/>
+					</attribute>
+					<attribute name="level">
+						<text/>
+					</attribute>
+					<choice>
+						<group>
+							<element name="games">
+								<text/>
+							</element>
+							<element name="plateappearances">
+								<text/>
+							</element>
+							<element name="singles">
+								<text/>
+							</element>
+							<element name="doubles">
+								<text/>
+							</element>
+							<element name="triples">
+								<text/>
+							</element>
+							<element name="homeruns">
+								<text/>
+							</element>
+							<element name="walks">
+								<text/>
+							</element>
+							<element name="intentionalwalks">
+								<text/>
+							</element>
+							<element name="hitbypitch">>
+								<text/>
+							</element>
+							<element name="stolenbase">
+								<text/>
+							</element>
+							<element name="caughtstealing">
+								<text/>
+							</element>
+							<element name="groundintodoubleplays">
+								<text/>
+							</element>
+							<element name="strikeouts">
+								<text/>
+							</element>
+							<element name="runs">
+								<text/>
+							</element>
+							<element name="runsbattedin">
+								<text/>
+							</element>
+							<element name="sacrificefly">
+								<text/>
+							</element>
+							<element name="sacrificehit">
+								<text/>
+							</element>
+							<element name="groundballs">
+								<text/>
+							</element>
+							<element name="flyballs">
+								<text/>
+							</element>
+							<element name="linedrives">
+								<text/>
+							</element>
+							<element name="infieldhits">
+								<text/>
+							</element>
+							<element name="popups">
+								<text/>
+							</element>
+							<element name="reachedonerror">
+						</group>
+						<group>
+							<element name="games">
+								<text/>
+							</element>
+							<element name="wins">
+								<text/>
+							</element>
+							<element name="losses">
+								<text/>
+							</element>
+							<element name="saves">
+								<text/>
+							</element>
+							<element name="blownsaves">
+								<text/>
+							</element>
+							<element name="holds">
+								<text/>
+							</element>
+							<element name="qualitystarts">
+								<text/>
+							</element>
+							<element name="completegames">
+								<text/>
+							</element>
+							<element name="shutout">
+								<text/>
+							</element>
+							<element name="hitsallowed">
+								<text/>
+							</element>
+							<element name="homerunsallowed">
+								<text/>
+							</element>
+							<element name="hitbypitch">
+								<text/>
+							</element>
+							<element name="walks">
+								<text/>
+							</element>
+							<element name="intentionalwalks">
+								<text/>
+							</element>
+							<element name="balks">
+								<text/>
+							</element>
+							<element name="wildpitches">
+								<text/>
+							</element>
+							<element name="inheritedrunners">
+								<text/>
+							</element>
+							<element name="inheritedrunnersscored">
+								<text/>
+							</element>
+						</group>
+					</choice>
+				</element>
+			</zeroOrMore>
+		</element>
+	</zeroOrMore>
+</element>
