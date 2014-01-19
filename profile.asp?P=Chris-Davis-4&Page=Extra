@@ -1,0 +1,478 @@
+<html>
+<head>
+	<title>Chris Davis Baseball Statistics (2006-2013) </title>
+	<link rel='stylesheet' href='http://www.thebaseballcube.com/code/tbc12.css'>
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="http://www.thebaseballcube.com/code/tbc12_ie.css" media="screen" />
+	<![endif]-->
+	<link rel='canonical' href='http://www.thebaseballcube.com/players/profile.asp?P=Chris-Davis-4'>
+	<script type="text/javascript">
+	
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-68917-1']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	
+	</script>	
+	
+		<SCRIPT> 
+var a = Math.floor(Math.random()*9999999999+1) 
+var random_number = a; 
+</SCRIPT> 
+	<Meta name='description' content=''>
+</head>
+<!--<body style="background-IMAGE:url('http://www.thebaseballcube.com/cards/players/46043.jpg');opacity:0.4">-->
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script src='http://www.thebaseballcube.com/code/tbc.js'></script>
+
+
+		
+		
+
+	
+	<Div class='pageWrapper'>
+		<div class='headerWrapper'>
+			<div class='header'>
+				<a href='../../../../' style='margin-left:-11px;margin-top:2px;padding-left:16px'><img src='../../../images/tbc_logo_2013.jpg' border=0 height=50></a>
+
+			</div>
+			<div class='headerAd'>
+			
+			<!--search box-->
+				<form action='../../../search.asp' method='post' name='frmSearch2'>&nbsp;&nbsp;&nbsp; <br>
+				<input name='search' class='topHeaderSearch' id='search' value='Search TBC' title='Hit Enter to search or type "help" for search tips' onclick="prepareSearch()"> 
+				<input type='submit' class='searchButton' id='searchButton' value='Search'>
+				
+				&nbsp;&nbsp;&nbsp;<a href='https://twitter.com/thebaseballcube' target='_blank'><img src='../../../images/twitterBlue.jpg' align=absmiddle title='Follow The Baseball Cube for site updates and random commentary'></a>&nbsp;&nbsp;
+				<!--<a href='../../../about/updates.asp'>Latest updates</a>-->
+				</form>
+			
+				
+			</div>
+		</div>
+		
+	<div style='clear:both;display:inline;float:left;width:1200px'>
+	<!--Site Sections-->
+
+		<Div class='topHeaderOption'>
+			<a href='../../../../players/'>Players</a>
+		</div>
+		<Div class='topHeaderOption'>
+			<a href='../../../../scores/'>Games</a>
+		</div>
+		<Div c		
+		<Div class='topHeaderOption'>
+			<a href='../../../../teams/rosters.asp'>Rosters</a>
+		</div>		
+		<Div class='topHeaderOption'>
+			<a href='../../../../players/tranx.asp'>Transactions</a>
+		</div>
+		<Div class='topHeaderOption'>
+			<a href='../../../../players/injuries.asp'>Injuries</a>
+		</div>		
+	
+		<Div class='topHeaderOption'>
+			<a href='../../../../draft/'>Draft</a>
+		</div>
+		
+		<Div class='topHeaderOption'>
+			<a href='../../../../tools/'>Stat Tools</a>
+		</div>	
+		<Div class='topHeaderOption' >
+			<a href='../../../../teams/'>Teams</a>
+		</div>
+		<Div class='topHeaderOption'>
+			<a href='../../../../tools/tracker.asp'>Daily Stat Emails</a>
+		</div>				
+		<Div class='topHeaderOption'>
+			<a href='../../../../data/'>Purchase Data</a>
+		</div>	
+		
+		<Div class='topHeaderOption'>
+			<a href='../../../../misc/'>Other</a>
+		</div>					
+		<Div class='topHeaderOption'>
+			<a href='../../../../about/'>About</a>
+		</div>				
+		<Div class='topHeaderOption' style='background-color:darkblue;padding-left:55px;padding-right:55px'>
+			<a href='../../../../support/tipjar.asp'style='color:yellow'>Support TBC</a>
+		</div>				
+	
+	</div><div class='subHeader' style='margin-bottom:15px'><div class='subHeaderOption' style='background-color:darkred;font-weight:bold'>Player Links:</div>	<div class='subHeaderOption' >
+		<a href='profile.asp?P=Chris-Davis-4'>Statistics</a>
+	</div>
+	<div class='subHeaderOption'>
+		<a href='profile.asp?P=Chris-Davis-4&Page=Tranx'>Transactions</a>
+	</div><div class='subHeaderOption'><a href='profile.asp?P=Chris-Davis-4&Page=GameLogs'>Game Logs</a></div><div class='subHeaderOption'><a href='profile.asp?P=Chris-Davis-4&Page=Splits'>Splits</a></div>
+		<div class='subHeaderOption'>
+			<a href='profile.asp?P=Chris-Davis-4&Page=Contracts'>Contracts</a>
+		</div>	
+		<div class='subHeaderOption'>
+			<a href='profile.asp?P=Chris-Davis-4&Page=Salaries'>Salaries</a>
+		</div>	
+	
+		<div class='subHeaderOption'>
+			<a href='profile.asp?P=Chris-Davis-4&Page=Awards'>Awards</a>
+		</div>	
+	
+	
+	
+	<div class='subHeaderOption'>
+		<a href='#Ebay'>Ebay</a>
+	</div>	
+
+	<div class='subHeaderOption'>
+		<a href='../about/glossary.asp?P=Chris-Davis-4'>Stats Glossary</a>
+	</div>	
+	<div class='subHeaderOption'>
+		<a href='../data/'>Data Store</a>
+	</div>	
+</div>
+
+	<!--Player Name-->
+		<table width='100%' cellspacing='1' style='background-color:#aaaaaa'>
+			<tr>
+				<Td style='background-color:#eeeeee;width:10%;padding-left:4px;padding-right:20px'><h1 style='white-space:nowrap'>CHRIS DAVIS</h1></td>
+	<!--High level-->
+				<td align=center title='Highest level reached' style='padding-left:5px;padding-right:5px;width:50px;font-weight:bold;font-size:11pt;background-color:#dddddd;border-left:2pt solid black'>
+				MLB
+				</td>
+	<!--Status-->
+				<td style='background-color:#cccccc;font-size:11pt;padding-left:12px;border-left:2pt solid black;padding-right:12px;border-right:2pt solid black;white-space:nowrap;width:20%' title='Current Playing Status'>
+						&nbsp;<a href='../../../teams/teamPage.asp?T=4&Page=Roster' style='color:blue;font-weight:bold'>Baltimore Orioles</a> &nbsp;&nbsp;<span style='color:darkred;font-size:9pt;font-weight:bold' title='Is on the 40-man roster for this team'>40-man Roster</span>
+				</td>
+	
+	<!--GOOGLE PLUSONE-->
+		<Td style='padding-left:12px;background-color:#efefef'>
+			<g:plusone size="medium"></g:plusone>
+			<script type="text/javascript">
+		  	(function() {
+			    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		    po.src = 'https://apis.google.com/js/plusone.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+			  })();
+			</script>
+	<!--FACEBOOK-->
+			<div class="fb-like" data-href="http://www.thebaseballcube.com" data-width="100" data-layout="button_count" data-show-faces="false" data-send="true"></div>
+		</td>
+	
+	</tr>
+	</table>
+	
+<!--include virtual="code/player_news.asp"-->
+<Div class='playerProfile'>
+	<div  class='playerProfileSection'>
+		<div  class='container'>
+
+		<!--Position-->
+			<div class='cat1'>Positions</div>
+			<div class='cat2'>1B-<span style='font-size:7pt'>566</span>, 3B-<span style='font-size:7pt'>296</span>, DH-<span style='font-size:7pt'>71</span>, OF-<span style='font-size:7pt'>36</span>, RF-<span style='font-size:7pt'>30</span>, LF-<span style='font-size:7pt'>29</span>, P-<span style='font-size:7pt'>1</span></div>
+			
+		<!--Born date and current age-->
+			<div class='cat1'>Born</div>
+			<div class='cat2'>
+			<a href='../tools/daily.asp?DT=19860317&Page=People'>March 17, 1986</a>&nbsp; (27<span style='color:#888888'>.298</span>)</div>
+		
+		<!--PLACE of BIRTH-->	
+			<div class='cat1'>Place</div>
+			<div class='cat2'>
+					<a href='city.asp?ID=863'>Longview, Texas</a>
+				
+			</div>
+		
+		<!--DEATH DATE-->	
+		
+		<!--HEIGHT/WEIGHT-->
+			<div class='cat1'>Ht/Wt</div>
+			<div class='cat2'>
+			6-3 / 210
+			</div>
+		
+		<!--Bats/Throws-->
+			<div class='cat1'>Bats/Throws</div>
+			<div class='cat2'>
+			Left / Right
+			</div>
+			
+		<!--High School-->
+			<div class='cat1'>High School</div><div class='cat2'>
+			<a href='../teams/hs/hs.asp?H=1845'>Longview</a> &nbsp;(Longview,TX)	
+			</div>
+			
+		<!--Colleges-->
+			<div class='cat1'>College:</div><div class='cat2'>
+			<a href='../teams/teamPage.asp?T=20061'>Navarro College</a></div>
+			
+		<!--Drafted-->
+			<div class='cat1'>Drafted:</div><Div class='cat2'>Texas Rangers: &nbsp;<a href='../draft/research.asp?Y=2006&P=June-Reg&R=5&PID=46043'>2006-5-148</a> (June-Reg) &nbsp;<b>bonus: </b><a href='../about/draft.asp#Bonuses'>$172,500</a></div>
+		
+		<div class='cat1' style='width:280px'><a href='editProfile.asp?ID=46043'>Edit this Profile</a></div>	
+			
+		
+			
+		</div>
+	</div>
+	<div class='playerProfileSection'>
+		<div class='container'>
+		
+		<!--FULL NAME-->
+			<div class='cat1'>Full Name</div>
+			<div class='cat2'>Christopher L. Davis&nbsp;</div>
+		
+		<!--TBC Player ID-->
+			<div class='cat1'>TBC Player ID</div><div class='cat2'>46043</div>
+
+			
+		<!--DEBUT--><div class='cat1'>MLB Debut</div><div class='cat2'><a href='../history/boxscore.asp?GID=HOU200806260'>June 26, 2008</a> &nbsp;(22<span style='color:#888888'>.101</span>)</div>
+		
+		<!--SIGNED BY (SCOUT)-->
+			<div class='cat1'>Signed by</div><div class='cat2'><a href='profile.asp?P=randy-taylor-1'>Randy Taylor</a></div>
+			
+		<!--Players Signed-->
+			
+		
+		
+		<!-- SUPPORT -->
+			<div style='margin:10px;display:inline;float:left;padding:5px;background-color:#FFFF80;border:1pt solid black;width:268px;font-size:10pt'>
+				Please consider supporting The Baseball Cube with a yearly donation. &nbsp;<a href='../../support/tipjar.asp' style='color:blue;font-weight:bold'>Click here to support TBC</a>
+			</div>
+			
+		<!--<-- TAGS 
+			Sql="SELECT * FROM STats WHERE statKey='Stuff' and playerid=" & playerid & " ORDER BY subject"
+			set rsObj2=rsCOnn.execute(Sql)
+			
+			if rsObj2.eof=false then
+				response.write "<div style='padding:7px'>"
+				response.write "<span style='font-size:8pt'><b>Tags: </b>&nbsp;"
+				z=0
+				do while not rsObj2.eof
+					if z = 6 then
+						response.write "&nbsp;&nbsp; <a href='profile.asp?P=" & pn & "&Page=Tags' style='font-weight:bold'>All Tags</a>"
+						exit do
+					end if
+					if z <> 0 then
+						response.write " <b>||</b> "
+					end if
+					response.write "<a href='../misc/tags.asp?S=" & replace(rsObj2("subject")," ","_") & "' title='" & rsObj2("notes") & "'>" & rsobj2("subject") & "</a>"
+					z=z+1
+					rsObj2.movenext
+				loop
+				response.write "</span></div>"
+			end if	
+			-->
+			<!--Prospects--><div style='display:inline;float:left;width:275px;padding-left:8px'><b>Top Prospect: </b>&nbsp;<span style='font-size:8pt'><span style='color:darkred;font-size:8pt;font-weight:bold'>mlb</span> &nbsp;<a href='../prospects/?Y=2008'>2008</a> (#65)&nbsp;&nbsp; <span style='color:darkred;font-size:8pt;font-weight:bold'>team</span> &nbsp;<a href='../prospects/?Y=2008'>2008</a> (#2-TEX)</span><br><br></div>
+
+			
+		
+		</div>
+	</div>
+
+	<!--Card--><div class='playerProfileSection' style='border-right:1pt solid black;width:299px'>
+
+
+		<div class='container'>
+			<div style='padding:6px'>
+			
+			<!--Relations-->
+				
+				
+			
+
+			<!--no high level-->
+			
+				
+			<!--Contract--><b>Recent Contract: </b>&nbsp;1-years/$3.3m (2013-2013) by Baltimore Orioles <span title='1/18/2013 - Avoiding arbitration' style='color:darkred;font-weight:bold;padding-left:5px;font-size:8pt'>Notes</span><br>
+			
+				
+			</div>
+			
+			
+<div style='display:inline;float:left;clear:both;margin-top:8px;margin-left:5px'>
+<table cellpadding='2' bgcolor='black' cellspacing='1' style='width:260px'><tr style='font-size:8pt;background-color:white'><td align=center><b>Speed</b><br><a href='../about/scouting.asp' class='scoutingScore'>29</a></td><td align=center><b>Contact</b><br><a href='../about/scouting.asp' class='scoutingScore'>10</a></td><td align=center><b>Patience</b><br><a href='../about/scouting.asp' class='scoutingScore'>31</a></td><td align=center><b>Batting</b><br><a href='../about/scouting.asp' class='scoutingScore'>74</a></td><td align=center><b>Power</b><br><a href='../about/scouting.asp'  class='scoutingScore'>91</a></td><td align=center><b>Health</b><br><a href='../about/scouting.asp' class='scoutingScore'>100</a></td></tr></table>
+</div>
+			
+		<div style='width:280px;display:inline;float:left;padding-left:6px'><Br>
+		
+
+			
+			<script language='javascript'>
+				function resetMatchup(obj){
+					if (document.getElementById(obj).value == 'batter' || document.getElementById(obj).value == 'pitcher') {
+						document.getElementById(obj).value='';
+						document.getElementById(obj).style.color='black';
+					}	
+				}
+			</script>
+		<form action='../tools/compare.asp' method='post' name='frmCompare1'><b>Compare to: &nbsp;</b><input type='submit' value='GO' style='float:right;margin-left:5px'> <input name='compare' style='width:150px;float:right;display:inline'> <input type='hidden' name='currentPlayer' value='Chris Davis [46043]'><input type='hidden' name='statType' value='H'></form>
+			<form action='../tools/matchup.asp' method='post' name='frmMatchup'>
+			<br><br>
+			
+				<b>vs pitcher:</b> 
+				&nbsp;<input type='submit' value='GO' style='float:right;margin-left:5px'><input name='pitcher' style='width:166px;color:#aaaaaa;float:Right;display:inline' value='pitcher' onclick="resetMatchup('pitcherMatchup');this.style.color='black'" onkeyup="showAjax('../code/front/mlbPlayerSearch.asp?Q=','pitcherLookup','pitcherMatchup');document.getElementById('pitcherLookup').style.display='inline';document.getElementById('pitcherLookup').style.visibility='visible'" id='pitcherMatchup' autocomplete=off> &nbsp;
+					<input type='hidden' name='batter' value='Chris Davis [davic003]'>
+					<div id='pitcherLookup' style='display:none;visibility:hidden;position:absolute;margin-left:68px;margin-top:4px;clear:both;height:auto;overflow:auto;width:164px;background-color:white;border:1pt solid #aaaaaa;z-index:10;max-height:200px'></div>				
+			
+			
+		
+			</form>
+			<br><br>
+				<div align=center>
+					<a href='../tools/connect.asp?Player1=" & rsObj("Firstname") & " " & rsObj("lastname") & " [" & rsobj("retroid") & "]'  style='color:blue'>Connect to another player</a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+	<div class='playerProfileSection' style='width:300px;border-bottom:1pt solid black'>
+				<Div class='display:inline;z-index:2;float:left'>
+		<script type="text/javascript"><!--
+		e9 = new Object();
+		e9.size = "336x280,300x250";
+		//-->
+		</script>
+		<script type="text/javascript" src="http://tags.expo9.exponential.com/tags/TheBaseballCube/ROS/tags.js"></script></div>
+	
+	<!-- Casale Media: 336x280, 300x250 (Rectangle) -->
+	<!--
+<script type="text/javascript">
+var CasaleArgs = new Object();
+CasaleArgs.version = 2;
+CasaleArgs.adUnits = "6,4";
+CasaleArgs.casaleID = 126861;
+</script>
+<script type="text/javascript" src="http://js.casalemedia.com/casaleJTag.js"></script>-->
+<!-- DO NOT MODIFY -->
+
+	</div>
+</div>
+
+<div class='categorySection'>
+	<div class='statsCategories1'>
+	BATTING STATISTICS
+	</div>
+	
+	<div class='StatsCategories'>
+		<a href='profile.asp?P=Chris-Davis-4'>Basic</a>
+	</div>
+
+
+	<div class='StatsCategories'>
+		<a href='profile.asp?P=Chris-Davis-4&Page=Advanced'>Advanced</a>
+	</div>
+	
+		<div class='statsCategoriesSelected'>
+			<a href='profile.asp?P=Chris-Davis-4&Page=Extra'>Extra</a>
+		</div>
+	
+				<div class='StatsCategories'>
+					<a href='profile.asp?P=Chris-Davis-4&Page=Pitches'>Pitches</a>
+				</div>
+		<div class='StatsCategories'>
+			<a href='profile.asp?P=Chris-Davis-4&Page=Other'>OffSeason</a>
+		</div>
+	
+		<div class='StatsCategories'>
+			<a href='profile.asp?P=Chris-Davis-4&Page=Splits'>Split Analysis</a>
+		</div>
+		<div class='StatsCategories'>
+			<a href='profile.asp?P=Chris-Davis-4&Page=Splits2'>Split Summary</a>
+		</div>	
+		<div class='StatsCategories'>
+			<a href='profile.asp?P=Chris-Davis-4&Page=GameLogs'>Game Logs</a>
+		</div>
+		<div class='StatsCategories'>
+			<a href='profile.asp?P=Chris-Davis-4&Page=Feats'>Feats</a>
+		</div>	
+	
+	
+	<div class='StatsCategories'>
+		<a href='profile.asp?P=Chris-Davis-4&Page=Leaders'>Leaderboard</a>
+	</div>
+	
+	
+	<div class='statsCategories2'>
+		
+			
+	</div>
+	</div>
+	<Div style='clear:both'><table class='stats' cellspacing='1'><tr class='headerRowTop'><td colspan='2'>&nbsp;</td><td colspan='5' align=center>Home Runs</td><td colspan='3' align=center>GB/FB Info</td><td colspan='5' align=center>Special Hitting</td><td colspan='9' align=center>Baserunning</td></tr><tr class='headerRow'><td>Year</td><td>Team</td><td title='Multiple Homer games' align=right>multiHR</td><td title='Two-run homer' align=right>2run-HR</td><td title='Three-run homer' align=right>3run-HR</td><td title='Grand Slams' align=right>Slams</td><td title='RBIs on Home Runs' align=right>HR-RBI</td><td title='Ground Balls' align=right>GB</td><td title='Fly balls' align=right>FB</td><td title='GroundBall Ratio' align=right>G/F</td><td title='Pinch hits' align=right>PH</td><td title='Infield HIts' align=right>infH</td><td title='Reached on Error' align=right>ROE</td><td title='Forced Outs' align=right>FO</td><td  align=right>Popups</td><td title='Advanced 1-2 on single' align=right>S12</td><td title='Advanced 1-3 on single' align=right>S13</td><td title='Advanced 2-3 on single' align=right>S23</td><td title='Advanced 2-H on single' align=right>S2H</td><td title='Advanced 1-3 on Double' align=right>D13</td><td title='Advanced 1-H on Double' align=right>D1H</td><td title='Pickoff Throws received' align=right>POt</td><td title='Stole 3rd base' align=right>SB3</td><td  align=right title='Outs on the basepaths'>BrOuts</td></tr><tr><td >2008</td><td style='border-right:1pt solid black'>TEX</td><td align=right style='border-left:1pt solid black'>0</td><td align=right>5</td><td align=right>2</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>26</td><td align=right style='border-left:1pt solid black'>70</td><td align=right>139</td><td align=right style='border-right:1pt solid black'>0.50</td><td align=right style='border-left:1pt solid black'>1</td><td align=right>3</td><td align=right>2</td><td align=right>8</td><td align=right style='border-right:1pt solid black'>13</td><td align=right style='border-left:1pt solid black'>8</td><td align=right>2</td><td align=right>4</td><td align=right>9</td><td align=right>3</td><td align=right>2</td><td align=right>8</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>5</td></tr><tr><td >2009</td><td style='border-right:1pt solid black'>TEX</td><td align=right style='border-left:1pt solid black'>1</td><td align=right>5</td><td align=right>2</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>30</td><td align=right style='border-left:1pt solid black'>92</td><td align=right>151</td><td align=right style='border-right:1pt solid black'>0.61</td><td align=right style='border-left:1pt solid black'>1</td><td align=right>10</td><td align=right>2</td><td align=right>5</td><td align=right style='border-right:1pt solid black'>10</td><td align=right style='border-left:1pt solid black'>22</td><td align=right>2</td><td align=right>1</td><td align=right>5</td><td align=right>2</td><td align=right>3</td><td align=right>7</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>1</td></tr><tr><td >2010</td><td style='border-right:1pt solid black'>TEX</td><td align=right style='border-left:1pt solid black'>0</td><td align=right>0</td><td align=right>0</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>1</td><td align=right style='border-left:1pt solid black'>35</td><td align=right>46</td><td align=right style='border-right:1pt solid black'>0.76</td><td align=right style='border-left:1pt solid black'>2</td><td align=right>2</td><td align=right>0</td><td align=right>2</td><td align=right style='border-right:1pt solid black'>3</td><td align=right style='border-left:1pt solid black'>6</td><td align=right>1</td><td align=right>2</td><td align=right>3</td><td align=right>1</td><td align=right>0</td><td align=right>10</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>2</td></tr><tr><td >2011</td><td style='border-right:1pt solid black'>BAL</td><td align=right style='border-left:1pt solid black'>0</td><td align=right>0</td><td align=right>1</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>4</td><td align=right style='border-left:1pt solid black'>35</td><td align=right>49</td><td align=right style='border-right:1pt solid black'>0.71</td><td align=right style='border-left:1pt solid black'>0</td><td align=right>1</td><td align=right>4</td><td align=right>3</td><td align=right style='border-right:1pt solid black'>3</td><td align=right style='border-left:1pt solid black'>6</td><td align=right>0</td><td align=right>4</td><td align=right>4</td><td align=right>1</td><td align=right>0</td><td align=right>5</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>2</td></tr><tr><td >2012</td><td style='border-right:1pt solid black'>BAL</td><td align=right style='border-left:1pt solid black'>2</td><td align=right>11</td><td align=right>4</td><td align=right>1</td><td align=right style='border-right:1pt solid black'>55</td><td align=right style='border-left:1pt solid black'>139</td><td align=right>210</td><td align=right style='border-right:1pt solid black'>0.66</td><td align=right style='border-left:1pt solid black'>0</td><td align=right>12</td><td align=right>1</td><td align=right>5</td><td align=right style='border-right:1pt solid black'>17</td><td align=right style='border-left:1pt solid black'>14</td><td align=right>6</td><td align=right>5</td><td align=right>4</td><td align=right>6</td><td align=right>2</td><td align=right>19</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>3</td></tr><tr><td >2013</td><td style='border-right:1pt solid black'>BAL</td><td align=right style='border-left:1pt solid black'>3</td><td align=right>17</td><td align=right>5</td><td align=right>1</td><td align=right style='border-right:1pt solid black'>83</td><td align=right style='border-left:1pt solid black'>113</td><td align=right>233</td><td align=right style='border-right:1pt solid black'>0.48</td><td align=right style='border-left:1pt solid black'>0</td><td align=right>3</td><td align=right>5</td><td align=right>5</td><td align=right style='border-right:1pt solid black'>22</td><td align=right style='border-left:1pt solid black'>15</td><td align=right>6</td><td align=right>5</td><td align=right>7</td><td align=right>2</td><td align=right>0</td><td align=right>0</td><td align=right>1</td><td align=right style='border-right:1pt solid black'>0</td></tr></table></div>
+				<div class='googleAd'>
+				
+	<div style='margin-top:10px;margin-bottom:10px'>
+	<script type="text/javascript"><!--
+	google_ad_client = "ca-pub-9713439010437904";
+	/* GoogleTop_728 */
+	google_ad_slot = "2706167468";
+	google_ad_width = 728;
+	google_ad_height = 90;
+	//-->
+	</script>
+	<script type="text/javascript"
+	src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+	</script>
+</div>
+
+				</div>					
+				
+	<!--
+	<br><a name='Ebay'></a><table class='stats' cellspacing='1'><Tr class='headerRow'><td>Some products on Ebay</td></tr></table>
+	<div style='width:580px;display:inline;float:left'>
+	<script language="JavaScript" src="http://lapi.ebay.com/ws/eBayISAPI.dll?EKServer&ai=s%7Db%7Fy%7Ezd%7Fhi&bdrcolor=000000&cid=0&eksize=1&encode=UTF-8&endcolor=FF0000&endtime=y&fbgcolor=FFFFFF&fntcolor=000000&fs=0&hdrcolor=EEEEEE&hdrimage=1&hdrsrch=n&height=200&img=y&lnkcolor=0000FF&logo=2&num=8&numbid=y&paypal=y&popup=n&prvd=9&query=Chris Davis&r0=3&shipcost=y&siteid=0&sort=MetaEndSort&sortby=endtime&sortdir=asc&srchdesc=n&tbgcolor=FFFFFF&Title=Chris Davis Products&tlecolor=FFCE63&tlefs=0&tlfcolor=000000&toolid=10004&track=5335858101&width=580"></script>	
+	</div><div style='width:580px;display:inline;float:left'>
+	<script language="JavaScript" src="http://lapi.ebay.com/ws/eBayISAPI.dll?EKServer&ai=s%7Db%7Fy%7Ezd%7Fhi&bdrcolor=000000&cid=0&eksize=1&encode=UTF-8&endcolor=FF0000&endtime=y&fbgcolor=FFFFFF&fntcolor=000000&fs=0&hdrcolor=EEEEEE&hdrimage=1&hdrsrch=n&height=200&img=y&lnkcolor=0000FF&logo=2&num=8&numbid=y&paypal=y&popup=n&prvd=9&query=baseball&r0=3&shipcost=y&siteid=0&sort=MetaEndSort&sortby=endtime&sortdir=asc&srchdesc=n&tbgcolor=FFFFFF&Title=Other Baseball Products&tlecolor=FFCE63&tlefs=0&tlfcolor=000000&toolid=10004&track=5335858101&width=580"></script>	
+	</div>
+	-->
+	<div style='clear:both;display:inline;float:left'><br><h3>Links to other sites</h3><a href='http://mlb.com/team/player.jsp?player_id=448801'>MLB.Com</a> &nbsp;&nbsp;-&nbsp;&nbsp;<a href='http://razzball.com/player/9272/Chris+Davis/'>Chris Davis @ Razzball</a></div><!--Footer Section-->
+	
+		<div align=center style='clear:both'>
+                      <br><Hr style='width:85%'>
+			<a href='../../../about/'>About Us</a> &nbsp;<b>|</b>&nbsp;
+			<a href='../../../about/siteMap.asp'>Site Map</a> &nbsp;<b>|</b>&nbsp;
+			<a href='../../../about/privacy.asp'>Privacy Policy</a> &nbsp;<b>|</b>&nbsp;
+			<a href='../../../about/contact.asp'>Contact Us</a>
+			
+			<br><br>
+			Boxscores data is obtained free of charge from Retrosheet.org. 
+			
+			<br><br>
+			
+			Please <a href='../../../support/'>Support The Baseball Cube</a>. 
+			<br><br>
+			
+			<!-- Index Platform: 728x90 (Banner) -->
+		<script type="text/javascript">
+		var CasaleArgs = new Object();
+		CasaleArgs.version = 2;
+		CasaleArgs.adUnits = "2";
+		CasaleArgs.casaleID = 126861;
+		</script>
+		<script type="text/javascript" src="http://js.casalemedia.com/casaleJTag.js"></script>
+		<!-- DO NOT MODIFY -->
+
+		</div>
+	</div>
+
+</body>
+</html>
+
+
+
+
+
+

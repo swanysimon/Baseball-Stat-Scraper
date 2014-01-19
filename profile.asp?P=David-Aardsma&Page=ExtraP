@@ -1,0 +1,467 @@
+<html>
+<head>
+	<title>David Aardsma Baseball Statistics (2001-2013) </title>
+	<link rel='stylesheet' href='http://www.thebaseballcube.com/code/tbc12.css'>
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="http://www.thebaseballcube.com/code/tbc12_ie.css" media="screen" />
+	<![endif]-->
+	<link rel='canonical' href='http://www.thebaseballcube.com/players/profile.asp?P=David-Aardsma'>
+	<script type="text/javascript">
+	
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-68917-1']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	
+	</script>	
+	
+		<SCRIPT> 
+var a = Math.floor(Math.random()*9999999999+1) 
+var random_number = a; 
+</SCRIPT> 
+	<Meta name='description' content=''>
+</head>
+<!--<body style="background-IMAGE:url('http://www.thebaseballcube.com/cards/players/25001.jpg');opacity:0.4">-->
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script src='http://www.thebaseballcube.com/code/tbc.js'></script>
+
+
+		
+		
+
+	
+	<Div class='pageWrapper'>
+		<div class='headerWrapper'>
+			<div class='header'>
+				<a href='../../../../' style='margin-left:-11px;margin-top:2px;padding-left:16px'><img src='../../../images/tbc_logo_2013.jpg' border=0 height=50></a>
+
+			</div>
+			<div class='headerAd'>
+			
+			<!--search box-->
+				<form action='../../../search.asp' method='post' name='frmSearch2'>&nbsp;&nbsp;&nbsp; <br>
+				<input name='search' class='topHeaderSearch' id='search' value='Search TBC' title='Hit Enter to search or type "help" for search tips' onclick="prepareSearch()"> 
+				<input type='submit' class='searchButton' id='searchButton' value='Search'>
+				
+				&nbsp;&nbsp;&nbsp;<a href='https://twitter.com/thebaseballcube' target='_blank'><img src='../../../images/twitterBlue.jpg' align=absmiddle title='Follow The Baseball Cube for site updates and random commentary'></a>&nbsp;&nbsp;
+				<!--<a href='../../../about/updates.asp'>Latest updates</a>-->
+				</form>
+			
+				
+			</div>
+		</div>
+		
+	<div style='clear:both;display:inline;float:left;width:1200px'>
+	<!--Site Sections-->
+
+		<Div class='topHeaderOption'>
+			<a href='../../../../players/'>Players</a>
+		</div>
+		<Div class='topHeaderOption'>
+			<a href='../../../../scores/'>Games</a>
+		</div>
+		<Div c		
+		<Div class='topHeaderOption'>
+			<a href='../../../../teams/rosters.asp'>Rosters</a>
+		</div>		
+		<Div class='topHeaderOption'>
+			<a href='../../../../players/tranx.asp'>Transactions</a>
+		</div>
+		<Div class='topHeaderOption'>
+			<a href='../../../../players/injuries.asp'>Injuries</a>
+		</div>		
+	
+		<Div class='topHeaderOption'>
+			<a href='../../../../draft/'>Draft</a>
+		</div>
+		
+		<Div class='topHeaderOption'>
+			<a href='../../../../tools/'>Stat Tools</a>
+		</div>	
+		<Div class='topHeaderOption' >
+			<a href='../../../../teams/'>Teams</a>
+		</div>
+		<Div class='topHeaderOption'>
+			<a href='../../../../tools/tracker.asp'>Daily Stat Emails</a>
+		</div>				
+		<Div class='topHeaderOption'>
+			<a href='../../../../data/'>Purchase Data</a>
+		</div>	
+		
+		<Div class='topHeaderOption'>
+			<a href='../../../../misc/'>Other</a>
+		</div>					
+		<Div class='topHeaderOption'>
+			<a href='../../../../about/'>About</a>
+		</div>				
+		<Div class='topHeaderOption' style='background-color:darkblue;padding-left:55px;padding-right:55px'>
+			<a href='../../../../support/tipjar.asp'style='color:yellow'>Support TBC</a>
+		</div>				
+	
+	</div><div class='subHeader' style='margin-bottom:15px'><div class='subHeaderOption' style='background-color:darkred;font-weight:bold'>Player Links:</div>	<div class='subHeaderOption' >
+		<a href='profile.asp?P=David-Aardsma'>Statistics</a>
+	</div>
+	<div class='subHeaderOption'>
+		<a href='profile.asp?P=David-Aardsma&Page=Tranx'>Transactions</a>
+	</div><div class='subHeaderOption'><a href='profile.asp?P=David-Aardsma&Page=GameLogsP'>Game Logs</a></div><div class='subHeaderOption'><a href='profile.asp?P=David-Aardsma&Page=SplitsP'>Splits</a></div>
+		<div class='subHeaderOption'>
+			<a href='profile.asp?P=David-Aardsma&Page=Contracts'>Contracts</a>
+		</div>	
+		<div class='subHeaderOption'>
+			<a href='profile.asp?P=David-Aardsma&Page=Salaries'>Salaries</a>
+		</div>	
+	
+		<div class='subHeaderOption'>
+			<a href='profile.asp?P=David-Aardsma&Page=Awards'>Awards</a>
+		</div>	
+	
+	
+	
+	<div class='subHeaderOption'>
+		<a href='#Ebay'>Ebay</a>
+	</div>	
+
+	<div class='subHeaderOption'>
+		<a href='../about/glossary.asp?P=David-Aardsma'>Stats Glossary</a>
+	</div>	
+	<div class='subHeaderOption'>
+		<a href='../data/'>Data Store</a>
+	</div>	
+</div>
+
+	<!--Player Name-->
+		<table width='100%' cellspacing='1' style='background-color:#aaaaaa'>
+			<tr>
+				<Td style='background-color:#eeeeee;width:10%;padding-left:4px;padding-right:20px'><h1 style='white-space:nowrap'>DAVID AARDSMA</h1></td>
+	<!--High level-->
+				<td align=center title='Highest level reached' style='padding-left:5px;padding-right:5px;width:50px;font-weight:bold;font-size:11pt;background-color:#dddddd;border-left:2pt solid black'>
+				MLB
+				</td>
+	<!--Status-->
+				<td style='background-color:#cccccc;font-size:11pt;padding-left:12px;border-left:2pt solid black;padding-right:12px;border-right:2pt solid black;white-space:nowrap;width:20%' title='Current Playing Status'>
+						&nbsp;<a href='../../../../players/freeAgents.asp'>Free Agent</a>
+				</td>
+	
+	<!--GOOGLE PLUSONE-->
+		<Td style='padding-left:12px;background-color:#efefef'>
+			<g:plusone size="medium"></g:plusone>
+			<script type="text/javascript">
+		  	(function() {
+			    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		    po.src = 'https://apis.google.com/js/plusone.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+			  })();
+			</script>
+	<!--FACEBOOK-->
+			<div class="fb-like" data-href="http://www.thebaseballcube.com" data-width="100" data-layout="button_count" data-show-faces="false" data-send="true"></div>
+		</td>
+	
+	</tr>
+	</table>
+	
+<!--include virtual="code/player_news.asp"-->
+<Div class='playerProfile'>
+	<div  class='playerProfileSection'>
+		<div  class='container'>
+
+		<!--Position-->
+			<div class='cat1'>Positions</div>
+			<div class='cat2'>P-<span style='font-size:7pt'>430</span></div>
+			
+		<!--Born date and current age-->
+			<div class='cat1'>Born</div>
+			<div class='cat2'>
+			<a href='../tools/daily.asp?DT=19811227&Page=People'>December 27, 1981</a>&nbsp; (32<span style='color:#888888'>.013</span>)</div>
+		
+		<!--PLACE of BIRTH-->	
+			<div class='cat1'>Place</div>
+			<div class='cat2'>
+					<a href='city.asp?ID=153'>Denver, Colorado</a>
+				
+			</div>
+		
+		<!--DEATH DATE-->	
+		
+		<!--HEIGHT/WEIGHT-->
+			<div class='cat1'>Ht/Wt</div>
+			<div class='cat2'>
+			6-5 / 200
+			</div>
+		
+		<!--Bats/Throws-->
+			<div class='cat1'>Bats/Throws</div>
+			<div class='cat2'>
+			Right / Right
+			</div>
+			
+		<!--High School-->
+			<div class='cat1'>High School</div><div class='cat2'>
+			<a href='../teams/hs/hs.asp?H=449'>Cherry Creek</a> &nbsp;(Englewood,CO)	
+			</div>
+			
+		<!--Colleges-->
+			<div class='cat1'>College:</div><div class='cat2'>
+			<a href='../teams/teamPage.asp?T=20032'>Rice University</a>, &nbsp;<a href='../teams/teamPage.asp?T=20348'>Penn State University</a></div>
+			
+		<!--Drafted-->
+			<div class='cat1'>Drafted:</div><Div class='cat2'>San Francisco Giants: &nbsp;<a href='../draft/research.asp?Y=2003&P=June-Reg&R=1&PID=25001'>2003-1-22</a> (June-Reg) &nbsp;<b>bonus: </b><a href='../about/draft.asp#Bonuses'>$1,425,000</a></div>
+		
+		<div class='cat1' style='width:280px'><a href='editProfile.asp?ID=25001'>Edit this Profile</a></div>	
+			
+		
+			
+		</div>
+	</div>
+	<div class='playerProfileSection'>
+		<div class='container'>
+		
+		<!--FULL NAME-->
+			<div class='cat1'>Full Name</div>
+			<div class='cat2'>David Allan Aardsma&nbsp;</div>
+		
+		<!--TBC Player ID-->
+			<div class='cat1'>TBC Player ID</div><div class='cat2'>25001</div>
+
+			
+		<!--DEBUT--><div class='cat1'>MLB Debut</div><div class='cat2'><a href='../history/boxscore.asp?GID=HOU200404060'>April 6, 2004</a> &nbsp;(22<span style='color:#888888'>.100</span>)</div>
+		
+		<!--SIGNED BY (SCOUT)-->
+			
+			
+		<!--Players Signed-->
+			
+		
+		
+		<!-- SUPPORT -->
+			<div style='margin:10px;display:inline;float:left;padding:5px;background-color:#FFFF80;border:1pt solid black;width:268px;font-size:10pt'>
+				Please consider supporting The Baseball Cube with a yearly donation. &nbsp;<a href='../../support/tipjar.asp' style='color:blue;font-weight:bold'>Click here to support TBC</a>
+			</div>
+			
+		<!--<-- TAGS 
+			Sql="SELECT * FROM STats WHERE statKey='Stuff' and playerid=" & playerid & " ORDER BY subject"
+			set rsObj2=rsCOnn.execute(Sql)
+			
+			if rsObj2.eof=false then
+				response.write "<div style='padding:7px'>"
+				response.write "<span style='font-size:8pt'><b>Tags: </b>&nbsp;"
+				z=0
+				do while not rsObj2.eof
+					if z = 6 then
+						response.write "&nbsp;&nbsp; <a href='profile.asp?P=" & pn & "&Page=Tags' style='font-weight:bold'>All Tags</a>"
+						exit do
+					end if
+					if z <> 0 then
+						response.write " <b>||</b> "
+					end if
+					response.write "<a href='../misc/tags.asp?S=" & replace(rsObj2("subject")," ","_") & "' title='" & rsObj2("notes") & "'>" & rsobj2("subject") & "</a>"
+					z=z+1
+					rsObj2.movenext
+				loop
+				response.write "</span></div>"
+			end if	
+			-->
+			<!--Prospects--><div style='display:inline;float:left;width:275px;padding-left:8px'><b>Top Prospect: </b>&nbsp;<span style='font-size:8pt'><span style='color:darkred;font-size:8pt;font-weight:bold'>team</span> &nbsp;<a href='../prospects/?Y=2004'>2004</a> (#3-SF), <a href='../prospects/?Y=2005'>2005</a> (#9-SF)</span><br><br></div>
+
+			
+		
+		</div>
+	</div>
+
+	<!--Card--><div class='playerProfileSection' style='border-right:1pt solid black;width:299px'>
+
+
+		<div class='container'>
+			<div style='padding:6px'>
+			
+			<!--Relations-->
+				
+				
+			
+
+			<!--no high level-->
+			
+				
+			<!--Contract--><b>Recent Contract: </b>&nbsp;1-years/$0m (2013-2013) by New York Yankees <span title='10/29/2012 - Option exercised' style='color:darkred;font-weight:bold;padding-left:5px;font-size:8pt'>Notes</span><br>
+			
+				
+			</div>
+			
+			
+<div style='display:inline;float:left;clear:both;margin-top:8px;margin-left:5px'>
+<table cellpadding='2' bgcolor='black' cellspacing='1' style='width:260px'><tr style='font-size:8pt;background-color:white'><td align=center><b>Control</b><br><a href='../about/scouting.asp'  class='scoutingScore'>61</a></td><td align=center><b>K-Rating</b><br><a href='../about/scouting.asp'  class='scoutingScore'>85</a></td><td  title='Keeping runners off base' align=center><b>Efficiency</b><br><a href='../about/scouting.asp'  class='scoutingScore'>86</a></td><td align=center><b>vsPower</b><br><span class='scoutingscore'><a href='../about/scouting.asp'  class='scoutingScore'>83</a></td><td align=center><b>Health</b><br><a href='../about/scouting.asp' class='scoutingScore'>0</a></td></tr></table>
+</div>
+			
+		<div style='width:280px;display:inline;float:left;padding-left:6px'><Br>
+		
+
+			
+			<script language='javascript'>
+				function resetMatchup(obj){
+					if (document.getElementById(obj).value == 'batter' || document.getElementById(obj).value == 'pitcher') {
+						document.getElementById(obj).value='';
+						document.getElementById(obj).style.color='black';
+					}	
+				}
+			</script>
+		<form action='../tools/compare.asp' method='post' name='frmCompare1'><b>Compare to: &nbsp;</b><input type='submit' value='GO' style='float:right;margin-left:5px'> <input name='compare' style='width:150px;float:right;display:inline'> <input type='hidden' name='currentPlayer' value='David Aardsma [25001]'><input type='hidden' name='statType' value='P'></form>
+			<form action='../tools/matchup.asp' method='post' name='frmMatchup'>
+			<br><br>
+			
+				<b>vs Batter:</b> 
+				&nbsp;<input type='submit' value='GO' style='float:right;margin-left:5px'><input name='batter' style='width:166px;color:#aaaaaa;float:Right;display:inline' value='batter' onclick="resetMatchup('batterMatchup');this.style.color='black'" onkeyup="showAjax('../code/front/mlbPlayerSearch.asp?Q=','batterLookup','batterMatchup');document.getElementById('batterLookup').style.display='inline';document.getElementById('batterLookup').style.visibility='visible'" id='batterMatchup' autocomplete=off> &nbsp;
+					<input type='hidden' name='pitcher' value='David Aardsma [aardd001]'>
+					<div id='batterLookup'  style='display:none;visibility:hidden;position:absolute;margin-left:68px;margin-top:4px;clear:both;height:auto;overflow:auto;width:164px;background-color:white;border:1pt solid #aaaaaa;z-index:10;max-height:200px'></div>				
+			
+			
+		
+			</form>
+			<br><br>
+				<div align=center>
+					<a href='../tools/connect.asp?Player1=" & rsObj("Firstname") & " " & rsObj("lastname") & " [" & rsobj("retroid") & "]'  style='color:blue'>Connect to another player</a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+	<div class='playerProfileSection' style='width:300px;border-bottom:1pt solid black'>
+				<Div class='display:inline;z-index:2;float:left'>
+		<script type="text/javascript"><!--
+		e9 = new Object();
+		e9.size = "336x280,300x250";
+		//-->
+		</script>
+		<script type="text/javascript" src="http://tags.expo9.exponential.com/tags/TheBaseballCube/ROS/tags.js"></script></div>
+	
+	<!-- Casale Media: 336x280, 300x250 (Rectangle) -->
+	<!--
+<script type="text/javascript">
+var CasaleArgs = new Object();
+CasaleArgs.version = 2;
+CasaleArgs.adUnits = "6,4";
+CasaleArgs.casaleID = 126861;
+</script>
+<script type="text/javascript" src="http://js.casalemedia.com/casaleJTag.js"></script>-->
+<!-- DO NOT MODIFY -->
+
+	</div>
+</div>
+
+
+<div class='categorySection'>
+<div class='statsCategories1'>
+PITCHING STATISTICS
+</div>
+<div class='StatsCategories'>
+<a href='profile.asp?P=David-Aardsma'>Basic</a>
+</div>
+<div class='StatsCategories'>
+<a href='profile.asp?P=David-Aardsma&Page=AdvancedP'>Advanced</a>
+</div>
+
+	<div class='statsCategoriesSelected'>
+	<a href='profile.asp?P=David-Aardsma&Page=ExtraP'>Extra</a>
+	</div>
+
+<div class='StatsCategories'>
+	<a href='profile.asp?P=David-Aardsma&Page=PitchesP'>Pitches</a>
+</div>
+	<div class='StatsCategories'>
+	<a href='profile.asp?P=David-Aardsma&Page=otherP'>OffSeason</a>
+	</div>	
+
+
+	<div class='StatsCategories'>
+	<a href='profile.asp?P=David-Aardsma&Page=SplitsP'>Split Analysis</a>
+	</div>
+	<div class='StatsCategories'>
+	<a href='profile.asp?P=David-Aardsma&Page=SplitsP2'>Split Summary</a>
+	</div>	
+	<div class='StatsCategories'>
+	<a href='profile.asp?P=David-Aardsma&Page=GameLogP'>Game Logs</a>
+	</div>
+	<div class='StatsCategories'>
+	<a href='profile.asp?P=David-Aardsma&Page=FeatsP'>Feats</a>
+	</div>	
+	
+	<div class='StatsCategories'>
+		<a href='profile.asp?P=David-Aardsma&Page=LeadersP'>Leaderboard</a>
+	</div>		
+
+	
+	<div class='statsCategories2' style='font-size:10pt'>
+		
+	</div>
+</div>
+
+<table class='stats' cellspacing='1'><tr class='headerRowTop'><td colspan='2'>&nbsp;</td><td colspan='4' align=center style='border-left:1pt solid black;border-right:1pt solid black'>as Starter</td><td colspan='10' align=center style='border-left:1pt solid black;border-right:1pt solid black'>as Reliever</td><td colspan='6' align=center style='border-left:1pt solid black;border-right:1pt solid black'>Misc</td><td colspan='4' align=center style='border-left:1pt solid black;border-right:1pt solid black'>Baserunning</td><td colspan='4' align=center style='border-left:1pt solid black;border-right:1pt solid black'>Balls hit against</td><td colspan='10' align=center style='border-right:1pt solid black'>Pitch results data</td></tr><tr class='headerRow'><td align=center>Year</td><td>Team</td><td align=right>G</td><td align=right title='Games Started'>GS</td><td align=right title='Quality Starts'>QS</td><td align=right>IP-S</td><td align=right title='Games Relieved'>GR</td><td align=right>IP-R</td><td align=right title='Avg inning started as a reliever'>InnSt</td><td align=right title='Holds'>HLD</td><td align=right title='Blown saves'>BS</td><td align=right title='Inherited Runners'>InR</td><td align=right title='Inherited Runners scored'>InS</td><td align=right title='Inherited Runner value (3 for runner on 1st, 2 for 2nd, 1 for 3rd'>InRV</td><td align=right title='Value of inherited runners scored. Designed to penalize for runners on 1st scoring.'>InSV</td><td align=right title='Inherited Runners Score (value of scored players divided into value of runners inherited'>Score</td><td align=right>AB</td><td align=right>TBF</td><td align=right>2B</td><td align=right>3B</td><td align=right title='Hit batsmen'>HB</td><td align=right title='Intentional Walks'>IBB</td><td align=right title='Stolen Bases Against'>SB</td><td align=right title='Caught stealings against'>CS</td><td align=right title='Pickoffs'>PO</td><td align=right title='Pickoff Throws'>POt</td><td align=right title='Ground Balls allowed'>GB</td><td align=right title='Fly balls allowed'>FB</td><td align=right title='Ratio of ground balls to flyballs'>GB Ratio</td><td align=right title='Double play groundouts induced'>GDP</td><td align=right>PIT</td><td align=right>STR</td><td align=right>BAL</td><td align=right>FOU</td><td align=right title='Called strikes'>CAL</td><td align=right title='Swinging Strikes'>SW</td><td align=right title='Called strike 3s'>SOc</td><td align=right title='Swinging Strikeouts'>SOs</td><td align=right title='4-pitch walks'>BB4</td></tr><Tr onmouseover="this.style.backgroundColor='#FFFFA8'" onmouseout="this.style.backgroundColor='#ffffff'"><td align=center>2004</td><td style='border-right:1pt solid black'>SFN</td><td align=right style='border-left:1pt solid black'>11</td><td align=right>0</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>0</td><td align=right style='border-left:1pt solid black'>11</td><td align=right>10.7</td><td align=right>6.8</td><td align=right>0</td><td align=right>1</td><td align=right>10</td><td align=right>3</td><td align=right>21</td><td align=right>8</td><td align=right style='border-right:1pt solid black'>38.1</td><td align=right style='border-left:1pt solid black'>48</td><td align=right>61</td><td align=right>5</td><td align=right>0</td><td align=right>2</td><td align=right style='border-right:1pt solid black'>0</td><td align=right style='border-left:1pt solid black'>2</td><td align=right>0</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>0</td><td align=right style='border-left:1pt solid black'>16</td><td align=right>28</td><td align=right>0.57</td><td align=right style='border-right:1pt solid black'>1</td><td align=right style='border-left:1pt solid black'>233</td><td align=right  title='57.1%'>133</td><td align=right title='42.9%'>100</td><td align=right title='18.9%'>44</td><td align=right title='16.3%'>38</td><td align=right title='3.0%'>7</td><td align=right>2</td><td align=right>3</td><td align=right style='border-right:1pt solid black'>1</td></tr><Tr onmouseover="this.style.backgroundColor='#FFFFA8'" onmouseout="this.style.backgroundColor='#ffffff'"><td align=center>2006</td><td style='border-right:1pt solid black'>CHN</td><td align=right style='border-left:1pt solid black'>45</td><td align=right>0</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>0</td><td align=right style='border-left:1pt solid black'>45</td><td align=right>53</td><td align=right>6.3</td><td align=right>5</td><td align=right>1</td><td align=right>27</td><td align=right>5</td><td align=right>57</td><td align=right>10</td><td align=right style='border-right:1pt solid black'>17.5</td><td align=right style='border-left:1pt solid black'>192</td><td align=right>225</td><td align=right>5</td><td align=right>0</td><td align=right>1</td><td align=right style='border-right:1pt solid black'>0</td><td align=right style='border-left:1pt solid black'>5</td><td align=right>0</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>9</td><td align=right style='border-left:1pt solid black'>56</td><td align=right>91</td><td align=right>0.62</td><td align=right style='border-right:1pt solid black'>2</td><td align=right style='border-left:1pt solid black'>965</td><td align=right  title='62.1%'>599</td><td align=right title='37.9%'>366</td><td align=right title='22.0%'>212</td><td align=right title='14.8%'>143</td><td align=right title='10.1%'>97</td><td align=right>9</td><td align=right>40</td><td align=right style='border-right:1pt solid black'>3</td></tr><Tr onmouseover="this.style.backgroundColor='#FFFFA8'" onmouseout="this.style.backgroundColor='#ffffff'"><td align=center>2007</td><td style='border-right:1pt solid black'>CHA</td><td align=right style='border-left:1pt solid black'>25</td><td align=right>0</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>0</td><td align=right style='border-left:1pt solid black'>25</td><td align=right>32.3</td><td align=right>7.4</td><td align=right>3</td><td align=right>3</td><td align=right>18</td><td align=right>6</td><td align=right>33</td><td align=right>10</td><td align=right style='border-right:1pt solid black'>30.3</td><td align=right style='border-left:1pt solid black'>130</td><td align=right>151</td><td align=right>6</td><td align=right>3</td><td align=right>1</td><td align=right style='border-right:1pt solid black'>3</td><td align=right style='border-left:1pt solid black'>0</td><td align=right>0</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>4</td><td align=right style='border-left:1pt solid black'>38</td><td align=right>59</td><td align=right>0.64</td><td align=right style='border-right:1pt solid black'>1</td><td align=right style='border-left:1pt solid black'>613</td><td align=right  title='59.7%'>366</td><td align=right title='40.3%'>247</td><td align=right title='18.3%'>112</td><td align=right title='15.3%'>94</td><td align=right title='10.3%'>63</td><td align=right>9</td><td align=right>27</td><td align=right style='border-right:1pt solid black'>3</td></tr><Tr onmouseover="this.style.backgroundColor='#FFFFA8'" onmouseout="this.style.backgroundColor='#ffffff'"><td align=center>2008</td><td style='border-right:1pt solid black'>BOS</td><td align=right style='border-left:1pt solid black'>47</td><td align=right>0</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>0</td><td align=right style='border-left:1pt solid black'>47</td><td align=right>48.7</td><td align=right>6.3</td><td align=right>3</td><td align=right>2</td><td align=right>37</td><td align=right>13</td><td align=right>75</td><td align=right>29</td><td align=right style='border-right:1pt solid black'>38.7</td><td align=right style='border-left:1pt solid black'>183</td><td align=right>228</td><td align=right>15</td><td align=right>1</td><td align=right>5</td><td align=right style='border-right:1pt solid black'>2</td><td align=right style='border-left:1pt solid black'>2</td><td align=right>0</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>4</td><td align=right style='border-left:1pt solid black'>63</td><td align=right>76</td><td align=right>0.83</td><td align=right style='border-right:1pt solid black'>4</td><td align=right style='border-left:1pt solid black'>965</td><td align=right  title='58.7%'>566</td><td align=right title='41.3%'>399</td><td align=right title='20.4%'>197</td><td align=right title='13.0%'>125</td><td align=right title='10.9%'>105</td><td align=right>12</td><td align=right>37</td><td align=right style='border-right:1pt solid black'>4</td></tr><Tr onmouseover="this.style.backgroundColor='#FFFFA8'" onmouseout="this.style.backgroundColor='#ffffff'"><td align=center>2009</td><td style='border-right:1pt solid black'>SEA</td><td align=right style='border-left:1pt solid black'>73</td><td align=right>0</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>0</td><td align=right style='border-left:1pt solid black'>73</td><td align=right>71.3</td><td align=right>8.8</td><td align=right>6</td><td align=right>4</td><td align=right>5</td><td align=right>0</td><td align=right>9</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>0.0</td><td align=right style='border-left:1pt solid black'>258</td><td align=right>296</td><td align=right>9</td><td align=right>0</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>3</td><td align=right style='border-left:1pt solid black'>2</td><td align=right>1</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>18</td><td align=right style='border-left:1pt solid black'>48</td><td align=right>133</td><td align=right>0.36</td><td align=right style='border-right:1pt solid black'>2</td><td align=right style='border-left:1pt solid black'>1256</td><td align=right  title='60.7%'>763</td><td align=right title='39.3%'>493</td><td align=right title='19.3%'>242</td><td align=right title='15.3%'>192</td><td align=right title='11.8%'>148</td><td align=right>16</td><td align=right>64</td><td align=right style='border-right:1pt solid black'>5</td></tr><Tr onmouseover="this.style.backgroundColor='#FFFFA8'" onmouseout="this.style.backgroundColor='#ffffff'"><td align=center>2010</td><td style='border-right:1pt solid black'>SEA</td><td align=right style='border-left:1pt solid black'>53</td><td align=right>0</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>0</td><td align=right style='border-left:1pt solid black'>53</td><td align=right>49.7</td><td align=right>9.0</td><td align=right>2</td><td align=right>3</td><td align=right>3</td><td align=right>0</td><td align=right>9</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>0.0</td><td align=right style='border-left:1pt solid black'>167</td><td align=right>202</td><td align=right>6</td><td align=right>0</td><td align=right>2</td><td align=right style='border-right:1pt solid black'>5</td><td align=right style='border-left:1pt solid black'>2</td><td align=right>1</td><td align=right>1</td><td align=right style='border-right:1pt solid black'>18</td><td align=right style='border-left:1pt solid black'>51</td><td align=right>75</td><td align=right>0.68</td><td align=right style='border-right:1pt solid black'>5</td><td align=right style='border-left:1pt solid black'>858</td><td align=right  title='60.7%'>521</td><td align=right title='39.3%'>337</td><td align=right title='18.6%'>160</td><td align=right title='17.2%'>148</td><td align=right title='10.1%'>87</td><td align=right>10</td><td align=right>39</td><td align=right style='border-right:1pt solid black'>5</td></tr><Tr onmouseover="this.style.backgroundColor='#FFFFA8'" onmouseout="this.style.backgroundColor='#ffffff'"><td align=center>2012</td><td style='border-right:1pt solid black'>NYA</td><td align=right style='border-left:1pt solid black'>1</td><td align=right>0</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>0</td><td align=right style='border-left:1pt solid black'>1</td><td align=right>1</td><td align=right>8.0</td><td align=right>0</td><td align=right>0</td><td align=right>0</td><td align=right>0</td><td align=right>0</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>--</td><td align=right style='border-left:1pt solid black'>4</td><td align=right>5</td><td align=right>0</td><td align=right>0</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>0</td><td align=right style='border-left:1pt solid black'>0</td><td align=right>0</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>0</td><td align=right style='border-left:1pt solid black'>2</td><td align=right>1</td><td align=right>2.00</td><td align=right style='border-right:1pt solid black'>0</td><td align=right style='border-left:1pt solid black'>24</td><td align=right  title='58.3%'>14</td><td align=right title='41.7%'>10</td><td align=right title='12.5%'>3</td><td align=right title='16.7%'>4</td><td align=right title='16.7%'>4</td><td align=right>0</td><td align=right>1</td><td align=right style='border-right:1pt solid black'>0</td></tr><Tr onmouseover="this.style.backgroundColor='#FFFFA8'" onmouseout="this.style.backgroundColor='#ffffff'"><td align=center>2013</td><td style='border-right:1pt solid black'>NYN</td><td align=right style='border-left:1pt solid black'>43</td><td align=right>0</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>0</td><td align=right style='border-left:1pt solid black'>43</td><td align=right>39.7</td><td align=right>7.5</td><td align=right>5</td><td align=right>3</td><td align=right>6</td><td align=right>0</td><td align=right>12</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>0.0</td><td align=right style='border-left:1pt solid black'>152</td><td align=right>178</td><td align=right>8</td><td align=right>0</td><td align=right>4</td><td align=right style='border-right:1pt solid black'>6</td><td align=right style='border-left:1pt solid black'>6</td><td align=right>0</td><td align=right>0</td><td align=right style='border-right:1pt solid black'>0</td><td align=right style='border-left:1pt solid black'>33</td><td align=right>80</td><td align=right>0.41</td><td align=right style='border-right:1pt solid black'>2</td><td align=right style='border-left:1pt solid black'>735</td><td align=right  title='60.8%'>447</td><td align=right title='39.0%'>287</td><td align=right title='19.2%'>141</td><td align=right title='13.9%'>102</td><td align=right title='11.6%'>85</td><td align=right>9</td><td align=right>24</td><td align=right style='border-right:1pt solid black'>2</td></tr></table>
+	<div class='googleAd'>
+		
+	<div style='margin-top:10px;margin-bottom:10px'>
+	<script type="text/javascript"><!--
+	google_ad_client = "ca-pub-9713439010437904";
+	/* GoogleTop_728 */
+	google_ad_slot = "2706167468";
+	google_ad_width = 728;
+	google_ad_height = 90;
+	//-->
+	</script>
+	<script type="text/javascript"
+	src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+	</script>
+</div>
+
+	</div>
+<!--Footer Section-->
+	
+		<div align=center style='clear:both'>
+                      <br><Hr style='width:85%'>
+			<a href='../../../about/'>About Us</a> &nbsp;<b>|</b>&nbsp;
+			<a href='../../../about/siteMap.asp'>Site Map</a> &nbsp;<b>|</b>&nbsp;
+			<a href='../../../about/privacy.asp'>Privacy Policy</a> &nbsp;<b>|</b>&nbsp;
+			<a href='../../../about/contact.asp'>Contact Us</a>
+			
+			<br><br>
+			Boxscores data is obtained free of charge from Retrosheet.org. 
+			
+			<br><br>
+			
+			Please <a href='../../../support/'>Support The Baseball Cube</a>. 
+			<br><br>
+			
+			<!-- Index Platform: 728x90 (Banner) -->
+		<script type="text/javascript">
+		var CasaleArgs = new Object();
+		CasaleArgs.version = 2;
+		CasaleArgs.adUnits = "2";
+		CasaleArgs.casaleID = 126861;
+		</script>
+		<script type="text/javascript" src="http://js.casalemedia.com/casaleJTag.js"></script>
+		<!-- DO NOT MODIFY -->
+
+		</div>
+	</div>
+
+</body>
+</html>
+
+
+
+
+
+

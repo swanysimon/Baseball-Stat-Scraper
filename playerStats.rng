@@ -9,7 +9,7 @@
 			<attribute name="id">
 				<text/>
 			</attribute>
-			<attribute name="age">
+			<attribute name="birthday">
 				<text/>
 			</attribute>
 			<attribute name="available">
@@ -17,15 +17,13 @@
 			</attribute>
 			<element name="positions">
 				<choice>
-					<element name="unknown">
-						<text/>
-					</element>
 					<element name="pitcher">
 						<optional>
 							<attribute name="type">
 								<text/>
 							</attribute>
 						</optional>
+						<text/>
 					</element>
 					<zeroOrMore>
 						<element name="catcher">
@@ -132,9 +130,17 @@
 								<text/>
 							</element>
 							<element name="reachedonerror">
+								<text/>
+							</element>
+							<element name="errors">
+								<text/>
+							</element>
 						</group>
 						<group>
 							<element name="games">
+								<text/>
+							</element>
+							<element name="gamesstarted">
 								<text/>
 							</element>
 							<element name="wins">
