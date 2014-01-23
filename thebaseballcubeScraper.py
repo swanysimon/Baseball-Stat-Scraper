@@ -64,7 +64,8 @@ def letterParse(links, profiles):
 		soup = BeautifulSoup(get('http://www.thebaseballcube.com/players/{}'.format(link.get('href'))).text)
 		# all players are under the pre tag, active players are distinguished by including the b tag
 		# retrieves all links that lead to an active player's profile
-		profiles.append(profile) for profile in soup.select('pre b a[href^="profile"]'):
+		for profile in soup.select('pre b a[href^="profile"]'):
+			profiles.append(profile)
 
 	return profiles
 
@@ -136,11 +137,27 @@ def infoSearch(soup, match, subtag = ''):
 
 def pitcherParse(soup):
 	'''Takes in a pitcher profile and adds the appropriate information to a dictionary.'''
+	# lots of stuff to clean up in this function
 
-
-	mainStats = soup.find('div', class_='statsCategories1').find_next('table')
-	extraStatLink = soup.find('a', href=re.compile(r'.+Page=ExtraP'), text='Extra')['href']
+	# stats are stored in a dictionary with subdictionaries by year for easy access and labelling of different years and levels
+	# lists of all the stats that I get from the different sections of the pitcher information
 	stats = {}
+	statList1 = ['Year', 'Level', 'G', 'GS', 'IP', 'ER', 'W', 'L', 'SV', 'CG', 'SH', 'H', 'HR', 'BB', 'SO', 'Bk', 'WP']
+	statList2 = ['Year', 'Level', 'HB']
+	statList3 = ['Year', 'Level', 'BS', 'HLD', 'QS', 'IBB', 'InR', 'InS']
+
+	# the primary stats table is the first table with the stats class, with each row under a tr tag
+	# the other stats are in the same location under different URLs
+	mainStats = soup.find('table', class_='stats').find_all('tr')
+	advancedStats = profileLink(soup, 'AdvancedP', 'Advanced').find('table', class_='stats').find_all('tr')
+
+	# there is a tr tag at the beginning of the extras table that needs to be trimmed, hence the [1:]
+	extraStats = profileLink(soup, 'ExtraP', 'Extra').find('table', class_='stats').find_all('tr')[1:]
+
+	# retrieves the indices for all needed statistics
+	mainIndices = findIndices(mainStats[0], statList1)
+	advancedIndices = findIndices(advancedStats[0], statList2)
+	extraIndices = findIndices(extraStats[0], statList3)
 
 	return stats
 
@@ -157,6 +174,27 @@ def positionParse(soup):
 	return positions
 
 
+def profileLink(soup, linkText, tagText):
+	'''Retrieves the contents of a URL from a player profile based on the link URL and tag text'''
+
+	link = soup.find('a', href=re.compile(r'.+Page={}'.format(linkText)), text=tagText)['href']
+	newSoup = BeautifulSoup(get('http://thebaseballcube.com/players/{}'.format(link)).text)
+
+	return newSoup
+
+
+def findIndices(header, items):
+	'''Takes in the header of the table and matches the index of the stat in the header with the name of the stat.'''
+
+	stats = {}
+	# loops through all the elements in items to find the correct indices
+	for item in items:
+		index = header.index(item)
+		stats[item] = index
+
+	return stats
+
+
 
 def main():
 	'''Parses command line arguments, the sends information to functions to scrape stats from the desired leagues.'''
@@ -170,5 +208,7 @@ def main():
 	for key in sorted(warningPlayers.keys()):
 		print("Player {} (TBCID {}) was not entered into the database.".format(warningPlayers[key], key))
 
+	return
+
 if __name__ == '__main__':
-	main()/
+	main()

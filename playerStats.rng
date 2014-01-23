@@ -143,6 +143,12 @@
 							<element name="gamesstarted">
 								<text/>
 							</element>
+							<element name="inningspitched">
+								<text/>
+							</element>
+							<element name="earnedruns">
+								<text/>
+							</element>
 							<element name="wins">
 								<text/>
 							</element>
@@ -177,6 +183,9 @@
 								<text/>
 							</element>
 							<element name="walks">
+								<text/>
+							</element>
+							<element name="strikeouts">
 								<text/>
 							</element>
 							<element name="intentionalwalks">
