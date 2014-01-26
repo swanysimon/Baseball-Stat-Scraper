@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- playerStats.rng -->
-<element name="players" xmlns="http://relaxng.org/ns/structure/1.0">
+<element name="Players" xmlns="http://relaxng.org/ns/structure/1.0">
 	<zeroOrMore>
-		<element name="player">
-			<attribute name="name">
+		<element name="Player">
+			<attribute name="FullName">
 				<text/>
 			</attribute>
-			<attribute name="id">
+			<attribute name="PlayerID">
 				<text/>
 			</attribute>
-			<attribute name="birthday">
+			<attribute name="Birthday">
 				<text/>
 			</attribute>
-			<attribute name="available">
+			<attribute name="Available">
 				<text/>
 			</attribute>
-			<element name="positions">
+			<element name="Positions">
 				<choice>
-					<element name="pitcher">
+					<element name="P">
 						<optional>
-							<attribute name="type">
+							<attribute name="Type">
 								<text/>
 							</attribute>
 						</optional>
 						<text/>
 					</element>
 					<zeroOrMore>
-						<element name="catcher">
+						<element name="C">
 							<text/>
 						</element>
-						<element name="firstbase">
+						<element name="1B">
 							<text/>
 						</element>
-						<element name="secondbase">
+						<element name="2B">
 							<text/>
 						</element>
-						<element name="thirdbase">
+						<element name="3B">
 							<text/>
 						</element>
-						<element name="shortstop">
+						<element name="SS">
 							<text/>
 						</element>
-						<element name="centerfield">
+						<element name="CF">
 							<text/>
 						</element>
-						<element name="outfield">
+						<element name="OF">
 							<text/>
 						</element>
-						<element name="utility">
+						<element name="DH">
 							<text/>
 						</element>
 					</zeroOrMore>
@@ -55,152 +55,134 @@
 			</element>
 			<zeroOrMore>
 				<element name="season">
-					<attribute name="year">
+					<attribute name="Year">
 						<text/>
 					</attribute>
-					<attribute name="level">
+					<attribute name="Level">
 						<text/>
 					</attribute>
 					<choice>
 						<group>
-							<element name="games">
+							<element name="G">
 								<text/>
 							</element>
-							<element name="plateappearances">
+							<element name="PA">
 								<text/>
 							</element>
-							<element name="singles">
+							<element name="H">
 								<text/>
 							</element>
-							<element name="doubles">
+							<element name="2B">
 								<text/>
 							</element>
-							<element name="triples">
+							<element name="3B">
 								<text/>
 							</element>
-							<element name="homeruns">
+							<element name="HR">
 								<text/>
 							</element>
-							<element name="walks">
+							<element name="BB">
 								<text/>
 							</element>
-							<element name="intentionalwalks">
+							<element name="IBB">
 								<text/>
 							</element>
-							<element name="hitbypitch">>
+							<element name="HBP">>
 								<text/>
 							</element>
-							<element name="stolenbase">
+							<element name="SB">
 								<text/>
 							</element>
-							<element name="caughtstealing">
+							<element name="CS">
 								<text/>
 							</element>
-							<element name="groundintodoubleplays">
+							<element name="DP">
 								<text/>
 							</element>
-							<element name="strikeouts">
+							<element name="SO">
 								<text/>
 							</element>
-							<element name="runs">
+							<element name="R">
 								<text/>
 							</element>
-							<element name="runsbattedin">
+							<element name="RBI">
 								<text/>
 							</element>
-							<element name="sacrificefly">
+							<element name="SF">
 								<text/>
 							</element>
-							<element name="sacrificehit">
+							<element name="SH">
 								<text/>
 							</element>
-							<element name="groundballs">
-								<text/>
-							</element>
-							<element name="flyballs">
-								<text/>
-							</element>
-							<element name="linedrives">
-								<text/>
-							</element>
-							<element name="infieldhits">
-								<text/>
-							</element>
-							<element name="popups">
-								<text/>
-							</element>
-							<element name="reachedonerror">
-								<text/>
-							</element>
-							<element name="errors">
+							<element name="E">
 								<text/>
 							</element>
 						</group>
 						<group>
-							<element name="games">
+							<element name="G">
 								<text/>
 							</element>
-							<element name="gamesstarted">
+							<element name="GS">
 								<text/>
 							</element>
-							<element name="inningspitched">
+							<element name="IP">
 								<text/>
 							</element>
-							<element name="earnedruns">
+							<element name="ER">
 								<text/>
 							</element>
-							<element name="wins">
+							<element name="W">
 								<text/>
 							</element>
-							<element name="losses">
+							<element name="L">
 								<text/>
 							</element>
-							<element name="saves">
+							<element name="SV">
 								<text/>
 							</element>
-							<element name="blownsaves">
+							<element name="BS">
 								<text/>
 							</element>
-							<element name="holds">
+							<element name="HLD">
 								<text/>
 							</element>
-							<element name="qualitystarts">
+							<element name="QS">
 								<text/>
 							</element>
-							<element name="completegames">
+							<element name="CG">
 								<text/>
 							</element>
-							<element name="shutout">
+							<element name="SH">
 								<text/>
 							</element>
-							<element name="hitsallowed">
+							<element name="H">
 								<text/>
 							</element>
-							<element name="homerunsallowed">
+							<element name="HR">
 								<text/>
 							</element>
-							<element name="hitbypitch">
+							<element name="HB">
 								<text/>
 							</element>
 							<element name="walks">
 								<text/>
 							</element>
-							<element name="strikeouts">
+							<element name="SO">
 								<text/>
 							</element>
-							<element name="intentionalwalks">
+							<element name="IBB">
 								<text/>
 							</element>
-							<element name="balks">
+							<element name="Bk">
 								<text/>
 							</element>
-							<element name="wildpitches">
+							<element name="WP">
 								<text/>
 							</element>
-							<element name="inheritedrunners">
+							<element name="InR">
 								<text/>
 							</element>
-							<element name="inheritedrunnersscored">
+							<element name="InS">
 								<text/>
 							</element>
 						</group>
