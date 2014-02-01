@@ -17,40 +17,47 @@
 			</attribute>
 			<element name="Positions">
 				<choice>
-					<element name="P">
-						<optional>
-							<attribute name="Type">
+					<group>
+						<element name="P">
+							<text/>
+						</element>
+						<zeroOrMore>
+							<element name="SP">
 								<text/>
-							</attribute>
-						</optional>
-						<text/>
-					</element>
-					<zeroOrMore>
-						<element name="C">
+							</element>
+							<element name="RP">
+								<text/>
+							</element>
+						</zeroOrMore>
+					</group>
+					<group>
+						<element name="U">
 							<text/>
 						</element>
-						<element name="1B">
-							<text/>
-						</element>
-						<element name="2B">
-							<text/>
-						</element>
-						<element name="3B">
-							<text/>
-						</element>
-						<element name="SS">
-							<text/>
-						</element>
-						<element name="CF">
-							<text/>
-						</element>
-						<element name="OF">
-							<text/>
-						</element>
-						<element name="DH">
-							<text/>
-						</element>
-					</zeroOrMore>
+						<zeroOrMore>
+							<element name="C">
+								<text/>
+							</element>
+							<element name="1B">
+								<text/>
+							</element>
+							<element name="2B">
+								<text/>
+							</element>
+							<element name="3B">
+								<text/>
+							</element>
+							<element name="SS">
+								<text/>
+							</element>
+							<element name="CF">
+								<text/>
+							</element>
+							<element name="OF">
+								<text/>
+							</element>
+						</zeroOrMore>
+					</group>
 				</choice>
 			</element>
 			<zeroOrMore>
