@@ -113,7 +113,7 @@ def playerInfo(xml, soup):
 	if 'PITCHING' in mainPosition:
 		stats = pitcherParse(soup)
 		xml = pitcherXML(playerInfo, stats, xml)
-	else if 'BATTING' in mainPosition:
+	elif 'BATTING' in mainPosition:
 		stats = hitterParse(soup)
 		xml = batterXML(playerInfo, stats, xml)
 	
@@ -192,7 +192,7 @@ def hitterParse(soup):
 
 	# the fielding table is located as a sibling to the last div tag with the statsCategories1 class
 	# the table is the next sibling table tag
-	fielding = soup.find_all('div', class_'statsCategories1')[-1]
+	fielding = soup.find_all('div', class_='statsCategories1')[-1]
 	fieldingStats = tableTrim(fielding.findNextSibling('table'))
 
 	# stats are stored as a dictionary of years with subdictionaries by levels for easy access
@@ -269,39 +269,64 @@ def updateStats(table, statList, stats, fielding = False):
 		
 		# adds the level if it doesn't exist
 		# otherwise all the information for the subdictionaries exists and nothing needs to be done on this level
-		else if level not in stats[year].keys():
+		elif level not in stats[year].keys():
 			stats[year][level] = {}
 
+		yearLevel = stats[year][level]
+
+		# fielding stats are stored in a special sub-dictionary to avoid overwriting games played stats
+		if fielding:
+			stats = updateFieldingStats(indices, stats, year, level)
+
 		# goes through all stats in the dictionary and pulls out their value
-		for statName in indices.keys():
-			statValue = indices[statName]
-			yearLevel = stats[year][level]
+		else:
+			for statName in indices.keys():
+				statValue = indices[statName]
 
-			# if fielding stats, adjusts so that they fall into the fielding category to avoid double counting games played
-			# needs to make sure the games stats for fielding do not get written anywhere they're not supposed to be written
-			# doesn't work right now, coming up with solutions
-			if fielding:
-				if 'Positions' not in yearLevel.keys():
-					yearLevel['Positions'] = {}
+				# if the stat is already entered for that year and level, adds the old number to the new number to find the total (possible because I have all counting stats)
+				if statName in yearLevel.keys():
+					oldValue = int(yearLevel[statName])
+					# converts back to a string from an int for consistency and because XML takes strings
+					statValue = str(oldValue + int(statValue))
 
-				yearLevel = yearLevel['Positions']
-
-			# if the stat is already entered for that year and level, adds the old number to the new number to find the total (possible because I have all counting stats)
-			if statName in yearLevel.keys():
-				oldValue = int(yearLevel[statName])
-				# converts back to a string from an int for consistency and because XML takes strings
-				statValue = str(oldValue + int(statValue))
-
-			yearLevel[statName] = statValue
+				yearLevel[statName] = statValue
 
 	print('Player has {} documented seasons.'.format(len(stats.keys())))
 	return stats
 
 
-def updateFieldingStats():
+def updateFieldingStats(indices, stats, year, level):
 	'''Takes in fielding stats and adds to a dictionary or some shit'''
 
-	return 0
+	# yearLevel should not need to be created because this function is only called after creation
+	yearLevel = stats[year][level]
+
+	# creates the positions subdictionary where information will be stored
+	# the dictionary is named by the position name
+	if 'Positions' not in yearLevel.keys():
+		yearLevel['Positions'] = {}
+
+	positions = yearLevel['Positions']
+	positions[indices['Positions']] = {}
+
+	if indicies['Positions'] not in positions.keys():
+		fielding = positions[indicies['Positions']]
+	
+	del(indices['Position'])
+
+	# loops through the other values and stores them under the position subdictionary
+	for statName in indices.keys():
+		statValue = indicies[statName]
+
+		# in case the stats have already been entered (which I don't think is possible, but just in case)
+		if statName in fielding.keys():
+			oldValue = int(fielding[statName])
+			# converts back to a string from an int for consistency and because XML takes strings
+			statValue = str(oldValue + int(statValue))
+
+		fielding[statName] = statValue
+
+	return stats
 
 
 def pitcherXML(playerInfo, stats, xml):
@@ -349,7 +374,6 @@ def hitterXML(playerInfo, stats, xml):
 		positions[position] = fielding[positions]['G']
 
 	# removes the DH and turns LF/RF/CF into OF while keeping CF
-	# all other values (like 1B/3B) can be computed with the data given
 	playerInfo['Positions'] = {}
 	playerInfo['Positions'] = positionClean(positions, stats[previousSeason][level])
 
@@ -394,10 +418,66 @@ def highestLevel(stats):
 def positionClean(positions, yearStats):
 	'''Cleans a dictionary of positions for a more fantasy-oriented experience.'''
 
-	positionDict = {}
-	outfield = ''
+	# dictionary relating values given by TBC and what fantasy baseball uses
+	positionDict = {'LF': 'OF', 'CF': 'OF', 'RF': 'OF'}
+
+	# if the TBC position is in positionDict, adds an entry for the fantasy position
+	for position in positions.keys():
+		if position in positionDict.keys():
+			
+			# newPosition is the fantasy name of the TBC position
+			newPosition = positionDict[position]
+			
+			# initializes the 
+			if newPosition not in positions.keys():
+				positions[newPosition] = {}
+
+			for statName in positions[position].keys():
+				if statName not in positions[newPosition].keys():
+					positions[newPosition][statName] = '0'
+
+				# adds the number of games/errors to the entry listed
+				positions[newPosition][statName] = str(int(positions[newPosition][statName]) + int(positions[position][statName]))
+
+			if position != 'CF':
+				del(positions[position])
+
+	# gets rid of DH
+	del(positions['DH'])
 
 	return cleaned
+
+
+def updateXML(playerInfo, stats, xml):
+	'''Given all the stats and personal information, enters the information into the XML.'''
+
+	# creates the parent tag for the player, then adds it to the XML
+	tag = xml.new_tag('Player', FullName=playerInfo['FullName'], PlayerID=playerInfo['PlayerID'], Birthday=playerInfo['Birthday'], Available=playerInfo['Available'])
+	xml.Players.append(tag)
+	player = xml.Players.Player
+
+	# creates the positions tag under the player tag and fills it with the position information
+	positions = xml.new_tag('Positions')
+	player.append(positions)
+	
+	# for each position, enter it into the XML
+	for position in sorted(playerInfo['Positions'].keys()):
+		positionTag = xml.new_tag(position)
+		player.Positions.append(positionTag)
+		positionTag.string = playerInfo['Positions']['G']
+
+	for year in sorted(stat.keys()):
+		for level in sorted(stat[year].keys()):
+
+			seasonTag = xml.new_tag('Season', Year=year, Level=Level)
+
+			for statName in sorted(stat[year][level].keys()):
+				statTag = xml.new_tag(statName)
+				player.Season.append(statTag)
+				statTag.string = stat[year][level][statName]
+
+
+	return xml
 
 
 def main():

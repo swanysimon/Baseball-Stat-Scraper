@@ -22,22 +22,16 @@
 							<text/>
 						</element>
 						<zeroOrMore>
-							<element name="SP">
+							<element name="RP">
 								<text/>
 							</element>
-							<element name="RP">
+							<element name="SP">
 								<text/>
 							</element>
 						</zeroOrMore>
 					</group>
 					<group>
-						<element name="U">
-							<text/>
-						</element>
 						<zeroOrMore>
-							<element name="C">
-								<text/>
-							</element>
 							<element name="1B">
 								<text/>
 							</element>
@@ -47,13 +41,16 @@
 							<element name="3B">
 								<text/>
 							</element>
-							<element name="SS">
+							<element name="C">
 								<text/>
 							</element>
 							<element name="CF">
 								<text/>
 							</element>
 							<element name="OF">
+								<text/>
+							</element>
+							<element name="SS">
 								<text/>
 							</element>
 						</zeroOrMore>
