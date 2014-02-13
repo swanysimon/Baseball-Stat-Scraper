@@ -3,54 +3,52 @@
 <element name="Players" xmlns="http://relaxng.org/ns/structure/1.0">
 	<zeroOrMore>
 		<element name="Player">
-			<attribute name="FullName">
-				<text/>
-			</attribute>
-			<attribute name="PlayerID">
-				<text/>
-			</attribute>
-			<attribute name="Birthday">
-				<text/>
-			</attribute>
 			<attribute name="Available">
-				<text/>
+				<choice>
+					<value>Yes</value>
+					<value>No</value>
+				</choice>	
 			</attribute>
+			<attribute name="Birthday"/>
+			<attribute name="FullName"/>
+			<attribute name="PlayerID"/>
 			<element name="Positions">
 				<choice>
 					<group>
-						<element name="P">
+						<element name="Position">
+							<attribute name="PositionName">
+								<value>P</value>
+							</attribute>
 							<text/>
 						</element>
 						<zeroOrMore>
-							<element name="RP">
-								<text/>
-							</element>
-							<element name="SP">
+							<element name="Position">
+								<attribute name="PositionName">
+									<choice>
+										<value>RP</value>
+										<value>SP</value>
+									</choice>
+								</attribute>
 								<text/>
 							</element>
 						</zeroOrMore>
 					</group>
 					<group>
 						<zeroOrMore>
-							<element name="1B">
-								<text/>
-							</element>
-							<element name="2B">
-								<text/>
-							</element>
-							<element name="3B">
-								<text/>
-							</element>
-							<element name="C">
-								<text/>
-							</element>
-							<element name="CF">
-								<text/>
-							</element>
-							<element name="OF">
-								<text/>
-							</element>
-							<element name="SS">
+							<element name="Position">
+								<attribute name="PositionName">
+									<choice>
+										<value>1B</value>
+										<value>2B</value>
+										<value>3B</value>
+										<value>C</value>
+										<value>CF</value>
+										<value>OF</value>
+										<value>P</value>
+										<value>SS</value>
+										<value>U</value>
+									</choice>
+								</attribute>
 								<text/>
 							</element>
 						</zeroOrMore>
@@ -58,139 +56,65 @@
 				</choice>
 			</element>
 			<zeroOrMore>
-				<element name="season">
-					<attribute name="Year">
-						<text/>
-					</attribute>
+				<element name="Season">
+					<attribute name="Year"/>
 					<attribute name="Level">
-						<text/>
+						<choice>
+							<value>ind</value>
+							<value>Ind</value>
+							<value>Intl</value>
+							<value>NCAA</value>
+							<value>Rk</value>
+							<value>A-</value>
+							<value>A</value>
+							<value>A+</value>
+							<value>AA</value>
+							<value>AAA</value>
+							<value>MLB</value>
+						</choice>
 					</attribute>
-					<choice>
-						<group>
-							<element name="G">
-								<text/>
-							</element>
-							<element name="PA">
-								<text/>
-							</element>
-							<element name="H">
-								<text/>
-							</element>
-							<element name="2B">
-								<text/>
-							</element>
-							<element name="3B">
-								<text/>
-							</element>
-							<element name="HR">
-								<text/>
-							</element>
-							<element name="BB">
-								<text/>
-							</element>
-							<element name="IBB">
-								<text/>
-							</element>
-							<element name="HBP">>
-								<text/>
-							</element>
-							<element name="SB">
-								<text/>
-							</element>
-							<element name="CS">
-								<text/>
-							</element>
-							<element name="DP">
-								<text/>
-							</element>
-							<element name="SO">
-								<text/>
-							</element>
-							<element name="R">
-								<text/>
-							</element>
-							<element name="RBI">
-								<text/>
-							</element>
-							<element name="SF">
-								<text/>
-							</element>
-							<element name="SH">
-								<text/>
-							</element>
-							<element name="E">
-								<text/>
-							</element>
-						</group>
-						<group>
-							<element name="G">
-								<text/>
-							</element>
-							<element name="GS">
-								<text/>
-							</element>
-							<element name="IP">
-								<text/>
-							</element>
-							<element name="ER">
-								<text/>
-							</element>
-							<element name="W">
-								<text/>
-							</element>
-							<element name="L">
-								<text/>
-							</element>
-							<element name="SV">
-								<text/>
-							</element>
-							<element name="BS">
-								<text/>
-							</element>
-							<element name="HLD">
-								<text/>
-							</element>
-							<element name="QS">
-								<text/>
-							</element>
-							<element name="CG">
-								<text/>
-							</element>
-							<element name="SH">
-								<text/>
-							</element>
-							<element name="H">
-								<text/>
-							</element>
-							<element name="HR">
-								<text/>
-							</element>
-							<element name="HB">
-								<text/>
-							</element>
-							<element name="walks">
-								<text/>
-							</element>
-							<element name="SO">
-								<text/>
-							</element>
-							<element name="IBB">
-								<text/>
-							</element>
-							<element name="Bk">
-								<text/>
-							</element>
-							<element name="WP">
-								<text/>
-							</element>
-							<element name="InR">
-								<text/>
-							</element>
-							<element name="InS">
-								<text/>
-							</element>
-						</group>
-					</choice>
+					<zeroOrMore>
+						<element name="Stat">
+							<attribute name="StatName">
+								<choice>
+									<value>2B</value>
+									<value>3B</value>
+									<value>BB</value>
+									<value>Bk</value>
+									<value>BS</value>
+									<value>CG</value>
+									<value>CS</value>
+									<value>DP</value>
+									<value>E</value>
+									<value>ER</value>
+									<value>G</value>
+									<value>GS</value>
+									<value>H</value>
+									<value>HB</value>
+									<value>HBP</value>
+									<value>HLD</value>
+									<value>HR</value>
+									<value>IBB</value>
+									<value>InR</value>
+									<value>InS</value>
+									<value>IP</value>
+									<value>L</value>
+									<value>PA</value>
+									<value>QS</value>
+									<value>R</value>
+									<value>RBI</value>
+									<value>SB</value>
+									<value>SF</value>
+									<value>SH</value>
+									<value>SO</value>
+									<value>SV</value>
+									<value>W</value>
+									<value>WP</value>
+								</choice>
+							</attribute>
+							<text/>
+						</element>
+					</zeroOrMore>
 				</element>
 			</zeroOrMore>
 		</element>

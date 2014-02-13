@@ -96,17 +96,27 @@ def profileParse(profiles):
 	# initializes the XML and prepares the file for writing
 	xml = BeautifulSoup(features='xml')
 	xml.append(xml.new_tag('Players'))
-	output = open('All_Player_Information.xml', 'w')
+
 
 	# updates the XML for each player
 	# debate: when to write to file? I doubt my RAM can take everything
-	profiles[0] = profiles[2]
-	for profile in profiles[:1]:
+	i = 1
+	for profile in profiles:
 		link = profile.get('href')
 		soup = BeautifulSoup(get('http://thebaseballcube.com/players/{}'.format(link)).text)
 		xml = playerInfo(xml, soup)
-	
+		
+		# # currently writing to file every 50 just to make sure it all works correctly
+		# i += 1
+		# if (i % 200) == 0:
+		# 	print('Writing to file.')
+		# 	output.write(xml.prettify())
+		# 	print('Done writing to file. Continuing')
+
+	print('Finishing!')
+	output = open('All_Player_Information.xml', 'w')	
 	output.write(xml.prettify())
+	print('Written to file.')
 
 	return xml
 
@@ -154,6 +164,7 @@ def personalInfo(soup):
 	# the available attribute is set to yes when the player is created
 	# will come up with a way to modify the attribute as I figure out how to work this during the season
 	info['Available'] = 'Yes'
+	print('Player {} (TBCID {}) is now being processed.'.format(info['FullName'], info['PlayerID']))
 	
 	return info
 
@@ -171,7 +182,11 @@ def infoSearch(soup, match, subtag = None):
 		tag = tag.find(subtag)
 
 	# after navigating to the correct location in the tree, extracts the string contained and cleans the whitespace
-	info = tag.string.strip()
+	# apparently some players don't have birthdays entered, so I need to account for that
+	try:
+		info = tag.string.strip()
+	except:
+		info = 'Unknown'
 
 	return info
 
@@ -185,6 +200,7 @@ def pitcherParse(soup):
 	basicList = ['BB', 'Bk', 'CG', 'ER', 'G', 'GS', 'H', 'HR', 'IP', 'L', 'Level', 'SH', 'SO', 'SV', 'W', 'WP', 'Year']
 	advancedList = ['HB', 'Level', 'Year']
 	extraList = ['BS', 'HLD', 'IBB', 'InR', 'InS', 'Level', 'QS', 'Year']
+	fullPitcherList = ['BB', 'BS', 'Bk', 'CG', 'ER', 'G', 'GS', 'H', 'HB', 'HLD', 'HR', 'IBB', 'IP', 'InR', 'InS', 'L', 'QS', 'SH', 'SO', 'SV', 'W', 'WP']
 
 	# the primary stats table is the first table with the stats class, with each row under a tr tag
 	# the other stats are in the same location under different URLs
@@ -198,6 +214,9 @@ def pitcherParse(soup):
 	stats = updateStats(advancedStats, advancedList, stats)
 	stats = updateStats(extraStats, extraList, stats)
 
+	# makes sure all stats have an entered value for each year and level
+	stats = statVerify(stats, fullPitcherList)
+
 	return stats
 
 
@@ -209,6 +228,7 @@ def hitterParse(soup):
 	# list of all the stats that come from the different sections
 	hittingList = ['2B', '3B', 'BB', 'CS', 'DP', 'G', 'H', 'HBP', 'HR', 'IBB', 'Level', 'PA', 'R', 'RBI', 'SB', 'SF', 'SH', 'SO', 'Year']
 	fieldingList = ['E', 'G', 'Level', 'Position', 'Year']
+	fullHitterList = ['2B', '3B', 'BB', 'CS', 'DP', 'E', 'G', 'H', 'HBP', 'HR', 'IBB', 'PA', 'Positions', 'R', 'RBI', 'SB', 'SF', 'SH', 'SO']
 
 	# the first table will be hitting information
 	hittingStats = tableTrim(soup.find('table', class_='stats'))
@@ -299,6 +319,8 @@ def updateStats(table, statList, stats, fielding = False):
 	yearIndex = indices['Year']
 	levelIndex = indices['Level']
 	del(indices['Year'], indices['Level'])
+	statList.remove('Year')
+	statList.remove('Level')
 
 	# for each part of the table (which is broken into unique teams per year) extracts all the necessary stats and updates the dictionary 
 	for teamStats in table[1:]:
@@ -340,9 +362,14 @@ def updateStats(table, statList, stats, fielding = False):
 		else:
 			for statName in indices.keys():
 				value = team[indices[statName]]
-				# print('Year: {}. Stat: {}. Value: {}'.format(year, statName, team[indices[statName]]))
 				# need to use contents because some stats are clickable and have subtags
-				statValue = value.contents[0].string.strip()
+				try:
+					statValue = value.string.strip()
+				except:
+					try:
+						statValue = value.contents[0].string.strip()
+					except:
+						statValue = '0'
 
 				# some stats are left blank or unknown by TBC, so inserted a fix
 				if statValue == '--':
@@ -356,12 +383,12 @@ def updateStats(table, statList, stats, fielding = False):
 
 				yearLevel[statName] = statValue
 
-	# makes sure a value is entered for each possible stat
-	for year in stats.keys():
-		for level in stats[year].keys():
-			for stat in statList:
-				if stat not in stats[year][level].keys():
-					stats[year][level][stat] = '0'
+			# makes sure a value is entered for each possible stat
+			for year in stats.keys():
+				for level in stats[year].keys():
+					for stat in statList:
+						if stat not in stats[year][level].keys():
+							stats[year][level][stat] = '0'
 	
 	return stats
 
@@ -410,7 +437,7 @@ def pitcherXML(playerInfo, stats, xml):
 	# determines the number of games for each type of pitching from last season (at the highest level the player played)
 	# adds the information to playerInfo
 	previousSeason = sorted(stats.keys())[-1]
-	level = highestLevel(stats[previousSeason])
+	level = sortLevels(stats[previousSeason])[-1]
 	games = stats[previousSeason][level]['G']
 	starts = stats[previousSeason][level]['GS']
 
@@ -418,15 +445,18 @@ def pitcherXML(playerInfo, stats, xml):
 	positions = playerInfo['Positions']
 
 	# computes the number of each type of appearance and enters information only if player had that type of appearance
-	positions['P'] = games
+	positions['P'] = {}
+	positions['P']['G'] = games
 	if tryFloat(starts) > 0:
-		positions['SP'] = starts
+		positions['SP'] = {}
+		positions['SP']['G'] = starts
 	if tryFloat(games) > int(starts):
-		positions['RP'] = str(tryFloat(games) - tryFloat(starts))
+		positions['RP'] = {}
+		positions['RP']['G'] = str(tryFloat(games) - tryFloat(starts))
 
 	# all stats that are needed for each pitcher entry
 	# needed to make sure all needed elements of the XML are filled
-	pitcherStatList = ['BB', 'BS', 'Bk', 'CG', 'ER', 'G', 'GS', 'H', 'HB', 'HLD', 'HR', 'IBB', 'IP', 'InR', 'InS', 'L', 'QS', 'SH', 'SO', 'SV', 'W', 'WP']
+	# pitcherStatList = ['BB', 'BS', 'Bk', 'CG', 'ER', 'G', 'GS', 'H', 'HB', 'HLD', 'HR', 'IBB', 'IP', 'InR', 'InS', 'L', 'QS', 'SH', 'SO', 'SV', 'W', 'WP']
 
 	xml = updateXML(playerInfo, stats, xml)
 
@@ -436,61 +466,65 @@ def pitcherXML(playerInfo, stats, xml):
 def hitterXML(playerInfo, stats, xml):
 	'''Finds positions-specific information for each batter, cleans up the stats dictionary, and enters information in the XML.'''
 
-	print('Starting hitterXML')
+	# print('Starting hitterXML')
 
 	# determines the number of games played at each position from the player's last season (at the highest level they played at)
 	# adds this information to playerInfo
 	previousSeason = sorted(stats.keys())[-1]
-	level = highestLevel(stats[previousSeason])
-	fielding = stats[previousSeason][level]['Positions']
+	levels = sortLevels(stats[previousSeason])
 
 	# removes the DH and turns LF/RF/CF into OF while keeping CF
 	playerInfo['Positions'] = {}
-	playerInfo['Positions'] = positionClean(fielding)
+	for level in levels:
+		if 'Positions' in stats[previousSeason][level].keys():
+			playerInfo['Positions'] = positionClean(stats[previousSeason][level]['Positions'])
 
 	# enters errors into main stats dictionary and removes position information
-	for year in stats.keys():
-		for level in stats[year].keys():
+	for year in sorted(stats.keys()):
+		for level in sorted(stats[year].keys()):
 
 			yearLevel = stats[year][level]
-			errors = yearLevel['E']
-			positions = yearLevel['Positions']
+			positions = playerInfo['Positions']
 
 			# initializes the error element for each year and level
 			if 'E' not in yearLevel.keys():
-				errors = '0'
+				yearLevel['E'] = '0'
 
 			# adds the total from each position played during that year and level to get the total errors
 			for position in positions.keys():
-				errors = str(tryFloat(errors) + tryFloat(positions[position]['E']))
+				stats[year][level]['E'] = str(tryFloat(yearLevel['E']) + tryFloat(positions[position]['E']))
 
 			# deletes all previous position information so I can iterate through without encountering a dictionary
-			del(yearLevel['Positions'])
+			if 'Positions' in yearLevel.keys():
+				del(stats[year][level]['Positions'])
 
+	# print(str(stats))
 	xml = updateXML(playerInfo, stats, xml)
 
 	return xml
 
 
-def highestLevel(stats):
-	'''Returns the string of the highest level that the player played at in a year.'''
+def sortLevels(stats):
+	'''Returns a reverse sorted list of all levels that the player played in for the year.'''
 
-	# print('Starting highestLevel')
+	# print('Starting sortLevels')
 
 	played = stats.keys()
-	levels = ['MLB', 'AAA', 'AA', 'A+', 'A', 'A-', 'Rk']
+	levels = ['NCAA', 'ind', 'Ind', 'Rk', 'A-', 'A', 'A+', 'AA', 'AAA', 'Intl', 'MLB']
+	current = []
 
 	# searches through each level in order and checks if the player played at that level that year
 	for level in levels:
 		if level in played:
-			return level
+			current.append(level)
 
 	# errors out if no levels matched. they should always match
 	# should I even return in this case?
-	print('Did not find any acceptable playing level. Exiting.')
-	sys.exit(1)
+	if not current:
+		print('Did not find any acceptable playing level. Exiting.')
+		sys.exit(1)
 
-	return 0
+	return current
 
 
 def positionClean(fielding):
@@ -498,27 +532,40 @@ def positionClean(fielding):
 
 	# print('Starting positionClean')
 
+	# temporary dictionary to hold information while I iterate over the main dictionary
+	newFielding = {}
+
 	# if the TBC position is in positionDict, adds an entry for the fantasy position
 	for position in fielding.keys():
 		if position[-1] == 'F':
 			
 			# initializes the outfield position
-			if 'OF' not in fielding.keys():
-				fielding[newPosition] = {}
+			if 'OF' not in newFielding.keys():
+				newFielding['OF'] = {}
 
-			for statName in fielding[position].keys():
-				if statName not in fielding[newPosition].keys():
-					fielding[newPosition][statName] = '0'
+			# only want to transfer over games played and errors made at the position
+			for statName in ['E', 'G']:
+				if statName not in newFielding['OF'].keys():
+					newFielding['OF'][statName] = '0'
 
 				# adds the number of games/errors to the entry listed
-				fielding[newPosition][statName] = str(tryFloat(fielding[newPosition][statName]) + tryFloat(fielding[position][statName]))
+				statValue = newFielding['OF'][statName]
+				statValue = str(tryFloat(statValue) + tryFloat(fielding[position][statName]))
+				newFielding['OF'][statName] = statValue
 
-			if position != 'CF':
-				del(fielding[position])
+	# gets rid of the non-fantasy positions
+	for position in ['LF', 'RF', 'DH']:
+		if position in fielding.keys():
+			del(fielding[position])
 
-	# gets rid of DH
-	if 'DH' in fielding.keys():
-		del(fielding['DH'])
+	# adds any new positions that were created
+	for position in newFielding.keys():
+		if position not in fielding.keys():
+			fielding[position] = {}
+			fielding[position] = newFielding[position]
+
+	if fielding == {}:
+		fielding = {'U': {'G': '0', 'E': '0', 'Position': 'U'}}
 
 	return fielding
 
@@ -526,7 +573,7 @@ def positionClean(fielding):
 def updateXML(playerInfo, stats, xml):
 	'''Given all the stats and personal information, enters the information into the XML.'''
 
-	print('Starting updateXML')
+	# print('Starting updateXML')
 
 	# creates the parent tag for the player, then adds it to the XML
 	tag = xml.new_tag('Player', FullName=playerInfo['FullName'], PlayerID=playerInfo['PlayerID'], Birthday=playerInfo['Birthday'], Available=playerInfo['Available'])
@@ -537,7 +584,7 @@ def updateXML(playerInfo, stats, xml):
 	
 	# for each position, enter it and the games played into the XML
 	for position in sorted(playerInfo['Positions'].keys()):
-		positionTag = xml.new_tag(position)
+		positionTag = xml.new_tag('Position', PositionName=position)
 		positionTag.string = playerInfo['Positions'][position]['G']
 		positions.append(positionTag)
 
@@ -548,7 +595,7 @@ def updateXML(playerInfo, stats, xml):
 			seasonTag = xml.new_tag('Season', Year=year, Level=level)
 
 			for statName in sorted(stats[year][level].keys()):
-				statTag = xml.new_tag(statName)
+				statTag = xml.new_tag('Stat', StatName=statName)
 				statTag.string = stats[year][level][statName]
 				seasonTag.append(statTag)
 
@@ -567,9 +614,27 @@ def tryFloat(string):
 	try:
 		number = int(string)
 	except:
-		number = float(string)
+		try:
+			number = float(string)
+		except:
+			number = 0
 
 	return number
+
+
+def statVerify(stats, statList):
+	'''Makes sure every value in statList has an entry in the stats dict.'''
+
+	for year in stats.keys():
+		for level in stats[year].keys():
+			for statName in statList:
+				if statName not in stats[year][level].keys():
+					if statName == 'Positions':
+						stats[year][level]['Positions'] = {'U': {'G': '0', 'E': '0', 'Position': 'U'}}
+					else:
+						stats[year][level][statName] = '0'
+
+	return stats
 
 
 def main():
@@ -577,14 +642,13 @@ def main():
 	leagues = argParse(sys.argv[1:], [])
 	for league in leagues:
 		links = indexParse(league)
-		# currently just takes in all the "a" players
-		profiles = letterParse(links[:1], [])
+		profiles = letterParse(links, [])
 		data = profileParse(profiles)
 
 	for key in sorted(warningPlayers.keys()):
 		print("Player {} (TBCID {}) was not entered into the database.".format(warningPlayers[key], key))
 
-	return
+	return 0
 
 if __name__ == '__main__':
 	main()
