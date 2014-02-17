@@ -3,7 +3,6 @@
 # thebaseballcubeScraper.py
 # Simon Swanson
 # takes in stats from thebaseballcube.com and exports to an XML file for future use
-#  plans for the future - updating of players as they get drafted/released from fantasy teams, updating stats, custom position eligibility, etc.
 
 
 # BeautifulSoup for parsing the HTML
@@ -235,7 +234,7 @@ def hitterParse(soup):
 
 	# the fielding table is located as a sibling to the last div tag with the statsCategories1 class
 	# the table is the next sibling table tag
-	fielding = soup.find_all('div', class_='statsCategories1')[-1]
+	fielding = soup.findAll('div', class_='statsCategories1')[-1]
 	fieldingStats = tableTrim(fielding.findNextSibling('table'))
 
 	# stats are stored as a dictionary of years with subdictionaries by levels for easy access
@@ -270,7 +269,7 @@ def tableTrim(table):
 	footer = table.find('tr', class_=re.compile(r'footerRow\w*'))
 
 	# trims both ends of the table
-	trimmedTable = table.find_all('tr')
+	trimmedTable = table.findAll('tr')
 	trimmedTable = trimmedTable[trimmedTable.index(header):]
 
 	if footer in trimmedTable:
@@ -286,7 +285,7 @@ def findIndices(header, items):
 	# print('Starting findIndices')
 
 	# breaks the header into a list of tags that only contain stats
-	tagBreak = header.find_all('td')
+	tagBreak = header.findAll('td')
 
 	# loops through all the elements to find the correct indices
 	# assumes the all the elements exists (which I should have accounted for already)
@@ -326,7 +325,7 @@ def updateStats(table, statList, stats, fielding = False):
 	for teamStats in table[1:]:
 
 		# breaks the table into td tags for easy stat access
-		team = teamStats.find_all('td')
+		team = teamStats.findAll('td')
 
 		# extracts the year and the level from the information to use as identifying information
 		# if the year doesn't exist, it lies under the previous year, so it won't update the year
@@ -554,7 +553,7 @@ def positionClean(fielding):
 				newFielding['OF'][statName] = statValue
 
 	# gets rid of the non-fantasy positions
-	for position in ['LF', 'RF', 'DH']:
+	for position in ['LF', 'RF', 'DH', 'P']:
 		if position in fielding.keys():
 			del(fielding[position])
 
