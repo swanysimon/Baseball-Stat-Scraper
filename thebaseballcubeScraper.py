@@ -242,6 +242,9 @@ def hitterParse(soup):
 	stats = updateStats(hittingStats, hittingList, stats)
 	stats = updateStats(fieldingStats, fieldingList, stats, fielding = True)
 
+	# makes sure all stats have an entered value for each year and level
+	stats = statVerify(stats, fullHitterList)
+
 	return stats
 
 
@@ -388,6 +391,11 @@ def updateStats(table, statList, stats, fielding = False):
 					for stat in statList:
 						if stat not in stats[year][level].keys():
 							stats[year][level][stat] = '0'
+						else:
+							try:
+								int(stats[year][level][stat])
+							except:
+								stats[year][level][stat] = '0'
 	
 	return stats
 
@@ -563,8 +571,8 @@ def positionClean(fielding):
 			fielding[position] = {}
 			fielding[position] = newFielding[position]
 
-	if fielding == {}:
-		fielding = {'U': {'G': '0', 'E': '0', 'Position': 'U'}}
+	if 'U' not in fielding.keys():
+		fielding['U'] = {'G': '0', 'E': '0', 'Position': 'U'}
 
 	return fielding
 
@@ -623,7 +631,7 @@ def tryFloat(string):
 
 def statVerify(stats, statList):
 	'''Makes sure every value in statList has an entry in the stats dict.'''
-
+	
 	for year in stats.keys():
 		for level in stats[year].keys():
 			for statName in statList:
@@ -632,8 +640,38 @@ def statVerify(stats, statList):
 						stats[year][level]['Positions'] = {'U': {'G': '0', 'E': '0', 'Position': 'U'}}
 					else:
 						stats[year][level][statName] = '0'
+				else:
+					if statName == 'Positions':
+						if stats[year][level]['Positions'] == {}:
+							stats[year][level]['Positions'] = {'U': {'G': '0', 'E': '0', 'Position': 'U'}}
+					else:
+						try:
+							float(stats[year][level][statName])
+						except:
+							stats[year][level][statName] = '0'
 
-	return stats
+	# deletes year where there are 0 games played
+	finalStats = yearVerify(stats)
+
+	return finalStats
+
+def yearVerify(stats):
+	'''Makes sure years with 0 games played do not get processed.'''
+
+	finalStats = {}
+	levels = []
+	for year in stats.keys():
+		for level in stats[year].keys():
+			if stats[year][level]['G'] == '0':
+				levels.append(level)
+		if levels:
+			for level in levels:
+				del(stats[year][level])
+			levels = []
+		if stats[year] != {}:
+			finalStats[year] = stats[year]
+
+	return finalStats
 
 
 def main():
