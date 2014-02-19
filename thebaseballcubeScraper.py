@@ -393,7 +393,7 @@ def updateStats(table, statList, stats, fielding = False):
 							stats[year][level][stat] = '0'
 						else:
 							try:
-								int(stats[year][level][stat])
+								float(stats[year][level][stat])
 							except:
 								stats[year][level][stat] = '0'
 	
