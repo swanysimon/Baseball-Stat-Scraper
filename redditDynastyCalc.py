@@ -24,31 +24,31 @@ def argParse(args, soup):
 	# lookups loops through to find every possible match of the player, then prompts the user to enter the TBCID so I know for sure which player I'm getting
 	if args[1] in ['--lookup', '-l']:
 		# if the player's ID is known, just returns the player and some point information
-		try:
-			int(args[3])
-			player = soup.find('Player', PlayerID=args[3])
-			pointEval([player], args[2])
+		player = soup.find('Player', PlayerID=args[2])
+		if player:
+			players = pointEval([player], '-r')
+			for player in players:
+				printPretty(player)
 		# if the player's name is known, searches for all possible players that match and then prompts the user to enter the player ID
-		except:
-			idnum = playerLookup(args[3:], soup)
-			argParse(['-l', '-r', idnum], soup)
+		else:
+			idnum = playerLookup(args[2:], soup)
+			args = ['run', '-l', idnum]
+			argParse(args, soup)
+			sys.exit(1)
 
 	# changes the player's availability attribute
 	elif args[1] in ['--draft', '-d']:
-		try:
-			int(args[2])
-			player = soup.find('Player', PlayerID=args[2])
+		player = soup.find('Player', PlayerID=args[2])
+		if player:
 			availDict = {'Yes': 'No', 'No': 'Yes'}
-			confirm = input("Would you like to change {}'s availability from {} to {}? (y/n) ".format(player['FullName'], player['Availability'], availDict[player['Availability']]))
-			if confirm == 'y':
-				player['Available'] = availDict[player['Available']]
-				output = open('All_Player_Information.xml', 'w')
-				output.write(soup)
-				output.close()
-				print('Successfully changed the availability of {}'.format(player['FullName']))
-		except:
+			print("Changing {}'s availability from {} to {}.".format(player['FullName'], player['Available'], availDict[player['Available']]))
+			player['Available'] = availDict[player['Available']]
+			print('Successfully changed the availability of {}'.format(player['FullName']))
+		else:
 			idnum = playerLookup(args[2:], soup)
-			argParse(['-d', idnum], soup)
+			args = ['run', '-d', idnum]
+			argParse(args, soup)
+			sys.exit(1)
 
 	# ranks all players by the given method and given positions
 	elif args[1] in ['--rank', '-r']:
@@ -56,8 +56,15 @@ def argParse(args, soup):
 		sortedPlayers = pointEval(players, args[2])
 		for player in sortedPlayers:
 			printPretty(player)
-		sdMean(sortedPlayers, args[2], 'all remaining')
-		sdMean(sortedPlayers[::-1][:1], args[2], 'top 10 remaining')
+		if len(sortedPlayers) > 1:
+			sdMean(sortedPlayers, args[2], 'all remaining')
+		if len(sortedPlayers) > 10:
+			sdMean(sortedPlayers[::-1][:10], args[2], 'top 10 remaining')
+
+	elif args[1] in ['--finished', '-f']:
+		output = open('All_Player_Information.xml', 'w')
+		output.write(soup.prettify())
+		output.close()
 
 
 	question = input('Do you have more to process? (y/n) ')
@@ -152,16 +159,24 @@ def printPretty(player):
 
 def playerLookup(args, soup):
 	# finds players based on given attributes
-	i = 0
+	i = []
 	for arg in args:
 		for player in soup.findAll('Player'):
 			name = player['FullName']
-			if arg in player['FullName']:
-				print('ID: {}. Player Name: {}. Available: {}. Birthday: {}.'.format(player['PlayerID'], player['FullName'], player['Available'], player['Birthday']))
-				i += 1
-	if i == 0:
-		print('Sorry, did not find any player matching that name.')
-		sys.exit(1)
+			if arg in name:
+				pid = player['PlayerID']
+				s = soup.find('Player', PlayerID=pid, FullName=name)
+				if s not in i:
+					print('{}: {}.\n\tAvailable: {}. Birthday: {}.'.format(pid, name, player['Available'], player['Birthday']))
+					i.append(s)
+	if i == []:
+		newName = input('Sorry, did not find any player matching that name. Please enter another name: ')
+		idnum = playerLookup(newName.split(), soup)
+		return idnum
+	elif len(i) == 1:
+		player = i[0]
+		print('Processing TBCID {}. Name: {}'.format(player['PlayerID'], player['FullName']))
+		return player['PlayerID']
 	else:
 		idnum = input('Please enter the player ID: ')
 		return idnum
