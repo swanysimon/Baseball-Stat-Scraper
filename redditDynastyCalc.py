@@ -12,6 +12,7 @@ import re
 import sys
 
 # personal storage of some information
+# not used in the program at any point
 totalDict = {'3B': {'Raw': {'Mean': 200.0, 'StDev': 152.5, '30Mean': 369.0, '30StDev': 110.0}, 'Weighted': {'Mean': 273.0, 'StDev': 130.0, '30Mean': 404.0, '30StDev': 85.5}, 'ThreeYears': {'Mean': 230.5, 'StDev': 106.0, '30Mean': 338.0, '30StDev': 92.5}, 'Career': {'Mean': 230.0, 'StDev': 105.5, '30Mean': 341.0, '30StDev': 88.0}}, 'C': {'Raw': {'Mean': 129.5, 'StDev': 117.5, '30Mean': 269.0, '30StDev': 84.0}, 'Weighted': {'Mean': 236.5, 'StDev': 117.5, '30Mean': 361.0, '30StDev': 55.5}, 'ThreeYears': {'Mean': 179.0, 'StDev': 81.5, '30Mean': 266.5, '30StDev': 66.5}, 'Career': {'Mean': 182.0, 'StDev': 83.0, '30Mean': 272.5, '30StDev': 66.0}}, '1B': {'Raw': {'Mean': 251.5, 'StDev': 160.5, '30Mean': 430.5, '30StDev': 77.0}, 'Weighted': {'Mean': 307.5, 'StDev': 129.5, '30Mean': 436.5, '30StDev': 64.0}, 'ThreeYears': {'Mean': 272.0, 'StDev': 108.5, '30Mean': 388.0, '30StDev': 64.5}, 'Career': {'Mean': 274.5, 'StDev': 111.5, '30Mean': 397.5, '30StDev': 59.0}}, '2B': {'Raw': {'Mean': 192.0, 'StDev': 136.5, '30Mean': 345.5, '30StDev': 100.5}, 'Weighted': {'Mean': 269.0, 'StDev': 112.0, '30Mean': 393.5, '30StDev': 60.0}, 'ThreeYears': {'Mean': 226.5, 'StDev': 95.0, '30Mean': 331.5, '30StDev': 80.5}, 'Career': {'Mean': 226.0, 'StDev': 94.0, '30Mean': 330.5, '30StDev': 73.5}}, 'SS': {'Raw': {'Mean': 191.0, 'StDev': 131.5, '30Mean': 321.0, '30StDev': 76.0}, 'Weighted': {'Mean': 260.5, 'StDev': 121.5, '30Mean': 372.0, '30StDev': 73.5}, 'ThreeYears': {'Mean': 227.0, 'StDev': 100.0, '30Mean': 320.0, '30StDev': 73.0}, 'Career':  {'Mean': 224.0, 'StDev': 95.0, '30Mean': 314.5, '30StDev': 63.5}}, 'CF': {'Raw':  {'Mean': 203.0, 'StDev': 151.5, '30Mean': 390.0, '30StDev': 86.0}, 'Weighted': {'Mean': 279.0, 'StDev': 131.0, '30Mean': 424.0, '30StDev': 70.5}, 'ThreeYears': {'Mean': 239.0, 'StDev': 94.5, '30Mean': 347.0, '30StDev': 75.5}, 'Career': {'Mean': 235.5, 'StDev': 96.5, '30Mean': 348.0, '30StDev': 73.5}}, 'OF': {'Raw': {'Mean': 196.5, 'StDev': 152.0, '30Mean': 358.0, '30StDev': 89.5}, 'Weighted': {'Mean': 275.0, 'StDev': 135.5, '30Mean': 409.0, '30StDev': 66.0}, 'ThreeYears': {'Mean': 240.0, 'StDev': 104.5, '30Mean': 342.5, '30StDev': 81.0}, 'Career': {'Mean': 238.5, 'StDev': 103.0, '30Mean': 342.5, '30StDev': 73.0}}, 'RP': {'Raw': {'Mean': 125.5, 'StDev': 91.0, '30Mean': 244.5, '30StDev': 50.5}, 'Weighted': {'Mean': 130.5, 'StDev': 64.5, '30Mean': 208.5, '30StDev': 41.5}, 'ThreeYears': {'Mean': 122.0, 'StDev': 54.0, '30Mean': 190.0, '30StDev': 34.5}, 'Career': {'Mean': 122.5, 'StDev': 52.5, '30Mean': 190.5, '30StDev': 33.5}}, 'SP': {'Raw': {'Mean': 256.5, 'StDev': 152.5, '30Mean': 344.0, '30StDev': 111.0}, 'Weighted': {'Mean': 310.0, 'StDev': 153.5, '30Mean': 399.5, '30StDev': 101.0}, 'ThreeYears': {'Mean': 240.5, 'StDev': 123.5, '30Mean': 303.0, '30StDev': 107.5}, 'Career': {'Mean': 249.0, 'StDev': 116.0, '30Mean': 311.0, '30StDev': 95.5}}}
 
 # dictionaries corresponding stats to points
@@ -66,15 +67,9 @@ def argParse(args, soup):
 		output.write(soup.prettify())
 		output.close()
 
+	keepGoing(soup)
 
-	question = input('Do you have more to process? (y/n) ')
-	if question == 'y':
-		newArgs = input('\nPlease enter your new command here (and please include the program name):\n$ ')
-		argParse(newArgs.split(), soup)
-	else:
-		print('Exiting.')
-
-		return 0
+	return 0
 
 
 def pointEval(players, pointType):
@@ -233,6 +228,19 @@ def sdMean(players, arg, string):
 		mean = sum([p[1]['Raw'] for p in players]) / float(len(players))
 		var = sum([(p[1]['Raw'] - mean) ** 2 for p in players]) / float(len(players))
 	print('Mean of {} players: {}\nStandard Deviation of {} players: {}.'.format(string, str(round(mean * 2) / 2), string, str(round((var ** (0.5)) * 2) / 2)))
+	return 0
+
+
+def keepGoing(soup):
+	question = input('Do you have more to process? (y/n) ')
+	if question == 'y':
+		newArgs = input('\nPlease enter your new command here (and please include a program name):\n$ ')
+		argParse(newArgs.split(), soup)
+	elif question == 'n':
+		print('Exiting.')
+	else:
+		print('Sorry, please answer with a y or a n.')
+		keepGoing(soup)
 	return 0
 
 
