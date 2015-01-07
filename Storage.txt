@@ -1,5 +1,0 @@
-Core data:
-Player Name
-Player Age
-Positions played
-Player ID
