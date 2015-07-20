@@ -1,0 +1,1326 @@
+
+<html>
+<head>
+	<title>Dustin Ackley Baseball Statistics [2007-2014]</title>
+	<link rel='stylesheet' href='http://www.thebaseballcube.com/code/tbc12.css'>
+	<link rel='stylesheet' href='http://www.thebaseballcube.com/code/menuBar.css'>
+	
+
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="http://www.thebaseballcube.com/code/tbc12_ie.css" media="screen" />
+	<![endif]-->
+	<link rel='canonical' href='http://www.thebaseballcube.com/players/profile.asp?P=Dustin-Ackley'>
+	
+	<script type="text/javascript">
+	
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-68917-1']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	
+	</script>	
+	
+	<SCRIPT> 
+		var a = Math.floor(Math.random()*9999999999+1) 
+		var random_number = a; 
+	</SCRIPT> 
+
+	<Meta name='description' content=''>
+</head>
+
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script src='http://www.thebaseballcube.com/code/tbc.js'></script>
+<script src="http://www.thebaseballcube.com/code/sorttable.js" type="text/javascript"></script> 
+
+
+
+
+
+	<Div class='pageWrapper'>
+		<div class='headerWrapper'>
+		
+		<!--Logo Section-->
+			<div class='header'>
+				<a href='../../../../../' style='margin-left:-11px;margin-top:2px;padding-left:16px'><img src='../../../../images/tbc_logo_2013.jpg' border=0 height=50></a>
+
+			</div>
+			
+			
+			
+			
+		<!--Site Slogan-->
+			<div style='display:inline;float:left;width:210px;padding-left:20px;height:50px'>
+				<table class='header_slogan'><tr><td valign='middle'>
+					"Organizing the World<br>of Baseball Data"
+				</td></tr></table>
+			</div>
+			
+			
+			<script>
+				function setSearch(){
+					
+					document.getElementById('search').style.color="black";
+					document.getElementById('search').style.fontStyle="normal";
+					
+				}
+				function resetSearchBox(){
+					if (document.getElementById('search').value == 'Search TBC'){
+						document.getElementById('search').value ="";
+					}
+				}
+			</script>
+			
+			
+			<div class='header_topMenu' style='margin-top:14px'>
+			<!--search box-->
+				<div style='float:left;display:inline;margin-top:12px'>
+					<form action='../../../search.asp' method='post' name='frmSearch2'>
+					<input name='search' class='header_Search' id='search' value='Search TBC' title='Hit Enter to search or type "help" for search tips' onclick="setSearch()" onmouseover="resetSearchBox()"> 
+					<input type='submit' class='header_Search_button' id='searchButton' value='Go'>
+				</div>
+				
+				<div class='headerMenuBar'>
+
+					<li style='background-color:#55acee;font-family:'monterrat'><a href='https://twitter.com/thebaseballcube'>Twitter</a></li>
+					<li><a href='../../../../about/tipjar.asp'>Support TBC</a></li>
+					<li><a href='../../../../about/data.asp'>Data Store</a></li>
+					<li style='border-right:0px'><a href='../../../../about/contact.asp'>Contact</a></li>
+				</div>
+			</div>	</form>
+		</div>
+		
+		
+
+		
+	<!--Site Sections-->
+	<div class='headerBarMenus' style='z-index:50'>
+	
+	
+	<!--TODAY MENU-->	
+		<ul  class='header_bar'>
+		<li><a href='../../../../today/'>Today</a>
+		    <ul class='subnav'>
+		    	<li><span style='color:gold'>Major Leagues</span></li>
+		    	<li><a href='../../../../today/mlb/rosters.asp'>Current Rosters</a></li>
+		    	<li><a href='../../../../seasons/calendar.asp?DT=20150106'>Scores</a> | 
+		    		<a href='../../../../today/mlb/standings.asp'>Standings</a></li>
+		    	<li><a href='../../../../players/mlb/active.asp'>Players</a></li>
+		    	<li><a href='../../../../today/mlb/leaders.asp'>Stats + Leaders</a></li>
+		    	<li><a href='../../../../today/mlb/hot.asp'>Hottest Players</a></li>
+		    	<li style='color:white'>40-Man Rosters
+					<ul class='subnav2' style='top:150px;width:250px'>
+	    	   			<li style='width:250px'>Al East:   
+	    	   					<a href='../../../teams/teamPage.asp?T=4&Page=40man'>BAL</a>  |  
+	    	   					<a href='../../../teams/teamPage.asp?T=5&Page=40man'>BOS</a>  |  
+	    	   					<a href='../../../teams/teamPage.asp?T=20&Page=40man'>NYA</a>  |  
+	    	   					<a href='../../../teams/teamPage.asp?T=28&Page=40man'>TBA</a>  |  
+	    	   					<a href='../../../teams/teamPage.asp?T=30&Page=40man'>TOR</a>
+	    	   				</li>
+	    	   			<li style='width:250px'>AL Central:   
+	    	   					<a href='../../../teams/teamPage.asp?T=7&Page=40man'>CHA</a>  |  
+	    	   					<a href='../../../teams/teamPage.asp?T=9&Page=40man'>CLE</a>  |  
+	    	   					<a href='../../../teams/teamPage.asp?T=11&Page=40man'>DET</a>  |  
+	    	   					<a href='../../../teams/teamPage.asp?T=14&Page=40man'>KCA</a>  |  
+	    	   					<a href='../../../teams/teamPage.asp?T=17&Page=40man'>MIN</a>
+	    	   			</li>    	   			
+	    	   			<li style='width:250px'>AL West:    
+	    	   					<a href='../../../teams/teamPage.asp?T=13&Page=40man'>HOU</a>  |  
+	    	   					<a href='../../../teams/teamPage.asp?T=10012&Page=40man'>LAA</a>  |  
+	    	   					<a href='../../../teams/teamPage.asp?T=21&Page=40man'>OAK</a>  |  
+	    	   					<a href='../../../teams/teamPage.asp?T=26&Page=40man'>SEA</a>  |  
+	    	   					<a href='../../../teams/teamPage.asp?T=29&Page=40man'>TEX</a> 
+								</li>    	   			
+	    	   			<li style='width:250px'>NL East:    
+	    	   					<a href='../../../teams/teamPage.asp?T=3&Page=40man'>ATL</a>  |  
+	    	   					<a href='../../../teams/teamPage.asp?T=34&Page=40man'>MIA</a>  |  
+	    	   					<a href='../../../teams/teamPage.asp?T=19&Page=40man'>NYN</a>  |  
+	    	   					<a href='../../../teams/teamPage.asp?T=22&Page=40man'>PHI</a>  |  
+	    	   					<a href='../../../teams/teamPage.asp?T=32&Page=40man'>WAS</a> 
+	    	   			</li>    	   			
+	    	   			<li style='width:250px'>NL Central:   
+	    	   					<a href='../../../teams/teamPage.asp?T=6&Page=40man'>CHN</a>  |  
+	    	   					<a href='../../../teams/teamPage.asp?T=8&Page=40man'>CIN</a>  |  
+	    	   					<a href='../../../teams/teamPage.asp?T=16&Page=40man'>MIL</a>  |  
+	    	   					<a href='../../../teams/teamPage.asp?T=23&Page=40man'>PIT</a>  |  
+	    	   					<a href='../../../teams/teamPage.asp?T=27&Page=40man'>SLN</a>	   			
+	    	   			</li>
+	    	   			<li style='width:250px'>NL West:    
+	    	   					<a href='../../../teams/teamPage.asp?T=2&Page=40man'>ARI</a>  |  
+	    	   					<a href='../../../teams/teamPage.asp?T=10&Page=40man'>COL</a>  |  
+	    	   					<a href='../../../teams/teamPage.asp?T=15&Page=40man'>LAN</a>  |  
+	    	   					<a href='../../../teams/teamPage.asp?T=24&Page=40man'>SDN</a>  |  
+	    	   					<a href='../../../teams/teamPage.asp?T=25&Page=40man'>SFN</a>
+	    	   			</li>
+	    	   		</ul>
+		    	</li>
+                        <li><a href='../../../../today/birthdays.asp'>Today's Birthdays</a></li>
+		    	<li><a href='../../../../today/tranx/' style='color:gold'>Transactions</a></li>
+		    	<li><a href='../../../../today/tranx/dl.asp'>Injuries (DL)</a></li>
+		    	<li><a href='../../../../today/tranx/trades.asp'>Trades</a></li>
+		    	<li><a href='../../../../today/tranx/retired.asp'>Retired</a>  | 
+		    		<a href='../../../../today/tranx/released.asp'>Released</a></li>
+		    	<li><a href='../../../../today/tranx/debuts.asp'>Debuts</a>  | 
+		    	<a href='../../../../today/tranx/deaths.asp'>Deaths</a></li>
+		    	<li><a href='../../../../today/tranx/dfa.asp' title='Designated for Assignment'>DFA</a> | 
+		    		<a href='../../../../minors/transactions/' title='Minor League Transactions'>Minor</a>
+		    	</li>
+		    </ul>
+		
+		</li>
+		
+		
+		
+	<!--PLAYERS MENU-->		
+		<li><a href='../../../players/'>Players</a>
+		    <ul class='subnav'>
+		    	<li><a href='../../../../players/mlb/'>Major Leaguers</a></li>
+		    	<li><a href='../../../../players/minors/'>Minor Leaguers</a></li>
+		    	<li><a href='../../../../players/college/'>College Players</a></li>
+		    	<li><a href='../../../../players/tracker.asp'>Player Tracker</a></li>
+		    	<li><a href='../../../../prospects/'>Prospects</a></li>
+		    	<li><a href='../../../../about/players.asp'>Player Inclusion Rules</a></li>
+		    </ul>			
+		</li>
+		
+		
+	<!--TEAMS MENU-->	
+		<li><a href='../../../teams/'>Teams</a>
+		    <ul class='subnav'>
+		    	   <li><a href='../../../../teams/franchises/'>MLB Franchise Listing</a>
+		    	   		<ul class='subnav2' style='top:0px;width:250px'>
+		    	   			<li style='width:250px'>Al East:   
+		    	   					<a href='../../../../teams/teamPage.asp?T=4'>BAL</a>  |  
+		    	   					<a href='../../../../teams/teamPage.asp?T=5'>BOS</a>  |  
+		    	   					<a href='../../../../teams/teamPage.asp?T=20'>NYA</a>  |  
+		    	   					<a href='../../../../teams/teamPage.asp?T=28'>TBA</a>  |  
+		    	   					<a href='../../../../teams/teamPage.asp?T=30'>TOR</a>
+		    	   				</li>
+		    	   			<li style='width:250px'>AL Central:   
+		    	   					<a href='../../../../teams/teamPage.asp?T=7'>CHA</a>  |  
+		    	   					<a href='../../../../teams/teamPage.asp?T=9'>CLE</a>  |  
+		    	   					<a href='../../../../teams/teamPage.asp?T=11'>DET</a>  |  
+		    	   					<a href='../../../../teams/teamPage.asp?T=14'>KCA</a>  |  
+		    	   					<a href='../../../../teams/teamPage.asp?T=17'>MIN</a>
+		    	   			</li>    	   			
+		    	   			<li style='width:250px'>AL West:    
+		    	   					<a href='../../../../teams/teamPage.asp?T=13'>HOU</a>  |  
+		    	   					<a href='../../../../teams/teamPage.asp?T=10012'>LAA</a>  |  
+		    	   					<a href='../../../../teams/teamPage.asp?T=21'>OAK</a>  |  
+		    	   					<a href='../../../../teams/teamPage.asp?T=26'>SEA</a>  |  
+		    	   					<a href='../../../../teams/teamPage.asp?T=29'>TEX</a> 
+									</li>    	   			
+		    	   			<li style='width:250px'>NL East:    
+		    	   					<a href='../../../../teams/teamPage.asp?T=3'>ATL</a>  |  
+		    	   					<a href='../../../../teams/teamPage.asp?T=34'>MIA</a>  |  
+		    	   					<a href='../../../../teams/teamPage.asp?T=19'>NYN</a>  |  
+		    	   					<a href='../../../../teams/teamPage.asp?T=22'>PHI</a>  |  
+		    	   					<a href='../../../../teams/teamPage.asp?T=32'>WAS</a> 
+		    	   			</li>    	   			
+		    	   			<li style='width:250px'>NL Central:   
+		    	   					<a href='../../../../teams/teamPage.asp?T=6'>CHN</a>  |  
+		    	   					<a href='../../../../teams/teamPage.asp?T=8'>CIN</a>  |  
+		    	   					<a href='../../../../teams/teamPage.asp?T=16'>MIL</a>  |  
+		    	   					<a href='../../../../teams/teamPage.asp?T=23'>PIT</a>  |  
+		    	   					<a href='../../../../teams/teamPage.asp?T=27'>SLN</a>	   			
+		    	   			</li>
+		    	   			<li style='width:250px'>NL West:    
+		    	   					<a href='../../../../teams/teamPage.asp?T=2'>ARI</a>  |  
+		    	   					<a href='../../../../teams/teamPage.asp?T=10'>COL</a>  |  
+		    	   					<a href='../../../../teams/teamPage.asp?T=15'>LAN</a>  |  
+		    	   					<a href='../../../../teams/teamPage.asp?T=24'>SDN</a>  |  
+		    	   					<a href='../../../../teams/teamPage.asp?T=25'>SFN</a>
+		    	   			</li>
+		    	   		</ul>
+		    	   	</li>
+                          <li><a href='../../../teams/franchises/changes.asp'>MLB Franchise Changes</a></li>
+		    	  <li><a href='../../../minors/teams/'>Minor League Teams</a></li>  
+		    	  <li><a href='../../../college/division1.asp'>College Teams</a></li>  
+		    </ul>			
+		</li>
+		
+		
+	<!--SEASONS MENU-->
+		<li><a href='../../../seasons/'>Seasons</a>
+		    <ul class='subnav'>
+		    	<li><a href='../../../../seasons/byYear.asp?Y=2014'>2014 Baseball Season</a></li>
+		    	<li><a href='../../../../seasons/byYear.asp?Y=2013'>2013 Baseball Season</a></li>
+		    	<li><a href='../../../../seasons/byYear.asp?Y=2012'>2012 Baseball Season</a></li>
+		    	<li><a href='../../../../seasons/calendar.asp'>Baseball by Date</a></li>
+		    	<li><a href='../../../../seasons/calendar.asp'>Boxscores</a></li>
+		    </ul>	
+		</li>
+		
+	<!--MINORS MENU-->	
+		<li><a href='../../../minors/'>Minors</a>
+		    <ul class='subnav'>
+		    	<li><a href='../../../../players/minors/'>Players</a>
+		    	| <a href='../../../../players/minors/active.asp'>Active</a></li>
+		    	 <li><a href='../../../../minors/teams/'>Teams</a></li>  
+		    	<li><a href='../../../../minors/stats/'>Statistics</a></li>
+		    	<li><a href='../../../../minors/standings/'>Standings</a></li>
+		    	<li><a href='../../../../minors/transactions/'>Transactions</a></li>
+		    	<li><a href='../../../../prospects/' style='color:gold'>Prospects</a></li>
+		    	<li><a href='../../../../prospects/?Y=2014'>Reports</a> | 
+				<a href='../../../../prospects/byTeam.asp'>by Team</a></li>
+		    	<li><a href='../../../../minors/afl/'>Arizona Fall League</a></li>
+		    </ul>				
+		</li>
+		
+		
+	<!--COLLEGE MENU-->
+		<li><a href='../../../college/'>College</a>
+		    <ul class='subnav'>
+		    	<li><a href='../../../../players/college/'>College Players</a></li>
+		    	<li><a href='../../../../college/division1.asp'>School Listing (Div I)</a></li>
+		    	<li><a href='../../../../college/allSchools.asp'>All Schools</a></li>
+		    	<li><a href='../../../../college/stats/'>College Statistics</a></li>
+		    	<li><a href='../../../../college/rpi.asp'>RPI Rankings</a></li>
+		    	<li><a href='../../../../college/cws/'>College World Series</a>
+		    		<ul class='subnav2' style='top:125px'>
+		    			<li><a href='../../../../../college/cws/brackets.asp?Y=2014'>2014</a> | 
+		    			<a href='../../../../../college/cws/brackets.asp?Y=2013'>2013</a> | 
+		    			<a href='../../../../../college/cws/brackets.asp?Y=2012'>2012</a></li>
+		    			<li><a href='../../../../college/cws/bySchool.asp'>By School</a></li>
+		    		</ul>
+		    	</li>
+		    	<li><a href='../../../../people_places/ballparks/college.asp'>College Ballparks</a></li>
+		    	<li><a href='../../../../college/prospects/'>College Prospects</a></li>
+		    	<li><a href='../../../../college/summer/'>Summer Leagues</a></li>
+		    </ul>		
+				
+		
+		</li>
+		
+		
+	<!--EVENTS MENU-->
+		<li><a href='../../../events/'>Events</a>
+		    <ul class='subnav'>
+		    	<li><a href='../../../../draft/' style='color:gold'>Drafts</a></li>
+					<li><a href='../../../../draft/byYear.asp?Y=2014'>2014</a> | 
+					<a href='../../../../draft/byYear.asp?Y=2013'>2013</a> | 
+					<a href='../../../../draft/byYear.asp?Y=2012'>2012</a> </li>
+		    	<li><a href='../../../../draft/research.asp'>Draft Research</a></li>
+		    	<li><a href='../../../../draft/byCollege.asp'>Draft by College</a></li>
+		    	<li><a href='../../../../events/rule5/'>Rule 5</a>  |  
+		    	<a href='../../../../events/expansion/'>Expansion</a></li>
+		    	<li><a href='../../../../events/playoffs/' style='color:Gold'>Playoffs</a>
+					<ul class='subnav2' style='top:125px'>
+		    			<li><a href='../../../../events/playoffs/byYear.asp?Y=2013'>2013</a> | 
+									<a href='../../../../events/playoffs/byYear.asp?Y=2012'>2012</a> | 
+		    					<a href='../../../../events/playoffs/byYear.asp?Y=2011'>2011</a>                 
+                                       </li>
+                                       <li><a href='../../../events/playoffs/tiebreaker.asp'>Tie-Breaker Games</a></li>
+		    		</ul>		    		
+		    		</li>
+		    	<li><a href='../../../../events/allstar/' style='color:Gold'>All-Star Game</a>
+		    		<ul class='subnav2' style='top:150px'>
+		    			<li><a href='../../../../events/allstar/'>ASG Summary</a></li>
+		    			<li><a href='../../../../events/allstar/byPlayer.asp'>Player Appearances</a></li>
+		    			<li><a href='../../../../events/allstar/rosters.asp'>Rosters by Year</a></li>
+		    			<li><a href='../../../../events/allstar/hr_derby.asp'>Home Run Derby</a></li>
+		    			<li><a href='../../../../events/allstar/futures/'>Futures Game</a></li>
+		    		</ul>
+		    	</li>
+		    	<li style='color:gold'><a href='../../../../events/hof/'>Hall of Fame</a>
+			    		<ul class='subnav2' style='top:175px'>
+			    			<li><a href='../../../../events/hof/'>Inductees</a></li>	
+			    			<li><a href='../../../../events/hof/voting.asp?Y=2014'>2014 Voting</a> | 
+			    				<a href='../../../../events/hof/voting.asp?Y=2013'>2013</a>
+			    			</li>	
+			    			<li><a href='../../../../events/hof/status.asp'>Ballot Status</a></li>	
+			    		</ul>
+		    		</li>
+		    	
+		    	<li><a href='../../../../events/wbc/'>WBC</a> | 
+		    	<a href='../../../../events/olympics/'>Olympics</a></li>
+		    	<li><a href='../../../../events/littleLeague/' title='Little League World Series'>Little League World Series</a></li>
+		    </ul>		
+		
+		</li>
+	
+
+
+	<!--PEOPLE and PLACES  MENU-->
+		<li><a href='../../../people_places/'>People/Places</a>
+			<ul class='subnav'>
+                <li style='color:gold'>People</li>
+				<li><a href='../../../../people_places/managers/'>Managers</a>
+          <!--	<ul class='subnav2' style='top:25px'>
+          		<li><a href='../../../people_places/managers/metrics.asp'>Manager Metrics</a></li>
+          	</ul>-->
+				</li>
+				<li><a href='../../../../people_places/coaches/'>Coaches</a></li>
+				<li><a href='../../../../people_places/gms/'>General Managers</a></li>
+				<li><a href='../../../../people_places/scouts/'>Scouts</a></li>
+				<li><a href='../../../../people_places/umpires/'>Umpires</a></li>
+				<li><a href='../../../../people_places/commish/'>Commissioners</a></li>
+                <li style='color:gold'>Places</li>
+                <li><a href='../../../../hs/'>High Schools</a>
+                	<ul class='subnav2' style='top:200px'>
+                		<li><a href='../../../hs/rankings.asp'>HS Rankings</a></li>
+                	</ul>
+                </li>
+				<li><a href='../../../../people_places/cities/'>Cities</a></li>
+				<li><a href='../../../../people_places/ballparks/'>Ballparks and Stadiums</a>
+					<ul class='subnav2' style='top:250px'>
+						<li><a href='../../../people_places/ballparks/'>MLB Ballparks</a></li>
+						<li><a href='../../../people_places/ballparks/'>Minor Ballparks</a></li>
+          	<li><a href='../../../people_places/ballparks/college.asp'>College Ballparks</a></li>
+           </ul>
+        </li>
+				<li><a href='../../../../people_places/ballparks/spring_training.asp'>Spring Training</a></li>
+		    </ul>	
+		</li>
+		
+
+
+	<!--REPORTS MENU-->
+		<li><a href='../../../reports/'>Reports</a>
+		    <ul class='subnav'>
+		    	<li><a href='../../../../reports/app/'>Stats Machine</a></li>
+		    	<li><a href='../../../../reports/roster_history.asp'>Roster History</a></li>
+		    	<li><a href='../../../../reports/breakdown.asp'>Lineup Breakdown</a></li>
+		    	<li><a href='../../../../reports/compare.asp'>Compare Players</a>	</li>
+		    	<li><a href='../../../../reports/xpaths.asp' title='Where 2 players intersect'>Crossing Paths</a></li>
+		    	<li><a href='../../../../reports/matchups/'>Team Matchups</a>	</li>
+		    	<li><a href='../../../../reports/lists/' style='color:gold'>Baseball Lists</a></li>
+		    	<li><a href='../../../../reports/lists/3000hits.asp'>3000 Hits</a>  |  
+		    		<a href='../../../../reports/lists/300wins.asp'>300 Wins</a></li>
+		    	<li><a href='../../../../reports/lists/500hr.asp'>500 Homers</a> | 
+		    		<a href='../../../../reports/lists/300saves.asp'>300 Saves</a></li>
+</li>
+		    	<li><a href='../../../../reports/lists/nohitters.asp'>No-Hitters</a>/
+                            <a href='../../../../reports/lists/perfectgames.asp'>Perfect Gms</a></li>
+		    	<li><a href='../../../../reports/lists/cycle.asp'>Cycles</a> | 
+                            <a href='../../../../reports/lists/triplecrown.asp'>Triple Crown</a> 
+</li>
+		    	<li><a href='../../../../reports/lists/q2majors.asp' title='MLB in draft year'>Quick to Majors</a></li>
+		    	<li><a href='../../../../reports/lists/k9.asp' title='Struck out side on 9 pitches'>K'd Side on 9 Pitches</a></li>
+		    </ul>	
+		</li>
+		
+	<!--EXTRA BASES MENU-->		
+		<li><a href='../../../extras/'>Extra Bases</a>
+		    <ul class='subnav'>
+                <li style='color:gold'>Baseball Business</li>
+                <li><a href='../../../../extras/payrolls/'>Payrolls</a>  | 
+					<a href='../../../../extras/payrolls/byYear.asp?Y=2014'> Top 100</a></li>
+				<li><a href='../../../../extras/attendance/'>Attendance</a></li>
+				<li><a href='../../../../extras/business/trades.asp'>Trades History</a></li>
+				<li><a href='../../../../extras/business/fa.asp'>Free Agents</a></li>
+				<li><a href='../../../../extras/awards/' style='color:gold'>Awards</a></li>
+				<li><a href='../../../../extras/awards/major.asp'>Awards Voting</a></li>
+				<li style='color:gold'>Other</li>
+				<li><a href='../../../../extras/retired_no.asp'>Retired Numbers</a></li>
+				<li><a href='../../../../extras/nicknames.asp'>Team Nicknames</a></li>
+				<li><a href='../../../../extras/uniforms.asp'>Uniform# History</a></li>
+				<li><a href='../../../../extras/japan/'>Japanese Leagues</a></li>
+		    </ul>			
+		</li>
+		
+		
+		
+	<!--ABOUT TBC MENU-->	
+		<li><a href='../../../about/'>About TBC</a>
+			<ul class='subnav'>
+				<li><a href='../../../../about/aboutsite.asp'>About the Site</a>
+				<li><a href='../../../../about/coverage.asp'>Data Coverage</a></li>
+				<li><a href='../../../../about/players.asp'>Player Inclusion Rules</a></li>
+				<li><a href='../../../../about/updates.asp'>Site Updates</a></li>
+				<li><a href='../../../../about/sponsor.asp'>Page Sponsorships</a>
+				<li><a href='../../../../about/tipjar.asp'>Tip Jar</a>
+				<li><a href='../../../../about/sitemap.asp'>Site Map</a>
+				<li><a href='../../../../about/contact.asp'>Contact TBC</a>
+			</ul>
+		</li>
+		
+		
+	<!--TBC Tracker-->	
+		<li><a href='../../../players/tracker.asp'>Player Tracker</a>
+			<ul class='subnav'>
+			</ul>
+		</li>
+				
+	</div>
+
+
+
+
+
+
+
+
+<div class='infoBar'>
+ 
+    <a href='http://www.thebaseballcube.com/today/tranx/deaths.asp' style='font-weight:bold'>Recent MLB Deaths</a>:   <a href='../../../../players/profile.asp?P=Bob-Usher'>Bob Usher</a>  -   <a href='../../../../players/profile.asp?P=Herb-Plews'>Herb Plews</a>  -   <a href='../../../../players/profile.asp?P=Russ-Kemmerer'>Russ Kemmerer</a>  -   <a href='../../../../players/profile.asp?P=Don-Grate'>Don Grate</a>  -   <a href='../../../../players/profile.asp?P=Art-Quirk'>Art Quirk</a>  -   <a href='../../../../players/profile.asp?P=Ray-Sadecki'>Ray Sadecki</a>  -   <a href='../../../../players/profile.asp?P=Alvin-Dark'>Alvin Dark</a>
+ 		
+ 		
+</div>
+
+
+
+
+
+
+
+
+	<div class='basicDiv clear yah'>
+			<a href='../../../../'>Home</a> >> <a href='../players/'>Players</a> >> <a href='mlb.asp'>MLB</a> >> <a href='mlb.asp?L=A'>A</a> >> <b>Dustin Ackley</b> | Profile and Statistics
+	</div>
+
+
+
+	<style>
+            .dataGrid {font-size:12px}
+            .profileGrid {font-size:13px}
+            .titleObjects TD {color:black;text-shadow:1px 1px 1px #aaaaaa;background-color:white;padding-left:10px;padding-right:10px}
+            .sponsorship {display:inline;float:left;background-color:beige;border:2px solid black;box-shadow:2px 2px 2px #aaaaaa;margin-top:15px;margin-bottom:0px;padding:10px;width:1172px;font-size:16px;font-family:arial;text-align:Center}
+            .sponsored {background-color:Gold;font-size:14px;font-weight:bold;}
+            .sponsorship .sp_title {font-size:21px;text-shadow:2px 2px 1px #aaaaaa;font-weight:bold;float:left;display:inline}
+            .sponsorship .sp_description {font-size:15px;display:Inline;float:left;margin-top:10px;clear:both}
+            .sponsorship .sp_notes {font-size:13px;display:Inline;float:right;clear:both;padding-right:8px}
+	</style>
+
+	
+	
+	
+
+
+	<div align=center style='width:1180px;clear:both;margin-top:0px;margin-bottom:5px;display:inline;float:left;z-index:1'>
+	<script type="text/javascript"><!--
+	e9 = new Object();
+    e9.size = "728x90";
+//--></script>
+<script type="text/javascript" src="http://tags.expo9.exponential.com/tags/TheBaseballCube/ROS/tags.js"></script>
+</div>
+<div class='basicDiv clear h1_page_title'><div style='width:700px;display:inline;float:left'><h1>Dustin Ackley   <span class='h1_tag' title='Born in United States'><img src='../../../images/flags/US.gif' width=25 height=15></span><span class='h1_tag' title='First round draft pick: #2 in 2009'>#1</span><a href='profile.asp?P=Dustin-Ackley&Page=Awards' class='h1_tag' title='Awards'>AW-<span style='font-size:13px'>16</span></a></h1><div class='bottom_row clear'>+    <a href='../../../../teams/stats.asp?Y=2014&T=26'  style='color:blue'>Seattle Mariners</a> <span class='h1_subject'><span style='color:#777777'>Status:</span> Active (MLB)</span></div></div>
+		<div style='float:right;display:inline'>
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- H1_header_468 -->
+		<ins class="adsbygoogle"
+		     style="display:inline-block;width:468px;height:60px"
+		     data-ad-client="ca-pub-9713439010437904"
+		     data-ad-slot="2369646850"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		</div>	
+	</div><div class='page_links'><li><a href='profile.asp?P=Dustin-Ackley'>Statistics</a></li><li><a href='profile.asp?P=Dustin-Ackley&Page=Ext'>Extended Stats</a></li><li><a href='profile.asp?P=Dustin-Ackley&Page=Tranx'>Transactions</a></li><li class='pl_select' title='Batting and Pitching'><form action='' method='post' name='frmLog'><select name='cboLog' style='width:100px' onchange = "location = document.frmLog.cboLog.options[document.frmLog.cboLog.selectedIndex].value;"><Option value=''>Game Logs</option><option value='profile.asp?P=Dustin-Ackley&Y=2014&Page=Log'>2014</option><option value='profile.asp?P=Dustin-Ackley&Y=2013&Page=Log'>2013</option><option value='profile.asp?P=Dustin-Ackley&Y=2012&Page=Log'>2012</option><option value='profile.asp?P=Dustin-Ackley&Y=2011&Page=Log'>2011</option></select></li></form><li class='pl_select' title='Batting and Pitching'><form action='' method='post' name='frmSplit'><select name='cboLog' style='width:100px' onchange = "location = document.frmSplit.cboLog.options[document.frmSplit.cboLog.selectedIndex].value;"><Option value=''>Splits</option><option value='profile.asp?P=Dustin-Ackley&Y=Career&Page=Splits'>Career</option><option value='profile.asp?P=Dustin-Ackley&Y=2014&Page=Splits'>2014</option><option value='profile.asp?P=Dustin-Ackley&Y=2013&Page=Splits'>2013</option><option value='profile.asp?P=Dustin-Ackley&Y=2012&Page=Splits'>2012</option><option value='profile.asp?P=Dustin-Ackley&Y=2011&Page=Splits'>2011</option></select></form></li><li><a href='profile.asp?P=Dustin-Ackley&Page=Feats'>Feats</a></li><li><a href='profile.asp?P=Dustin-Ackley&Page=Tranx#Salary'>Salaries</a></li><li><a href='profile.asp?P=Dustin-Ackley&Page=Analysis'>Pitch Data</a></li></div>
+	
+	<div class='profile_info' style='width:1180px'>
+			<div style='width:370px;display:inline;clear:both;float:left;padding-left:2px;border-right:1px solid #aaaaaa'>
+					
+				<table class='profileGrid'>
+				
+				
+				<!--POSITIONS-->
+					<tr>
+						<td class='category'>Positions:</td>
+						<td class='profile_data' colspan='3'>2B-<span style='font-size:11px;color:darkred'>489</span>, LF-<span style='font-size:11px;color:darkred'>148</span>, CF-<span style='font-size:11px;color:darkred'>59</span>, 3B-<span style='font-size:11px;color:darkred'>31</span>, 1b-<span style='font-size:11px;color:darkred'>22</span>, dh-<span style='font-size:11px;color:darkred'>15</span>, OF-<span style='font-size:11px;color:darkred'>12</span></td>
+					</tr>
+					
+					
+										
+				<!--FULL NAME-->
+					<tr>
+						<td class='category'>Proper Name:</td>
+						<td class='profile_data' colspan='3'>Dustin Michael Ackley</td>
+					</tr>
+					
+				<!--BORN-->
+					<Tr>
+						<td class='category'>Born:</td>
+						<td class='profile_data' colspan='3'>
+							<a href='../seasons/calendar.asp?DT=19880226'>February 26, 1988</a>
+								
+									  (26<span style='color:#888888'>.316</span>)
+								 in <a href='../people_places/cities/city.asp?ID=395'>Winston-Salem, North Carolina</a>
+								
+								
+						</td>
+					</tr>
+					
+					
+				<!--DEATH DATE-->
+					
+			
+				<!--HT/WT BATS/THROWS-->
+						<Tr>
+								<td class='category'>Height/Weight:</td>
+								<td class='profile_data'>
+									6-1 / 182
+								</td>
+								<td class='category' style='width:40px'>Bats/Throws:</td>
+								<td class='profile_data'>Left-Right</td>
+						</tr>
+						
+						
+					<!--HIGH SCHOOL-->
+						<tr>
+								<td class='category'>High School:</td>
+								<td class='profile_data' colspan='3'>
+									<a href='../../../hs/profile.asp?HS=10204'>North Forsyth</a> (Winston-Salem,NC)
+								</td>
+							</tr>
+							
+							
+					<!--COLLEGE-->
+						<tr>
+								<Td class='category'>College:</td>
+								<td class='profile_data' colspan='3'>
+									<a href='../teams/teamPage.asp?T=20006'>University of North Carolina</a> 
+								</td>	
+							</tr>
+							
+						<!--Draft-->
+							<tr>
+								<Td class='category'>Drafted: </td>
+								<td class='profile_data' colspan='3'>2009 -- <a href='../draft/research.asp?Y=2009&P=June-Reg&R=1&PID=215'>1st round</a> (2nd overall) by <a href='../draft/research.asp?Y=2009&T=26&P=June-Reg'>Seattle Mariners</a>  (June-Reg)
+										
+								</td>
+							</tr>
+							
+							
+					<!--DEBUT-->
+						<tr><td class='category'>MLB Debut:</td><td class='profile_data' colspan='3'><a href='../seasons/boxscore.asp?GID=SEA201106170'>June 17,2011</a>  (23<span style='color:#888888'>.112</span>)</td></tr>
+						
+					<!--TBC ID--><tr><td class='category'>TBC Player ID:</td><td class='profile_data'>215</td></tr>
+						
+					<!--EDIT THIS PROFILE--><Tr><td align=right style='font-style:italic' class='category' colspan='5'><a href='editProfile.asp?ID=215'>Update this Profile</a></td></tr>
+				</table>
+				
+								
+						
+	</div>
+
+	
+<script>
+		function showPlayerSearch(obj){
+			
+			var str =  document.getElementById(obj).value;
+
+
+			
+			if (str.length > 2){
+				//document.getElementById(obj).style.display='inline';
+				
+				showAjax('../reports/xPlayers.asp?W=P2&Q=' + str,'playerList1','')
+			}
+		}	
+</script>
+
+	<div style='width:400px;display:inline;float:left;padding-left:6px;border-right:1px solid #aaaaaa''>
+		
+	
+	<table class='profileGrid'>
+<tr><td class='category' title='Most recent contract'>Recent Contract:</td><td class='profile_data'>Signed to 5-year contract for 2009-2013 ($7.5m) by <b>Seattle Mariners</b>. $6m signing bonus</td></tr><tr><td class='category' title='Organizations played for...'>Organizations:</td><td class='profile_data'>SEA</td></tr><Tr><td class='category'>Signed by:</td><td class='profile_data'><a href='profile.asp?P=Rob-Mummau'>Rob Mummau</a></td></tr>
+	<Tr><td class='category' style='padding-top:10px'>Compare Stats:</td><form action='../reports/compare.asp' method='post' name='frmCompare'>
+		<td class='profile_data' style='padding-top:10px'>
+			<input style='width:200px;padding-left:5px' name='compare_players' id='compare_players' title='Enter parts of player names separated by commas (,)'>	
+			<input type='hidden' name='validate' value='Y'>
+                        <input type='hidden' name='playerID' value='215'>
+                        <input type='hidden' name='statType' value='H'>
+                        <input type='hidden' name='playerName' value='Dustin Ackley'>
+			<input type='submit' value='Compare'>
+		</td></form>
+	</tr>
+
+
+	<Tr><td class='category' style='padding-top:10px'>Connect to Player:</td><form action='../reports/xpaths.asp' method='post' name='frmConnect'>
+		<td class='profile_data' style='padding-top:10px'>
+			<input style='width:200px;padding-left:5px' name='p2' id='p2' onkeyup="showPlayerSearch('p2')"> <input type='submit' value='Connect'><br>
+			
+			<div id='playerList1' style='display:none;float:left;position:absolute;background-color:white;height:auto;margin-left:0;margin-top:1px;width:250px;overflow:auto;border:1pt ridge #aaaaaa;box-shadow:2px 2px 2px #aaaaaa' onclick="this.style.display='none'">
+			</div>
+						
+            <input type='hidden' name='player1' value='215'>
+            <input type='hidden' name='playerName' value='Dustin Ackley'>
+			<input type='hidden' name='p2id' id='p2id' value=''>
+		</td></form>
+	</tr>
+	
+
+
+<Tr><td colspan='10'>
+
+	<table class='dataGrid' cellspacing='1' style='margin-bottom:5px'>
+			<h4>Scouting Scores</h4>
+			<Tr class='headerRow'>
+			<Td align=center>speed</td>
+			<Td align=center>contact</td>
+			<td align=center>patience</td>
+			<Td align=center>batting</td>
+			<Td align=center>power</td>		
+			</tr>
+			<Tr>
+				<Td align=center>67.67</td>
+				<Td align=center>71.33</td>
+				<td align=center>72.11</td>
+				<Td align=center>62.78</td>
+				<Td align=center>48.44</td>						
+			</tr>
+		
+
+		</table>
+		<div style='clear:both;display:inline;float:left;margin-bottom:10px'>
+			How are these calculated? (Coming soon)
+		</div>
+</td></tr>
+
+		
+</table>
+</div>
+
+
+<div style='width:385px;display:inline;float:left;padding-left:6px'>
+<table class='profileGrid'>
+
+</table>
+
+<br><h4>Recent Roster Movement<span style='float:right;font-weight:normal;font-size:13px'><a href='profile.asp?P=Dustin-Ackley&Page=Tranx'>All Transactions</a></span></h4><Table class='dataGrid' cellspacing='1' style='width:385px;font-size:12px;margin-top:5px'><Tr class='headerRow'><td>Date</td><td>Status</td><td>Notes</td></tr><tr><td><a href='../seasons/calendar.asp?DT=20130625'>2013-06-25</a></td><td>A</td><td>Recalled from Tacoma (AAA)</td></tr><tr><td><a href='../seasons/calendar.asp?DT=20130527'>2013-05-27</a></td><td>M</td><td>Optioned to Tacoma (AAA)</td></tr></table><br>
+</div>
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+<div class='sponsorship'>
+			Please help support The Baseball Cube by <a href='../about/sponsor.asp?P=215'>sponsoring</a> the <a href='../about/sponsor.asp?P=215' style='font-weight:bold'>Dustin Ackley</a> player pages for $10 for a year.	
+	
+		<!--Sponsored-->
+			<!--<div class='sp_title'>Dustin Ackley Sponsorship</div>-->
+
+	</div>
+
+
+	
+	
+<div class='basicDiv clear'>
+
+<style>
+	.firstRow TD {border-top:2px solid black}
+  	.reportModifier {cursor:pointer}
+  	.reportModifier:hover {background-color:gold}
+</style>
+	
+	
+<script langugage='javascript'>
+	
+	
+		function battingParameters(){
+			var qs;
+			qs="";
+			qs = qs + "P=ackld001";
+			qs = qs + "&M=" + document.getElementById('batting_month').value;
+			qs = qs + "&Hand=" + document.getElementById('batting_hand').value;
+			qs = qs + "&HA=" + document.getElementById('batting_home').value;
+			qs = qs + "&T=" + document.getElementById('batting_team').value;
+			qs = qs + "&Ln=" + document.getElementById('batting_lineup').value;
+			qs = qs + "&Pos=" + document.getElementById('batting_position').value;
+			qs = qs + "&DN=" + document.getElementById('batting_daynight').value;
+			qs = qs + "&Park=" + document.getElementById('batting_stadium').value;
+			qs = qs + "&Outs=" + document.getElementById('batting_outs').value;
+			qs = qs + "&Leadoff=" + document.getElementById('batting_leadoff').checked;
+			qs = qs + "&Sit=" + document.getElementById('batting_situation').value;
+			qs = qs + "&Last=" + document.getElementById('batting_last').checked;
+			qs = qs + "&Swing1=" + document.getElementById('batting_swing1').value;
+			qs = qs + "&Count=" + document.getElementById('batting_pitchCount').value;
+			qs = qs + "&PType=" + document.getElementById('batting_pitcherType').value;
+			qs = qs + "&FP=" + document.getElementById('batting_pitch1').value;
+			qs = qs + "&Pitcher=" + document.getElementById('batting_pitcherID').value;
+			qs = qs + "&Weekday=" + document.getElementById('batting_day').value; 
+			qs = qs + "&Inning=" + document.getElementById('batting_inning').value; 
+			qs = qs + "&RIM=" + document.getElementById('batting_rim').checked;
+	//alert(qs);		
+			showAjax('include/reports_splits_batting.asp?' + qs,'battingReports','');
+	
+		}
+		
+		
+
+		
+		function showMLBOnly(){
+			
+			resetFilters();
+			
+			document.getElementById('batting_mlb_only').style.backgroundColor='gold';
+			for (i=1;i<200;i++) {
+				if (document.getElementById("non" + i)){
+					document.getElementById("non" + i).style.display='none';
+				} else if (document.getElementById("ncaa" + i)){
+					document.getElementById("ncaa" + i).style.display='none';
+				}  else {
+				
+					//update year value
+					if (document.getElementById("year" + i)) {
+						document.getElementById("year" + i).style.color='#000000';
+					} else if (document.getElementById("year" + i + "hide")) {
+						document.getElementById("year" + i + "hide").style.color='#000000';
+					}
+				}
+			}	
+
+		}
+
+		
+		function showMinorsOnly(){
+			
+			resetFilters();
+			
+			document.getElementById('batting_minor_only').style.backgroundColor='gold';
+			for (i=1;i<200;i++) {
+				if (document.getElementById("mlb" + i)){
+					document.getElementById("mlb" + i).style.display='none';
+				} else if (document.getElementById("ncaa" + i)){
+					document.getElementById("ncaa" + i).style.display='none';
+				} else {
+				
+					//update year value
+					if (document.getElementById("year" + i)) {
+						document.getElementById("year" + i).style.color='#000000';
+					} else if (document.getElementById("year" + i + "hide")) {
+						document.getElementById("year" + i + "hide").style.color='#000000';
+					}
+				}
+			}		
+		}		
+		
+		function show_ALL(){
+			
+			resetFilters();
+			
+			document.getElementById('all_stats').style.backgroundColor='gold';
+			document.getElementById('batting_mlb_only').style.backgroundColor='white';	
+			document.getElementById('batting_minor_only').style.backgroundColor='white';	
+		}
+		
+		function resetFilters(){
+			document.getElementById('all_stats').style.backgroundColor='white';
+			document.getElementById('batting_mlb_only').style.backgroundColor='white';	
+			document.getElementById('batting_minor_only').style.backgroundColor='white';	
+			
+			for (i=1;i<200;i++) {
+				if (document.getElementById("non" + i)){
+					document.getElementById("non" + i).style.display='table-row';
+				} else if (document.getElementById("mlb" + i)){
+					document.getElementById("mlb" + i).style.display='table-row';
+				} else if (document.getElementById("ncaa" + i)){
+					document.getElementById("ncaa" + i).style.display='table-row';
+				}		
+							
+				//Reset YEars
+				if (document.getElementById("year" + i)) {
+					document.getElementById("year" + i).style.color='black';
+				} else if (document.getElementById("year" + i + "hide")) {
+					 if (document.getElementById("mlb" + i)){
+							document.getElementById("year" + i + "hide").style.color='#eeeeee';
+					 } else {
+					 		document.getElementById("year" + i + "hide").style.color='white';
+					}
+				}
+				
+			}
+		}
+		
+</script>
+<div class='basicDiv clear' style='width:200px;margin-right:0px'><table class='datagrid' cellspacing='0' style='margin:0px;padding-right:0px'><Tr class='sectionRow'><td style='padding-left:10px;padding-right:20px'>Batting Statistics</td></tr></table></div><div class='basicDiv' style='width:850px'><table class='titleObjects' cellspacing='1' style='background-color:#aaaaaa'><tr style='background-color:white'><td id='all_stats' onclick="show_ALL()" class='reportModifier' style='background-color:gold'>Show All</td><td id='batting_mlb_only' onclick="showMLBOnly()" class='reportModifier'>MLB Only</td><td id='batting_minor_only' onclick="showMinorsOnly()" class='reportModifier'>Minors Only</td></tr></table></div>
+	<table class='filtertable smallFilters fullwidth' cellspacing='1' style='margin-bottom:0px' id='filters_batting'>
+	<tr class='row1'>
+		<td>Month</td>
+		<td>Day of Wk</td>
+		<td>vs LH/RH</td>
+		<td>Home/Away</td>
+		<td>Day/Night</td>
+		<td>vs Team</td>
+		<td>Outs</td>
+		<td>Inning</td>
+		<td>Lineup</td>
+		<td>Position</td>
+	
+
+		<Td> </td>
+	</tr>
+	<tr class='row2'>
+	
+<!--MONTH-->
+	<td>
+		<select name='batting_month' id='batting_month' style='width:75px;float:none'>
+			<option value=''>Any</option>
+			<option value='04'>Mar/Apr</option>
+			<option value='05'>May</option>
+			<option value='06'>June</option>
+			<option value='07'>July</option>
+			<option value='08'>August</option>
+			<option value='09'>Sept/Oct</option>
+			<option class='select_divider'></option>
+			<option value='Half1'>1st Half</option>
+			<option value='Half2'>2nd Half</option>
+			<option value='third1'>1st Third</option>
+			<option value='third2'>2nd Third</option>
+			<option value='third3'>Last Third</option>
+		</select>
+	</td>
+
+<!--DAY OF WEEK-->
+	<td>
+		<select name='batting_day' id='batting_day' style='width:75px;float:none'>
+			<option value=''>Any</option>
+			<option value='Mon'>Monday</option>
+			<option value='Tue'>Tuesday</option>
+			<option value='Wed'>Wednesday</option>
+			<option value='Thu'>Thursday</option>
+			<option value='Fri'>Friday</option>
+			<option value='Sat'>Saturday</option>
+			<option value='Sun'>Sunday</option>
+			<option class='select_divider'>Combinations</option>
+			<option value='Weekday'>Mon-Thu</option>
+			<option value='Weekend'>Fri-Sun</option>
+		</select>
+	</td>
+
+<!--vs LH/RH-->
+	<td>
+	<select name='batting_hand' id='batting_hand' style='width:75px;float:none'>
+		<option value=''>Any</option>
+		<option value='LHP'>vs LHP</option>
+		<option value='RHP'>vs RHP</option>
+	</select>
+	</td>
+	
+<!--vs HOME/AWAY-->
+	<td>
+	<select name='batting_home' id='batting_home' style='width:75px;float:none'>
+		<option value=''>Any</option>
+		<option value='H'>Home</option>
+		<option value='V'>Away</option>
+	</select>
+	</td>
+	
+	
+<!--vs DAY/NIGHT-->
+	<td>
+	<select name='batting_daynight' id='batting_daynight' style='width:75px;float:none'>
+		<option value=''>Any</option>
+		<option value='D'>Day</option>
+		<option value='N'>Night</option>
+	</select>
+	</td>	
+		
+<!--vs TEAM-->
+	<td>
+	<select name='batting_team' id='batting_team' style='width:145px;float:none'><option value=''>Any Team</option><option value='2'>Arizona Diamondbacks</option><option value='3'>Atlanta Braves</option><option value='4'>Baltimore Orioles</option><option value='5'>Boston Red Sox</option><option value='6'>Chicago Cubs</option><option value='7'>Chicago White Sox</option><option value='8'>Cincinnati Reds</option><option value='9'>Cleveland Indians</option><option value='10'>Colorado Rockies</option><option value='11'>Detroit Tigers</option><option value='13'>Houston Astros</option><option value='14'>Kansas City Royals</option><option value='10012'>Los Angeles Angels</option><option value='15'>Los Angeles Dodgers</option><option value='34'>Miami Marlins</option><option value='16'>Milwaukee Brewers</option><option value='17'>Minnesota Twins</option><option value='19'>New York Mets</option><option value='20'>New York Yankees</option><option value='21'>Oakland Athletics</option><option value='22'>Philadelphia Phillies</option><option value='23'>Pittsburgh Pirates</option><option value='24'>San Diego Padres</option><option value='25'>San Francisco Giants</option><option value='26'>Seattle Mariners</option><option value='27'>St. Louis Cardinals</option><option value='28'>Tampa Bay Rays</option><option value='29'>Texas Rangers</option><option value='30'>Toronto Blue Jays</option><option value='32'>Washington Nationals</option>
+	</select>
+	</td>
+	
+<!--Outs-->
+	<td>
+	<select name='batting_outs' id='batting_outs' style='width:45px;float:none'><option value=''>Any</option><option value='0'>0</option><option value='1'>1</option><option value='2'>2</option>
+	</select>
+	</td>
+	
+<!--Inning-->
+	<td>
+	<select name='batting_inning' id='batting_inning' style='width:45px;float:none'><option value=''>Any</option><option value='1'>1</option><option value='2'>2</option><option value='3'>3</option><option value='4'>4</option><option value='5'>5</option><option value='6'>6</option><option value='7'>7</option><option value='8'>8</option><option value='9'>9</option><option value='10'>10+</option><option value='1-3'>1-3</option><option value='4-6'>4-6</option><option value='7-9'>7-9</option>
+	</select>
+	</td>	
+		
+<!--Lineup Slot-->
+	<td>
+	<select name='batting_lineup' id='batting_lineup' style='width:45px;float:none'><option value=''>Any</option><option value='1'>1</option><option value='2'>2</option><option value='3'>3</option><option value='4'>4</option><option value='5'>5</option><option value='6'>6</option><option value='7'>7</option><option value='8'>8</option><option value='9'>9</option>
+	</select>
+	</td>
+
+<!--Position-->
+	<td>
+	<select name='batting_position' id='batting_position' style='width:45px;float:none'>
+		<option value='' selected>Any</option>
+		<option value='2' >C</option>
+		<option value='3' >1B</option>
+		<option value='4' >2B</option>
+		<option value='5' >3B</option>
+		<option value='6' >SS</option>
+		<option value='7' >LF</option>
+		<option value='8' >CF</option>
+		<option value='9' >RF</option>
+		<option value='10' >DH</option>
+		<option value='1'  >P</option>							
+		<option value='11'  >PH</option>							
+		<option value='IF' >IF</option>
+		<option value='MIF'>MIF</option>
+		<option value='OF' >OF</option>
+	</select>
+	</td>
+	
+
+		
+
+	
+	
+	
+
+		
+		
+							
+<!--SUBMIT-->
+	<Td rowspan='2' style='padding-top:10px'>
+		<input type='button' class='formSubmit' value='Filter' style='height:40px;font-size:12px' onclick="battingParameters()">
+	</td>
+	
+	</tr>
+	
+	
+	
+	
+<!--ROW 3 (second row of filters with nested table)-->
+	<Tr>
+		<Td style='padding:0px;margin:0px;background-color:white' colspan='50'>
+			
+			
+			<table class='filtertable smallfilters' cellspacing='1' style='margin:0px;margin-left:-1px;margin-top:-1px;margin-bottom:-1px'>
+				<Tr class='row1'>
+					<td>Situation</td>				
+					<Td>Leadoff</td>
+					<Td>Last Batter</td>
+					<Td>Runner in Motion</td>
+					<Td title='Action on first pitch'>1st Pitch Action</td>
+					<Td title='Pitch Count'>Count</td>
+					<Td title='vs Starter or Reliever'>Pitcher Type</td>
+					<Td title='First Pitch'>1st Pitch Result</td>
+					<Td>vs Pitcher</td>
+					<Td>Stadium</td>
+				</tr>
+				<Tr style='background-color:white'>
+				
+				
+				
+				<!--SITUATION-->
+					<td>
+						<select name='batting_situation' id='batting_situation' style='width:100px'>
+							<option value=''>Any</option>
+							<option value='menon'>Men On</option>
+							<option value='noneon'>None On</option>
+							<option value='scoringposition'>Scoring Position</option>
+							<option value='basesLoaded'>Bases Loaded</option>
+							<option value='base3outs2'>3rd < 2 outs</option>
+						</select>
+					</td>
+			
+				<!--Leadoff-->
+					<Td align=center>
+						<input type='checkbox' id='batting_leadoff'>
+					</td>
+					
+					
+				<!--Last batter-->
+					<Td align=center>
+						<input type='checkbox' id='batting_last'>
+					</td>	
+									
+				<!--Runner in Motion-->
+					<Td align=center>
+						<input type='checkbox' id='batting_rim'>
+					</td>	
+					
+				
+					
+				<!--Swung at 1st Pitch-->
+					<Td align=center>
+						<select name='batting_swing1' id='batting_swing1' style='width:75px'>
+							<option value=''>Any</option>
+							<option value='In Play'>In Play</option>
+							<option value='Taken'>Not in play</option>
+						</select>
+					</td>					
+					
+
+					
+				<!--Pitch Count-->
+					<Td align=center>
+						<select name='batting_pitchCount' id='batting_pitchCount' style='width:75px'>
+							<option value=''>Any</option>
+							<option value='Ahead'>Ahead </option>
+							<option value='Behind'>Behind</option>
+							<option value='strikes2'>2 Strikes</option>
+							<option value='' class='select_divider'>Counts</option
+							<option value='1-0'>1-0</option>
+							<option value='1-1'>1-1</option>
+							<option value='1-2'>1-2</option>
+							<option value='2-0'>2-0</option>
+							<option value='2-1'>2-1</option>
+							<option value='2-2'>2-2</option>
+							<option value='3-0'>3-0</option>
+							<option value='3-1'>3-1</option>
+							<option value='3-2'>3-2</option>
+						</select>
+					</td>
+						
+					
+				<!--Pitcher Type-->
+					<Td align=center>
+						<select name='batting_pitcherType' id='batting_pitcherType' style='width:75px;float:none'>
+							<option value=''>Any</option>
+							<option value='S'>Starter</option>
+							<option value='R'>Reliever</option>
+						</select>
+					</td>					
+									
+					
+					
+				<!--First Pitch-->
+					<Td align=center>
+						<select name='batting_pitch1' id='batting_pitch1' style='width:75px'>
+							<option value=''>Any</option>
+							<option value='Strike'>Strike</option>
+							<option value='Ball'>Ball</option>
+						</select>
+					</td>			
+					
+					
+				<!--vs Pitcher-->
+					<Td align=center style='width:207px'>
+						<input id='batting_pitcher' style='width:160px' onkeyup="showAjax('../reports/app/playerSearch.asp?W=batting_pitcher&Q=' + this.value,'vsPitcher','')"><br>
+						<div id='vsPitcher' style='display:none;position:absolute;background-color:white;margin-left:-80px;overflow:auto;height:125px;text-align:left;width:176px;border:1pt solid black;' onclick="this.style.display='none'">
+							
+						</div>
+						<input id='batting_pitcherID' type='hidden' name='batting_pitcherID' value=''>
+					</td>
+					
+					
+				<!--STADIUM-->
+					<td style='width:250px' align=center>
+						<select name='batting_stadium' id='batting_stadium' style='width:195px;float:none'>
+							<option value=''>Any</option><option value='ANA01'>Angel Stadium of Anaheim</option><option value='SFO03'>AT&T Park</option><option value='STL10'>Busch Stadium III</option><option value='PHO01'>Chase Field</option><option value='NYC20'>Citi field</option><option value='PHI13'>Citizens Bank Park</option><option value='DET05'>Comerica Park</option><option value='DEN02'>Coors Field</option><option value='LOS03'>Dodger Stadium</option><option value='BOS07'>Fenway Park</option><option value='CIN09'>Great American Ballpark</option><option value='KAN06'>Kauffman Stadium</option><option value='MIA02'>Marlins Park</option><option value='MIL06'>Miller Park</option><option value='HOU03'>Minute Maid Park</option><option value='WAS11'>Nationals Park</option><option value='OAK01'>Oakland-Alameda County Coliseum</option><option value='BAL12'>Oriole Park at Camden Yards</option><option value='SAN02'>Petco Park</option><option value='PIT08'>PNC Park</option><option value='CLE08'>Progressive Field</option><option value='ARL02'>Rangers Ballpark in Arlington</option><option value='TOR02'>Rogers Centre</option><option value='SEA03'>Safeco Field</option><option value='MIA01'>Sun Life Stadium</option><option value='MIN04'>Target Field</option><option value='STP01'>Tropicana Field</option><option value='ATL02'>Turner Field</option><option value='CHI12'>U.S. Cellular Field</option><option value='CHI11'>Wrigley Field</option><option value='NYC21'>Yankee Stadium II</option>
+						</select>
+					</td>					
+													
+				</tr>
+			</table>
+			
+			
+			
+		</td>
+	
+	</tr>
+	</table>
+<div id='battingReports' class='basicDiv clear' style='margin:0px'><table class='dataGrid fullwidth' cellspacing='1' style='margin-top:0px'><tr class='headerRow'><td>Year</td><td>Team</td><td title='League'>Lg</td><td>Level</td><td title='Uniform number' align=center>#</td><td>Org</td><td>Pos</td><td class='borderRight'>Age</td><Td align=right>G</td><Td align=right>AB</td><Td align=right>R</td><Td align=right>H</td><Td align=right>2B</td><Td align=right>3B</td><Td align=right>HR</td><Td align=right class='borderRight'>RBI</td><Td align=right>SB</td><Td align=right>CS</td><Td align=right>BB</td><Td align=right class='borderRight'>SO</td><Td align=right>HBP</td><Td align=right>IBB</td><Td align=right>SH</td><Td align=right>SF</td><Td align=right class='borderRight'>GDP</td><Td align=right title='Batting Average'>AVG</td><Td align=right title='On base percentage'>OBP</td><Td align=right title='Slugging Percentage'>SLG</td><Td align=right title='On base plus Slugging' class='borderRight'>OPS</td><Td align=right title='Isolated Power'>ISO</td><Td align=right title='Secondary Average'>secA</td><Td align=right title='Batting Average on balls put in play' style='width:11px'>Babip</td><Td align=right title='Strikeout/walk ratio'>K/BB</td><Td align=right title='At Bats per Home Run'>AB/HR</td><Td align=right title='Total Bases'>TB</td><Td align=right title='Plate Appearances'>PA</td></tr><Tr class='ncaaRow' id='non1'><Td>2007</td><Td><a href='../teams/stats.asp?Y=2007&T=20006'>North Carolina</a></td><Td><a href='../seasons/review.asp?Y=2007&L=ACC'>ACC</a></td><Td>NCAA</td><Td align=center>13</td><Td>fr</td><Td></td><Td align=center class='borderRight'>19</td><Td align=right>73</td><td align=right>296</td><td align=right>70</td><td align=right>119</td><td align=right>20</td><td align=right>3</td><td align=right>10</td><td align=right class='borderRight'>74</td><td align=right>11</td><td align=right>3</td><td align=right>30</td><td align=right class='borderRight'>21</td><td align=right>1</td><td align=right></td><td align=right>1</td><td align=right>8</td><td align=right class='borderRight'>2</td><td align=right>.402</td><td align=right>.446</td><td align=right>.591</td><td align=right class='borderRight'>1037</td><td align=right>.189</td><td align=right>.318</td><td align=right>.399<td align=right>0.70</td><td align=right>29.6</td><td align=right>175</td><td align=right>335</td></tr><Tr class='ncaaRow' id='non2'><Td>2008</td><Td><a href='../teams/stats.asp?Y=2008&T=20006'>North Carolina</a></td><Td><a href='../seasons/review.asp?Y=2008&L=ACC'>ACC</a></td><Td>NCAA</td><Td align=center>13</td><Td>so</td><Td></td><Td align=center class='borderRight'>20</td><Td align=right>68</td><td align=right>278</td><td align=right>82</td><td align=right>116</td><td align=right>21</td><td align=right>4</td><td align=right>7</td><td align=right class='borderRight'>51</td><td align=right>19</td><td align=right>6</td><td align=right>53</td><td align=right class='borderRight'>27</td><td align=right>1</td><td align=right></td><td align=right>1</td><td align=right>6</td><td align=right class='borderRight'>1</td><td align=right>.417</td><td align=right>.501</td><td align=right>.597</td><td align=right class='borderRight'>1098</td><td align=right>.180</td><td align=right>.417</td><td align=right>.436<td align=right>0.51</td><td align=right>39.7</td><td align=right>166</td><td align=right>338</td></tr><Tr class='ncaaRow' id='non3'><Td>2009</td><Td><a href='../teams/stats.asp?Y=2009&T=20006'>North Carolina</a></td><Td><a href='../seasons/review.asp?Y=2009&L=ACC'>ACC</a></td><Td>NCAA</td><Td align=center>13</td><Td>jr</td><Td></td><Td align=center class='borderRight'>21</td><Td align=right>66</td><td align=right>266</td><td align=right>75</td><td align=right>111</td><td align=right>18</td><td align=right>4</td><td align=right>22</td><td align=right class='borderRight'>73</td><td align=right>13</td><td align=right>5</td><td align=right>50</td><td align=right class='borderRight'>34</td><td align=right>5</td><td align=right></td><td align=right>3</td><td align=right>0</td><td align=right class='borderRight'>1</td><td align=right>.417</td><td align=right>.509</td><td align=right>.763</td><td align=right class='borderRight'>1272</td><td align=right>.346</td><td align=right>.564</td><td align=right>.424<td align=right>0.68</td><td align=right>12.1</td><td align=right>203</td><td align=right>319</td></tr><Tr id='non4'><Td>2010</td><Td><a href='../teams/stats.asp?Y=2010&T=10433'>West Tennessee</a></td><Td><a href='../seasons/review.asp?Y=2010&L=Sou'>Sou</a></td><Td>AA</td><Td align=center>55</td><Td>sea</td><Td>2b</td><Td align=center class='borderRight'>22</td><Td align=right>82</td><td align=right>289</td><td align=right>42</td><td align=right>76</td><td align=right>21</td><td align=right>4</td><td align=right>2</td><td align=right class='borderRight'>28</td><td align=right>8</td><td align=right>2</td><td align=right>55</td><td align=right class='borderRight'>41</td><td align=right>5</td><td align=right>0</td><td align=right>0</td><td align=right>1</td><td align=right class='borderRight'>5</td><td align=right>.263</td><td align=right>.380</td><td align=right>.384</td><td align=right class='borderRight'>764</td><td align=right>.121</td><td align=right>.332</td><td align=right>.300<td align=right>0.75</td><td align=right>144.5</td><td align=right>111</td><td align=right>345</td></tr><Tr id='non5'><Td> </td><Td><a href='../teams/stats.asp?Y=2010&T=10405'>Tacoma</a></td><Td><a href='../seasons/review.asp?Y=2010&L=PCL'>PCL</a></td><Td>AAA</td><Td align=center>3</td><Td>sea</td><Td>2b</td><Td align=center class='borderRight'>22</td><Td align=right>52</td><td align=right>212</td><td align=right>37</td><td align=right>58</td><td align=right>12</td><td align=right>4</td><td align=right>5</td><td align=right class='borderRight'>23</td><td align=right>2</td><td align=right>1</td><td align=right>20</td><td align=right class='borderRight'>38</td><td align=right>2</td><td align=right>1</td><td align=right>0</td><td align=right>3</td><td align=right class='borderRight'>3</td><td align=right>.274</td><td align=right>.332</td><td align=right>.439</td><td align=right class='borderRight'>771</td><td align=right>.165</td><td align=right>.264</td><td align=right>.308<td align=right>1.90</td><td align=right>42.4</td><td align=right>93</td><td align=right>235</td></tr><Tr id='non6'><Td>2011</td><Td><a href='../teams/stats.asp?Y=2011&T=10405'>Tacoma</a></td><Td><a href='../seasons/review.asp?Y=2011&L=PCL'>PCL</a></td><Td>AAA</td><Td align=center>3</td><Td>sea</td><Td>2b</td><Td align=center class='borderRight'>23</td><Td align=right>66</td><td align=right>271</td><td align=right>57</td><td align=right>82</td><td align=right>17</td><td align=right>3</td><td align=right>9</td><td align=right class='borderRight'>35</td><td align=right>7</td><td align=right>3</td><td align=right>55</td><td align=right class='borderRight'>38</td><td align=right>1</td><td align=right>2</td><td align=right>3</td><td align=right>1</td><td align=right class='borderRight'>3</td><td align=right>.303</td><td align=right>.419</td><td align=right>.487</td><td align=right class='borderRight'>906</td><td align=right>.185</td><td align=right>.402</td><td align=right>.324<td align=right>0.69</td><td align=right>30.1</td><td align=right>132</td><td align=right>330</td></tr><Tr class='mlbRow' id='mlb7'><Td> </td><Td><a href='../teams/stats.asp?Y=2011&T=26'>Seattle Mariners</a></td><Td><a href='../seasons/review.asp?Y=2011&L=AL'>AL</a></td><Td>MLB</td><Td align=center>13</td><Td>sea</td><Td>2b</td><Td align=center class='borderRight'>23</td><Td align=right class='hiddenLink' ><a href='profile.asp?P=Dustin-Ackley&Page=Log&Y=2011'title='Click to see season game log'>90</a></td><td class='clickable' align=right ondblclick="document.getElementById('ab7').style.display='inline';showAjax('include/player_stat_log.asp?Y=2011&P=ackld001&Stat=AB','ab7','')" title='Double-click to see At Bats log'>333<div id='ab7' class='popupLog' onclick="document.getElementById('ab7').style.display='none';">*Loading* (click to close)</div></td><td align=right>39</td><td class='clickable' align=right ondblclick="document.getElementById('h7').style.display='inline';showAjax('include/player_stat_log.asp?Y=2011&P=ackld001&Stat=H','h7','')" title='Double-click to see Hits log'>91<div id='h7' class='popupLog' onclick="document.getElementById('h7').style.display='none';">*Loading* (click to close)</div></td><td class='clickable' align=right ondblclick="document.getElementById('dbl7').style.display='inline';showAjax('include/player_stat_log.asp?Y=2011&P=ackld001&Stat=DBL','dbl7','')" title='Double-click to see 2B log'>16<div id='dbl7' class='popupLog' onclick="document.getElementById('dbl7').style.display='none';">*Loading* (click to close)</div></td><td class='clickable' align=right ondblclick="document.getElementById('tpl7').style.display='inline';showAjax('include/player_stat_log.asp?Y=2011&P=ackld001&Stat=tpl','tpl7','')" title='Double-click to see tpl log'>7<div id='tpl7' class='popupLog' onclick="document.getElementById('tpl7').style.display='none';">*Loading* (click to close)</div></td><td class='clickable' align=right ondblclick="document.getElementById('HR7').style.display='inline';showAjax('include/player_stat_log.asp?Y=2011&P=ackld001&Stat=HR','HR7','')" title='Double-click to see HR log'>6<div id='HR7' class='popupLog' onclick="document.getElementById('HR7').style.display='none';">*Loading* (click to close)</div></td><td align=right class='borderRight'>36</td><td align=right>6</td><td align=right>0</td><td class='clickable' align=right ondblclick="document.getElementById('BB7').style.display='inline';showAjax('include/player_stat_log.asp?Y=2011&P=ackld001&Stat=BB','BB7','')" title='Double-click to see Walks log'>40<div id='BB7' class='popupLog' onclick="document.getElementById('BB7').style.display='none';">*Loading* (click to close)</div></td><td class='clickable borderRight' align=right ondblclick="document.getElementById('SO7').style.display='inline';showAjax('include/player_stat_log.asp?Y=2011&P=ackld001&Stat=SO','SO7','')" title='Double-click to see Strikeouts log'>79<div id='SO7' class='popupLog' onclick="document.getElementById('SO7').style.display='none';">*Loading* (click to close)</div></td><td align=right>0</td><td class='clickable' align=right ondblclick="document.getElementById('IBB7').style.display='inline';showAjax('include/player_stat_log.asp?Y=2011&P=ackld001&Stat=IBB','IBB7','')" title='Double-click to see Intentional Walks log'>1<div id='IBB7' class='popupLog' onclick="document.getElementById('IBB7').style.display='none';">*Loading* (click to close)</div></td><td align=right>0</td><td class='clickable' align=right ondblclick="document.getElementById('SF7').style.display='inline';showAjax('include/player_stat_log.asp?Y=2011&P=ackld001&Stat=SF','SF7','')" title='Double-click to see Sacrifice Flies log'>3<div id='SF7' class='popupLog' onclick="document.getElementById('SF7').style.display='none';">*Loading* (click to close)</div></td><td class='clickable borderRight' align=right ondblclick="document.getElementById('GDP7').style.display='inline';showAjax('include/player_stat_log.asp?Y=2011&P=ackld001&Stat=GDP','GDP7','')" title='Double-click to see Grounded in Double Play log'>3<div id='GDP7' class='popupLog' onclick="document.getElementById('GDP7').style.display='none';">*Loading* (click to close)</div></td><td align=right>.273</td><td align=right>.348</td><td align=right>.417</td><td align=right class='borderRight'>765</td><td align=right>.144</td><td align=right>.282</td><td align=right>.339<td align=right>1.98</td><td align=right>55.5</td><td align=right>139</td><td align=right>376</td></tr><Tr class='mlbRow' id='mlb8'><Td>2012</td><Td><a href='../teams/stats.asp?Y=2012&T=26'>Seattle Mariners</a></td><Td><a href='../seasons/review.asp?Y=2012&L=AL'>AL</a></td><Td>MLB</td><Td align=center>13</td><Td>sea</td><Td>2b</td><Td align=center class='borderRight'>24</td><Td align=right class='hiddenLink' ><a href='profile.asp?P=Dustin-Ackley&Page=Log&Y=2012'title='Click to see season game log'>153</a></td><td class='clickable' align=right ondblclick="document.getElementById('ab8').style.display='inline';showAjax('include/player_stat_log.asp?Y=2012&P=ackld001&Stat=AB','ab8','')" title='Double-click to see At Bats log'>607<div id='ab8' class='popupLog' onclick="document.getElementById('ab8').style.display='none';">*Loading* (click to close)</div></td><td align=right>84</td><td class='clickable' align=right ondblclick="document.getElementById('h8').style.display='inline';showAjax('include/player_stat_log.asp?Y=2012&P=ackld001&Stat=H','h8','')" title='Double-click to see Hits log'>137<div id='h8' class='popupLog' onclick="document.getElementById('h8').style.display='none';">*Loading* (click to close)</div></td><td class='clickable' align=right ondblclick="document.getElementById('dbl8').style.display='inline';showAjax('include/player_stat_log.asp?Y=2012&P=ackld001&Stat=DBL','dbl8','')" title='Double-click to see 2B log'>22<div id='dbl8' class='popupLog' onclick="document.getElementById('dbl8').style.display='none';">*Loading* (click to close)</div></td><td class='clickable' align=right ondblclick="document.getElementById('tpl8').style.display='inline';showAjax('include/player_stat_log.asp?Y=2012&P=ackld001&Stat=tpl','tpl8','')" title='Double-click to see tpl log'>2<div id='tpl8' class='popupLog' onclick="document.getElementById('tpl8').style.display='none';">*Loading* (click to close)</div></td><td class='clickable' align=right ondblclick="document.getElementById('HR8').style.display='inline';showAjax('include/player_stat_log.asp?Y=2012&P=ackld001&Stat=HR','HR8','')" title='Double-click to see HR log'>12<div id='HR8' class='popupLog' onclick="document.getElementById('HR8').style.display='none';">*Loading* (click to close)</div></td><td align=right class='borderRight'>50</td><td align=right>13</td><td align=right>3</td><td class='clickable' align=right ondblclick="document.getElementById('BB8').style.display='inline';showAjax('include/player_stat_log.asp?Y=2012&P=ackld001&Stat=BB','BB8','')" title='Double-click to see Walks log'>59<div id='BB8' class='popupLog' onclick="document.getElementById('BB8').style.display='none';">*Loading* (click to close)</div></td><td class='clickable borderRight' align=right ondblclick="document.getElementById('SO8').style.display='inline';showAjax('include/player_stat_log.asp?Y=2012&P=ackld001&Stat=SO','SO8','')" title='Double-click to see Strikeouts log'>124<div id='SO8' class='popupLog' onclick="document.getElementById('SO8').style.display='none';">*Loading* (click to close)</div></td><td align=right>0</td><td class='clickable' align=right ondblclick="document.getElementById('IBB8').style.display='inline';showAjax('include/player_stat_log.asp?Y=2012&P=ackld001&Stat=IBB','IBB8','')" title='Double-click to see Intentional Walks log'>7<div id='IBB8' class='popupLog' onclick="document.getElementById('IBB8').style.display='none';">*Loading* (click to close)</div></td><td class='clickable' align=right ondblclick="document.getElementById('SH8').style.display='inline';showAjax('include/player_stat_log.asp?Y=2012&P=ackld001&Stat=SH','SH8','')" title='Double-click to see Sacrifice Hits log'>1<div id='SH8' class='popupLog' onclick="document.getElementById('SH8').style.display='none';">*Loading* (click to close)</div></td><td class='clickable' align=right ondblclick="document.getElementById('SF8').style.display='inline';showAjax('include/player_stat_log.asp?Y=2012&P=ackld001&Stat=SF','SF8','')" title='Double-click to see Sacrifice Flies log'>1<div id='SF8' class='popupLog' onclick="document.getElementById('SF8').style.display='none';">*Loading* (click to close)</div></td><td class='clickable borderRight' align=right ondblclick="document.getElementById('GDP8').style.display='inline';showAjax('include/player_stat_log.asp?Y=2012&P=ackld001&Stat=GDP','GDP8','')" title='Double-click to see Grounded in Double Play log'>3<div id='GDP8' class='popupLog' onclick="document.getElementById('GDP8').style.display='none';">*Loading* (click to close)</div></td><td align=right>.226</td><td align=right>.294</td><td align=right>.328</td><td align=right class='borderRight'>622</td><td align=right>.102</td><td align=right>.216</td><td align=right>.265<td align=right>2.10</td><td align=right>50.6</td><td align=right>199</td><td align=right>668</td></tr><Tr id='non9'><Td>2013</td><Td><a href='../teams/stats.asp?Y=2013&T=10405'>Tacoma</a></td><Td><a href='../seasons/review.asp?Y=2013&L=PCL'>PCL</a></td><Td>AAA</td><Td align=center>16</td><Td>sea</td><Td>of-2b</td><Td align=center class='borderRight'>25</td><Td align=right>25</td><td align=right>104</td><td align=right>21</td><td align=right>38</td><td align=right>8</td><td align=right>0</td><td align=right>2</td><td align=right class='borderRight'>14</td><td align=right>0</td><td align=right>0</td><td align=right>19</td><td align=right class='borderRight'>14</td><td align=right>2</td><td align=right>2</td><td align=right>1</td><td align=right>0</td><td align=right class='borderRight'>1</td><td align=right>.365</td><td align=right>.463</td><td align=right>.500</td><td align=right class='borderRight'>963</td><td align=right>.135</td><td align=right>.317</td><td align=right>.409<td align=right>0.74</td><td align=right>52.0</td><td align=right>52</td><td align=right>124</td></tr><Tr class='mlbRow' id='mlb10'><Td> </td><Td><a href='../teams/stats.asp?Y=2013&T=26'>Seattle Mariners</a></td><Td><a href='../seasons/review.asp?Y=2013&L=AL'>AL</a></td><Td>MLB</td><Td align=center>13</td><Td>sea</td><Td>2b-cf</td><Td align=center class='borderRight'>25</td><Td align=right class='hiddenLink' ><a href='profile.asp?P=Dustin-Ackley&Page=Log&Y=2013'title='Click to see season game log'>113</a></td><td class='clickable' align=right ondblclick="document.getElementById('ab10').style.display='inline';showAjax('include/player_stat_log.asp?Y=2013&P=ackld001&Stat=AB','ab10','')" title='Double-click to see At Bats log'>384<div id='ab10' class='popupLog' onclick="document.getElementById('ab10').style.display='none';">*Loading* (click to close)</div></td><td align=right>40</td><td class='clickable' align=right ondblclick="document.getElementById('h10').style.display='inline';showAjax('include/player_stat_log.asp?Y=2013&P=ackld001&Stat=H','h10','')" title='Double-click to see Hits log'>97<div id='h10' class='popupLog' onclick="document.getElementById('h10').style.display='none';">*Loading* (click to close)</div></td><td class='clickable' align=right ondblclick="document.getElementById('dbl10').style.display='inline';showAjax('include/player_stat_log.asp?Y=2013&P=ackld001&Stat=DBL','dbl10','')" title='Double-click to see 2B log'>18<div id='dbl10' class='popupLog' onclick="document.getElementById('dbl10').style.display='none';">*Loading* (click to close)</div></td><td class='clickable' align=right ondblclick="document.getElementById('tpl10').style.display='inline';showAjax('include/player_stat_log.asp?Y=2013&P=ackld001&Stat=tpl','tpl10','')" title='Double-click to see tpl log'>2<div id='tpl10' class='popupLog' onclick="document.getElementById('tpl10').style.display='none';">*Loading* (click to close)</div></td><td class='clickable' align=right ondblclick="document.getElementById('HR10').style.display='inline';showAjax('include/player_stat_log.asp?Y=2013&P=ackld001&Stat=HR','HR10','')" title='Double-click to see HR log'>4<div id='HR10' class='popupLog' onclick="document.getElementById('HR10').style.display='none';">*Loading* (click to close)</div></td><td align=right class='borderRight'>31</td><td align=right>2</td><td align=right>3</td><td class='clickable' align=right ondblclick="document.getElementById('BB10').style.display='inline';showAjax('include/player_stat_log.asp?Y=2013&P=ackld001&Stat=BB','BB10','')" title='Double-click to see Walks log'>37<div id='BB10' class='popupLog' onclick="document.getElementById('BB10').style.display='none';">*Loading* (click to close)</div></td><td class='clickable borderRight' align=right ondblclick="document.getElementById('SO10').style.display='inline';showAjax('include/player_stat_log.asp?Y=2013&P=ackld001&Stat=SO','SO10','')" title='Double-click to see Strikeouts log'>72<div id='SO10' class='popupLog' onclick="document.getElementById('SO10').style.display='none';">*Loading* (click to close)</div></td><td class='clickable' align=right ondblclick="document.getElementById('HBP10').style.display='inline';showAjax('include/player_stat_log.asp?Y=2013&P=ackld001&Stat=HBP','HBP10','')" title='Double-click to see Hit by Pitch log'>1<div id='HBP10' class='popupLog' onclick="document.getElementById('HBP10').style.display='none';">*Loading* (click to close)</div></td><td class='clickable' align=right ondblclick="document.getElementById('IBB10').style.display='inline';showAjax('include/player_stat_log.asp?Y=2013&P=ackld001&Stat=IBB','IBB10','')" title='Double-click to see Intentional Walks log'>1<div id='IBB10' class='popupLog' onclick="document.getElementById('IBB10').style.display='none';">*Loading* (click to close)</div></td><td class='clickable' align=right ondblclick="document.getElementById('SH10').style.display='inline';showAjax('include/player_stat_log.asp?Y=2013&P=ackld001&Stat=SH','SH10','')" title='Double-click to see Sacrifice Hits log'>4<div id='SH10' class='popupLog' onclick="document.getElementById('SH10').style.display='none';">*Loading* (click to close)</div></td><td class='clickable' align=right ondblclick="document.getElementById('SF10').style.display='inline';showAjax('include/player_stat_log.asp?Y=2013&P=ackld001&Stat=SF','SF10','')" title='Double-click to see Sacrifice Flies log'>1<div id='SF10' class='popupLog' onclick="document.getElementById('SF10').style.display='none';">*Loading* (click to close)</div></td><td class='clickable borderRight' align=right ondblclick="document.getElementById('GDP10').style.display='inline';showAjax('include/player_stat_log.asp?Y=2013&P=ackld001&Stat=GDP','GDP10','')" title='Double-click to see Grounded in Double Play log'>6<div id='GDP10' class='popupLog' onclick="document.getElementById('GDP10').style.display='none';">*Loading* (click to close)</div></td><td align=right>.253</td><td align=right>.318</td><td align=right>.341</td><td align=right class='borderRight'>659</td><td align=right>.089</td><td align=right>.182</td><td align=right>.301<td align=right>1.95</td><td align=right>96.0</td><td align=right>131</td><td align=right>426</td></tr><Tr class='mlbRow' id='mlb11'><Td>2014</td><Td><a href='../teams/stats.asp?Y=2014&T=26'>Seattle Mariners</a></td><Td><a href='../seasons/review.asp?Y=2014&L=AL'>AL</a></td><Td>MLB</td><Td align=center>13</td><Td>sea</td><Td>lf</td><Td align=center class='borderRight'>26</td><Td align=right class='hiddenLink' ><a href='profile.asp?P=Dustin-Ackley&Page=Log&Y=2014'title='Click to see season game log'>143</a></td><td class='clickable' align=right ondblclick="document.getElementById('ab11').style.display='inline';showAjax('include/player_stat_log.asp?Y=2014&P=ackld001&Stat=AB','ab11','')" title='Double-click to see At Bats log'>502<div id='ab11' class='popupLog' onclick="document.getElementById('ab11').style.display='none';">*Loading* (click to close)</div></td><td align=right>64</td><td class='clickable' align=right ondblclick="document.getElementById('h11').style.display='inline';showAjax('include/player_stat_log.asp?Y=2014&P=ackld001&Stat=H','h11','')" title='Double-click to see Hits log'>123<div id='h11' class='popupLog' onclick="document.getElementById('h11').style.display='none';">*Loading* (click to close)</div></td><td class='clickable' align=right ondblclick="document.getElementById('dbl11').style.display='inline';showAjax('include/player_stat_log.asp?Y=2014&P=ackld001&Stat=DBL','dbl11','')" title='Double-click to see 2B log'>27<div id='dbl11' class='popupLog' onclick="document.getElementById('dbl11').style.display='none';">*Loading* (click to close)</div></td><td class='clickable' align=right ondblclick="document.getElementById('tpl11').style.display='inline';showAjax('include/player_stat_log.asp?Y=2014&P=ackld001&Stat=tpl','tpl11','')" title='Double-click to see tpl log'>4<div id='tpl11' class='popupLog' onclick="document.getElementById('tpl11').style.display='none';">*Loading* (click to close)</div></td><td class='clickable' align=right ondblclick="document.getElementById('HR11').style.display='inline';showAjax('include/player_stat_log.asp?Y=2014&P=ackld001&Stat=HR','HR11','')" title='Double-click to see HR log'>14<div id='HR11' class='popupLog' onclick="document.getElementById('HR11').style.display='none';">*Loading* (click to close)</div></td><td align=right class='borderRight'>65</td><td align=right>8</td><td align=right>4</td><td class='clickable' align=right ondblclick="document.getElementById('BB11').style.display='inline';showAjax('include/player_stat_log.asp?Y=2014&P=ackld001&Stat=BB','BB11','')" title='Double-click to see Walks log'>32<div id='BB11' class='popupLog' onclick="document.getElementById('BB11').style.display='none';">*Loading* (click to close)</div></td><td class='clickable borderRight' align=right ondblclick="document.getElementById('SO11').style.display='inline';showAjax('include/player_stat_log.asp?Y=2014&P=ackld001&Stat=SO','SO11','')" title='Double-click to see Strikeouts log'>90<div id='SO11' class='popupLog' onclick="document.getElementById('SO11').style.display='none';">*Loading* (click to close)</div></td><td class='clickable' align=right ondblclick="document.getElementById('HBP11').style.display='inline';showAjax('include/player_stat_log.asp?Y=2014&P=ackld001&Stat=HBP','HBP11','')" title='Double-click to see Hit by Pitch log'>3<div id='HBP11' class='popupLog' onclick="document.getElementById('HBP11').style.display='none';">*Loading* (click to close)</div></td><td class='clickable' align=right ondblclick="document.getElementById('IBB11').style.display='inline';showAjax('include/player_stat_log.asp?Y=2014&P=ackld001&Stat=IBB','IBB11','')" title='Double-click to see Intentional Walks log'>1<div id='IBB11' class='popupLog' onclick="document.getElementById('IBB11').style.display='none';">*Loading* (click to close)</div></td><td class='clickable' align=right ondblclick="document.getElementById('SH11').style.display='inline';showAjax('include/player_stat_log.asp?Y=2014&P=ackld001&Stat=SH','SH11','')" title='Double-click to see Sacrifice Hits log'>3<div id='SH11' class='popupLog' onclick="document.getElementById('SH11').style.display='none';">*Loading* (click to close)</div></td><td class='clickable' align=right ondblclick="document.getElementById('SF11').style.display='inline';showAjax('include/player_stat_log.asp?Y=2014&P=ackld001&Stat=SF','SF11','')" title='Double-click to see Sacrifice Flies log'>2<div id='SF11' class='popupLog' onclick="document.getElementById('SF11').style.display='none';">*Loading* (click to close)</div></td><td class='clickable borderRight' align=right ondblclick="document.getElementById('GDP11').style.display='inline';showAjax('include/player_stat_log.asp?Y=2014&P=ackld001&Stat=GDP','GDP11','')" title='Double-click to see Grounded in Double Play log'>10<div id='GDP11' class='popupLog' onclick="document.getElementById('GDP11').style.display='none';">*Loading* (click to close)</div></td><td align=right>.245</td><td align=right>.289</td><td align=right>.398</td><td align=right class='borderRight'>687</td><td align=right>.153</td><td align=right>.225</td><td align=right>.273<td align=right>2.81</td><td align=right>35.9</td><td align=right>200</td><td align=right>539</td></tr><Tr class='mlbRow firstRow'><Td colspan='8' class='borderRight' style='font-weight:bold'>MLB Totals</td><Td align=right>499</td><Td align=right>1826</td><Td align=right>227</td><Td align=right>448</td><Td align=right>83</td><Td align=right>15</td><Td align=right>36</td><Td align=right class='borderRight'>182</td><td align=right>29</td><td align=right>10</td><td align=right>168</td><td align=right class='borderRight'>365</td><td align=right>4</td><td align=right>10</td><td align=right>8</td><td align=right>7</td><td align=right class='borderRight'>22</td><td align=right>.245</td><td align=right>.308</td><td align=right>.366</td><td align=right class='borderRight'>674</td><td align=right>.121</td><td align=right>.223</td><td align=right>.288<td align=right>2.17</td><td align=right>50.7</td><td align=right>669</td><td align=right>2009</td></tr><Tr><Td colspan='8' class='borderRight' style='font-weight:bold'>AAA Totals</td><Td align=right>143</td><Td align=right>587</td><Td align=right>115</td><Td align=right>178</td><Td align=right>37</td><Td align=right>7</td><Td align=right>16</td><Td align=right class='borderRight'>72</td><td align=right>9</td><td align=right>4</td><td align=right>94</td><td align=right class='borderRight'>90</td><td align=right>5</td><td align=right>5</td><td align=right>4</td><td align=right>4</td><td align=right class='borderRight'>7</td><td align=right>.303</td><td align=right>.397</td><td align=right>.472</td><td align=right class='borderRight'>869</td><td align=right>.169</td><td align=right>.337</td><td align=right>.334<td align=right>0.96</td><td align=right>36.7</td><td align=right>277</td><td align=right>689</td></tr><Tr><Td colspan='8' class='borderRight' style='font-weight:bold'>AA Totals</td><Td align=right>82</td><Td align=right>289</td><Td align=right>42</td><Td align=right>76</td><Td align=right>21</td><Td align=right>4</td><Td align=right>2</td><Td align=right class='borderRight'>28</td><td align=right>8</td><td align=right>2</td><td align=right>55</td><td align=right class='borderRight'>41</td><td align=right>5</td><td align=right>0</td><td align=right>0</td><td align=right>1</td><td align=right class='borderRight'>5</td><td align=right>.263</td><td align=right>.380</td><td align=right>.384</td><td align=right class='borderRight'>764</td><td align=right>.121</td><td align=right>.332</td><td align=right>.300<td align=right>0.75</td><td align=right>144.5</td><td align=right>111</td><td align=right>345</td></tr><Tr><Td colspan='8' class='borderRight' style='font-weight:bold'>NCAA Totals</td><Td align=right>207</td><Td align=right>840</td><Td align=right>227</td><Td align=right>346</td><Td align=right>59</td><Td align=right>11</td><Td align=right>39</td><Td align=right class='borderRight'>198</td><td align=right>43</td><td align=right>14</td><td align=right>133</td><td align=right class='borderRight'>82</td><td align=right>7</td><td align=right>0</td><td align=right>5</td><td align=right>14</td><td align=right class='borderRight'>4</td><td align=right>.412</td><td align=right>.485</td><td align=right>.648</td><td align=right class='borderRight'>1133</td><td align=right>.236</td><td align=right>.429</td><td align=right>.419<td align=right>0.62</td><td align=right>21.5</td><td align=right>544</td><td align=right>992</td></tr><Tr class='firstRow'><Td colspan='8' class='borderRight' style='font-weight:bold'>Seattle Mariners (4 seasons)</td><Td align=right>499</td><Td align=right>1826</td><Td align=right>227</td><Td align=right>448</td><Td align=right>83</td><Td align=right>15</td><Td align=right>36</td><Td align=right class='borderRight'>182</td><td align=right>29</td><td align=right>10</td><td align=right>168</td><td align=right class='borderRight'>365</td><td align=right>4</td><td align=right>10</td><td align=right>8</td><td align=right>7</td><td align=right class='borderRight'>22</td><td align=right>.245</td><td align=right>.308</td><td align=right>.366</td><td align=right class='borderRight'>674</td><td align=right>.121</td><td align=right>.223</td><td align=right>.288<td align=right>2.17</td><td align=right>50.7</td><td align=right>669</td><td align=right>2009</td></tr><tr class='headerRow'><td>Year</td><td>Team</td><td title='League'>Lg</td><td>Level</td><td title='Uniform number' align=center>#</td><td>Org</td><td>Pos</td><td class='borderRight'>Age</td><Td align=right>G</td><Td align=right>AB</td><Td align=right>R</td><Td align=right>H</td><Td align=right>2B</td><Td align=right>3B</td><Td align=right>HR</td><Td align=right class='borderRight'>RBI</td><Td align=right>SB</td><Td align=right>CS</td><Td align=right>BB</td><Td align=right class='borderRight'>SO</td><Td align=right>HBP</td><Td align=right>IBB</td><Td align=right>SH</td><Td align=right>SF</td><Td align=right class='borderRight'>GDP</td><Td align=right title='Batting Average'>AVG</td><Td align=right title='On base percentage'>OBP</td><Td align=right title='Slugging Percentage'>SLG</td><Td align=right title='On base plus Slugging' class='borderRight'>OPS</td><Td align=right title='Isolated Power'>ISO</td><Td align=right title='Secondary Average'>secA</td><Td align=right title='Batting Average on balls put in play' style='width:11px'>Babip</td><Td align=right title='Strikeout/walk ratio'>K/BB</td><Td align=right title='At Bats per Home Run'>AB/HR</td><Td align=right title='Total Bases'>TB</td><Td align=right title='Plate Appearances'>PA</td></tr></table></div>
+
+<style>
+	.firstRow TD {border-top:2px solid black}
+  	.reportModifier {cursor:pointer}
+  	.reportModifier:hover {background-color:gold}		
+</style>
+	
+
+
+<script langugage='javascript'>
+	
+	
+		function pitchingParameters(){
+			var qs;
+			qs="";
+			qs = qs + "P=ackld001";
+			qs = qs + "&M=" + document.getElementById('pitching_month').value;
+			qs = qs + "&Hand=" + document.getElementById('pitching_hand').value;
+			qs = qs + "&HA=" + document.getElementById('pitching_home').value;
+			qs = qs + "&T=" + document.getElementById('pitching_team').value;
+			qs = qs + "&Ln=" + document.getElementById('pitching_lineup').value;
+			qs = qs + "&Pos=" + document.getElementById('pitching_position').value;
+			qs = qs + "&DN=" + document.getElementById('pitching_daynight').value;
+			qs = qs + "&Park=" + document.getElementById('pitching_stadium').value;
+			qs = qs + "&Outs=" + document.getElementById('pitching_outs').value;
+			qs = qs + "&Leadoff=" + document.getElementById('pitching_leadoff').checked;
+			qs = qs + "&Sit=" + document.getElementById('pitching_situation').value;
+			qs = qs + "&Last=" + document.getElementById('pitching_last').checked;
+			qs = qs + "&Swing1=" + document.getElementById('pitching_swing1').value;
+			qs = qs + "&Count=" + document.getElementById('pitching_pitchCount').value;
+			qs = qs + "&PType=" + document.getElementById('pitching_pitcherType').value;
+			qs = qs + "&FP=" + document.getElementById('pitching_pitch1').value;
+			qs = qs + "&Batter=" + document.getElementById('pitching_batterID').value;
+			qs = qs + "&Weekday=" + document.getElementById('pitching_day').value; 
+			qs = qs + "&Inning=" + document.getElementById('pitching_inning').value; 
+			qs = qs + "&RIM=" + document.getElementById('pitching_rim').checked;
+	//alert(qs);		
+			showAjax('include/reports_splits_pitching.asp?' + qs,'pitchingReports','');
+	
+		}
+		
+		
+		
+		
+		function showMLBOnlyP(){
+			
+			resetFiltersP();
+			
+			document.getElementById('pitching_mlb_only').style.backgroundColor='gold';
+			for (i=1;i<200;i++) {
+				if (document.getElementById("nonp" + i)){
+					document.getElementById("nonp" + i).style.display='none';
+				} else if (document.getElementById("ncaap" + i)){
+					document.getElementById("ncaap" + i).style.display='none';
+				}  else {
+				
+					//update year value
+					if (document.getElementById("yearp" + i)) {
+						document.getElementById("yearp" + i).style.color='#000000';
+					} else if (document.getElementById("yearp" + i + "hide")) {
+						document.getElementById("yearp" + i + "hide").style.color='#000000';
+					}
+				}
+			}	
+
+		}
+
+		
+		function showMinorsOnlyP(){
+			
+			resetFiltersP();
+			
+			document.getElementById('pitching_minor_only').style.backgroundColor='gold';
+			for (i=1;i<200;i++) {
+				if (document.getElementById("mlbp" + i)){
+					document.getElementById("mlbp" + i).style.display='none';
+				} else if (document.getElementById("ncaap" + i)){
+					document.getElementById("ncaap" + i).style.display='none';
+				} else {
+				
+					//update year value
+					if (document.getElementById("yearp" + i)) {
+						document.getElementById("yearp" + i).style.color='#000000';
+					} else if (document.getElementById("yearp" + i + "hide")) {
+						document.getElementById("yearp" + i + "hide").style.color='#000000';
+					}
+				}
+			}		
+		}		
+		
+		function show_ALLP(){
+			
+			resetFiltersP();
+			
+			document.getElementById('all_stats_p').style.backgroundColor='gold';
+			document.getElementById('pitching_mlb_only').style.backgroundColor='white';	
+			document.getElementById('pitching_minor_only').style.backgroundColor='white';	
+		}
+		
+		function resetFiltersP(){
+			document.getElementById('all_stats_p').style.backgroundColor='white';
+			document.getElementById('pitching_mlb_only').style.backgroundColor='white';	
+			document.getElementById('pitching_minor_only').style.backgroundColor='white';	
+			
+			for (i=1;i<200;i++) {
+				if (document.getElementById("nonp" + i)){
+					document.getElementById("nonp" + i).style.display='table-row';
+				} else if (document.getElementById("mlbp" + i)){
+					document.getElementById("mlbp" + i).style.display='table-row';
+				} else if (document.getElementById("ncaap" + i)){
+					document.getElementById("ncaap" + i).style.display='table-row';
+				}		
+							
+				//Reset YEars
+				if (document.getElementById("yearp" + i)) {
+					document.getElementById("yearp" + i).style.color='black';
+				} else if (document.getElementById("yearp" + i + "hide")) {
+					 if (document.getElementById("mlbp" + i)){
+							document.getElementById("yearp" + i + "hide").style.color='#eeeeee';
+					 } else {
+					 		document.getElementById("yearp" + i + "hide").style.color='white';
+					}
+				}
+				
+			}
+		}
+					
+</script>
+
+<Table class='dataGrid fullwidth' cellspacing='1'><Tr class='sectionrow'><Td colspan='30'>Other Batting Statistics</td></tr><Tr class='headerRow'><td>Year</td><td>Team Name</td><td class='borderRIght'>League</td><Td align=right>G</td><Td align=right>AB</td><Td align=right>R</td><Td align=right>H</td><Td align=right>2B</td><Td align=right>3B</td><Td align=right>HR</td><Td align=right class='borderRight'>RBI</td><Td align=right>SB</td><Td align=right>CS</td><Td align=right>BB</td><Td align=right class='borderRight'>SO</td><Td align=right>HBP</td><Td align=right>IBB</td><Td align=right>SH</td><Td align=right>SF</td><Td align=right class='borderRight'>GDP</td><Td align=right title='Batting Average'>AVG</td><Td align=right title='On base percentage'>OBP</td><Td align=right title='Slugging Percentage'>SLG</td><Td align=right title='On base plus Slugging' class='borderRight'>OPS</td><Td align=right>TB</td></tr><tr><td>2008</td><td><a href='../college/summer/?Y=2008&T=Harwich Mariners'>Harwich Mariners</a></td><td class='borderRIght'>CapeCod</td><Td align=right>12</td><td align=right>41</td><td align=right>11</td><td align=right>17</td><td align=right>4</td><td align=right>1</td><td align=right>2</td><td align=right class='borderRight'>10</td><td align=right>2</td><td align=right>0</td><td align=right>16</td><td align=right class='borderRight'>10</td><td align=right>1</td><td align=right>2</td><td align=right>0</td><td align=right>0</td><td align=right class='borderRight'>0</td><td align=right>.415</td><td align=right>.579</td><td align=right>.707</td><td align=right class='borderRight'>1286</td><td align=right>29</td></tr><tr><td>2009</td><td><a href='../minors/afl/?Y=2009&T=Peoria Javelinas'>Peoria Javelinas</a></td><td class='hiddenLink borderRight'><a href='../minors/afl/'>Arizona Fall League</a></td><Td align=right>20</td><td align=right>73</td><td align=right>13</td><td align=right>23</td><td align=right>5</td><td align=right>0</td><td align=right>1</td><td align=right class='borderRight'>12</td><td align=right>1</td><td align=right>2</td><td align=right>12</td><td align=right class='borderRight'>19</td><td align=right>0</td><td align=right>0</td><td align=right>0</td><td align=right>0</td><td align=right class='borderRight'>0</td><td align=right>.315</td><td align=right>.412</td><td align=right>.425</td><td align=right class='borderRight'>837</td><td align=right>31</td></tr><tr><td>2010</td><td><a href='../teams/stats.asp?Y=2010&T=26&Page=Spring'>Seattle Mariners</a></td><td class='borderRIght'>MLB Spring Training</td><Td align=right>10</td><td align=right>19</td><td align=right>2</td><td align=right>3</td><td align=right>0</td><td align=right>1</td><td align=right>0</td><td align=right class='borderRight'>3</td><td align=right>0</td><td align=right>0</td><td align=right>2</td><td align=right class='borderRight'>2</td><td align=right>0</td><td align=right>0</td><td align=right>0</td><td align=right>1</td><td align=right class='borderRight'>0</td><td align=right>.158</td><td align=right>.227</td><td align=right>.263</td><td align=right class='borderRight'>490</td><td align=right>5</td></tr><tr><td>2010</td><td><a href='../minors/afl/?Y=2010&T=Peoria Javelinas'>Peoria Javelinas</a></td><td class='hiddenLink borderRight'><a href='../minors/afl/'>Arizona Fall League</a></td><Td align=right>20</td><td align=right>66</td><td align=right>28</td><td align=right>28</td><td align=right>10</td><td align=right>0</td><td align=right>4</td><td align=right class='borderRight'>19</td><td align=right>5</td><td align=right>0</td><td align=right>26</td><td align=right class='borderRight'>11</td><td align=right>0</td><td align=right>0</td><td align=right>0</td><td align=right>0</td><td align=right class='borderRight'>0</td><td align=right>.424</td><td align=right>.587</td><td align=right>.758</td><td align=right class='borderRight'>1345</td><td align=right>50</td></tr><tr><td>2011</td><td><a href='../teams/stats.asp?Y=2011&T=26&Page=Spring'>Seattle Mariners</a></td><td class='borderRIght'>MLB Spring Training</td><Td align=right>15</td><td align=right>26</td><td align=right>6</td><td align=right>7</td><td align=right>2</td><td align=right>1</td><td align=right>0</td><td align=right class='borderRight'>3</td><td align=right>1</td><td align=right>0</td><td align=right>8</td><td align=right class='borderRight'>8</td><td align=right>0</td><td align=right>0</td><td align=right>0</td><td align=right>0</td><td align=right class='borderRight'>1</td><td align=right>.269</td><td align=right>.441</td><td align=right>.423</td><td align=right class='borderRight'>864</td><td align=right>11</td></tr><tr><td>2012</td><td><a href='../teams/stats.asp?Y=2012&T=26&Page=Spring'>Seattle Mariners</a></td><td class='borderRIght'>MLB Spring Training</td><Td align=right>14</td><td align=right>45</td><td align=right>6</td><td align=right>13</td><td align=right>7</td><td align=right>2</td><td align=right>1</td><td align=right class='borderRight'>7</td><td align=right>1</td><td align=right>0</td><td align=right>4</td><td align=right class='borderRight'>5</td><td align=right>0</td><td align=right>0</td><td align=right>0</td><td align=right>1</td><td align=right class='borderRight'>1</td><td align=right>.289</td><td align=right>.340</td><td align=right>.600</td><td align=right class='borderRight'>940</td><td align=right>27</td></tr><tr><td>2013</td><td><a href='../teams/stats.asp?Y=2013&T=26&Page=Spring'>Seattle Mariners</a></td><td class='borderRIght'>MLB Spring Training</td><Td align=right>15</td><td align=right>52</td><td align=right>5</td><td align=right>19</td><td align=right>1</td><td align=right>2</td><td align=right>0</td><td align=right class='borderRight'>4</td><td align=right>0</td><td align=right>0</td><td align=right>2</td><td align=right class='borderRight'>10</td><td align=right>0</td><td align=right>0</td><td align=right>0</td><td align=right>0</td><td align=right class='borderRight'>0</td><td align=right>.365</td><td align=right>.389</td><td align=right>.462</td><td align=right class='borderRight'>851</td><td align=right>24</td></tr><tr><td>2014</td><td><a href='../teams/stats.asp?Y=2014&T=26&Page=Spring'>Seattle Mariners</a></td><td class='borderRIght'>MLB Spring Training</td><Td align=right>24</td><td align=right>68</td><td align=right>11</td><td align=right>26</td><td align=right>7</td><td align=right>1</td><td align=right>2</td><td align=right class='borderRight'>16</td><td align=right>1</td><td align=right>1</td><td align=right>3</td><td align=right class='borderRight'>9</td><td align=right>0</td><td align=right>0</td><td align=right>0</td><td align=right>0</td><td align=right class='borderRight'>0</td><td align=right>.382</td><td align=right>.408</td><td align=right>.603</td><td align=right class='borderRight'>1011</td><td align=right>41</td></tr></table><table class='dataGrid fullwidth' cellspacing=1>
+<tr class='sectionRow'>
+<td colspan='30'>Fielding Statistics</td>
+</tr>
+<Tr class='headerRow'>
+	<Td>Year</td>
+	<td>Team</td>
+	<td>League</td>
+	<td>Level</td>
+	<td class='borderRight'>Position</td>
+	<td align=right>G</td>
+	<td align=right>INN</td>
+	<td align=right>PO</td>
+	<td align=right>A</td>
+	<td align=right>E</td>
+	<td align=right>DP</td>
+	<td align=right>FPCT</td>
+	<Td align=right title='Range Factor by 9 Innings'>RF/9</td>
+	<Td align=right title='Range Factor by Game'>RF/G</td>
+</tr>
+
+
+
+	<Tr><td>2010</td><td><a href='../teams/stats.asp?Y=2010&T=10433'>West Tennessee</a></td><td>Sou</td><td>AA</td><td class='borderRight'>2B</td><td align=right>70</td><td align=right> </td><td align=right>119</td><td align=right>160</td><td align=right>13</td><td align=right>34</td><td align=right>.955</td><td align=right>--</td><td align=right>35.87</td></tr><Tr><td>2010</td><td><a href='../teams/stats.asp?Y=2010&T=10405'>Tacoma</a></td><td>PCL</td><td>AAA</td><td class='borderRight'>2B</td><td align=right>51</td><td align=right> </td><td align=right>104</td><td align=right>109</td><td align=right>5</td><td align=right>24</td><td align=right>.977</td><td align=right>--</td><td align=right>37.59</td></tr><Tr><td style='background-color:#dddddd;font-size:5px' colspan='30'>&nbsp;</td></tr><Tr><td>2011</td><td><a href='../teams/stats.asp?Y=2011&T=10405'>Tacoma</a></td><td>PCL</td><td>AAA</td><td class='borderRight'>2B</td><td align=right>66</td><td align=right> </td><td align=right>116</td><td align=right>165</td><td align=right>6</td><td align=right>45</td><td align=right>.979</td><td align=right>--</td><td align=right>38.32</td></tr><Tr><td>2011</td><td><a href='../teams/stats.asp?Y=2011&T=26'><b>Seattle Mariners</b></a></td><td>AL</td><td>MLB</td><td class='borderRight'>1B</td><td align=right>1</td><td align=right>6</td><td align=right>8</td><td align=right>0</td><td align=right>0</td><td align=right>0</td><td align=right>1.000</td><td align=right>12.00</td><td align=right>72.00</td></tr><Tr><td>2011</td><td><a href='../teams/stats.asp?Y=2011&T=26'><b>Seattle Mariners</b></a></td><td>AL</td><td>MLB</td><td class='borderRight'>2B</td><td align=right>86</td><td align=right>741</td><td align=right>144</td><td align=right>225</td><td align=right>6</td><td align=right>49</td><td align=right>.984</td><td align=right>4.48</td><td align=right>38.62</td></tr><Tr><td style='background-color:#dddddd;font-size:5px' colspan='30'>&nbsp;</td></tr><Tr><td>2012</td><td><a href='../teams/stats.asp?Y=2012&T=26'><b>Seattle Mariners</b></a></td><td>AL</td><td>MLB</td><td class='borderRight'>1B</td><td align=right>11</td><td align=right>58</td><td align=right>51</td><td align=right>4</td><td align=right>1</td><td align=right>5</td><td align=right>.982</td><td align=right>8.53</td><td align=right>45.00</td></tr><Tr><td>2012</td><td><a href='../teams/stats.asp?Y=2012&T=26'><b>Seattle Mariners</b></a></td><td>AL</td><td>MLB</td><td class='borderRight'>2B</td><td align=right>142</td><td align=right>1259</td><td align=right>238</td><td align=right>394</td><td align=right>7</td><td align=right>91</td><td align=right>.989</td><td align=right>4.52</td><td align=right>40.06</td></tr><Tr><td>2012</td><td><a href='../teams/stats.asp?Y=2012&T=26'><b>Seattle Mariners</b></a></td><td>AL</td><td>MLB</td><td class='borderRight'>DH</td><td align=right>4</td><td align=right> </td><td align=right></td><td align=right></td><td align=right></td><td align=right></td><td align=right>.000</td><td align=right>--</td><td align=right>0.00</td></tr><Tr><td style='background-color:#dddddd;font-size:5px' colspan='30'>&nbsp;</td></tr><Tr><td>2013</td><td><a href='../teams/stats.asp?Y=2013&T=10405'>Tacoma</a></td><td>PCL</td><td>AAA</td><td class='borderRight'>2B</td><td align=right>12</td><td align=right> </td><td align=right>26</td><td align=right>34</td><td align=right>1</td><td align=right>13</td><td align=right>.984</td><td align=right>--</td><td align=right>45.00</td></tr><Tr><td>2013</td><td><a href='../teams/stats.asp?Y=2013&T=10405'>Tacoma</a></td><td>PCL</td><td>AAA</td><td class='borderRight'>LF</td><td align=right>4</td><td align=right> </td><td align=right>7</td><td align=right>0</td><td align=right>0</td><td align=right>0</td><td align=right>1.000</td><td align=right>--</td><td align=right>15.75</td></tr><Tr><td>2013</td><td><a href='../teams/stats.asp?Y=2013&T=10405'>Tacoma</a></td><td>PCL</td><td>AAA</td><td class='borderRight'>CF</td><td align=right>9</td><td align=right> </td><td align=right>15</td><td align=right>0</td><td align=right>0</td><td align=right>0</td><td align=right>1.000</td><td align=right>--</td><td align=right>15.00</td></tr><Tr><td>2013</td><td><a href='../teams/stats.asp?Y=2013&T=10405'>Tacoma</a></td><td>PCL</td><td>AAA</td><td class='borderRight'>OF</td><td align=right>12</td><td align=right> </td><td align=right>22</td><td align=right>0</td><td align=right>0</td><td align=right>0</td><td align=right>1.000</td><td align=right>--</td><td align=right>16.50</td></tr><Tr><td>2013</td><td><a href='../teams/stats.asp?Y=2013&T=20'><b>New York Yankees</b></a></td><td>AL</td><td>MLB</td><td class='borderRight'>1B</td><td align=right>4</td><td align=right>27</td><td align=right>26</td><td align=right>4</td><td align=right>0</td><td align=right>2</td><td align=right>1.000</td><td align=right>10.00</td><td align=right>67.50</td></tr><Tr><td>2013</td><td><a href='../teams/stats.asp?Y=2013&T=20'><b>New York Yankees</b></a></td><td>AL</td><td>MLB</td><td class='borderRight'>2B</td><td align=right>9</td><td align=right>60</td><td align=right>16</td><td align=right>19</td><td align=right>0</td><td align=right>4</td><td align=right>1.000</td><td align=right>5.25</td><td align=right>35.00</td></tr><Tr><td>2013</td><td><a href='../teams/stats.asp?Y=2013&T=20'><b>New York Yankees</b></a></td><td>AL</td><td>MLB</td><td class='borderRight'>3B</td><td align=right>31</td><td align=right>253</td><td align=right>14</td><td align=right>53</td><td align=right>1</td><td align=right>6</td><td align=right>.985</td><td align=right>2.38</td><td align=right>19.45</td></tr><Tr><td>2013</td><td><a href='../teams/stats.asp?Y=2013&T=26'><b>Seattle Mariners</b></a></td><td>AL</td><td>MLB</td><td class='borderRight'>1B</td><td align=right>6</td><td align=right>14</td><td align=right>11</td><td align=right>1</td><td align=right>0</td><td align=right>0</td><td align=right>1.000</td><td align=right>7.71</td><td align=right>18.00</td></tr><Tr><td>2013</td><td><a href='../teams/stats.asp?Y=2013&T=26'><b>Seattle Mariners</b></a></td><td>AL</td><td>MLB</td><td class='borderRight'>2B</td><td align=right>53</td><td align=right>440</td><td align=right>81</td><td align=right>150</td><td align=right>0</td><td align=right>30</td><td align=right>1.000</td><td align=right>4.73</td><td align=right>39.23</td></tr><Tr><td>2013</td><td><a href='../teams/stats.asp?Y=2013&T=26'><b>Seattle Mariners</b></a></td><td>AL</td><td>MLB</td><td class='borderRight'>LF</td><td align=right>11</td><td align=right>81</td><td align=right>20</td><td align=right>1</td><td align=right>0</td><td align=right>1</td><td align=right>1.000</td><td align=right>2.33</td><td align=right>17.18</td></tr><Tr><td>2013</td><td><a href='../teams/stats.asp?Y=2013&T=26'><b>Seattle Mariners</b></a></td><td>AL</td><td>MLB</td><td class='borderRight'>CF</td><td align=right>50</td><td align=right>413</td><td align=right>114</td><td align=right>0</td><td align=right>1</td><td align=right>0</td><td align=right>.991</td><td align=right>2.48</td><td align=right>20.52</td></tr><Tr><td>2013</td><td><a href='../teams/stats.asp?Y=2013&T=26'><b>Seattle Mariners</b></a></td><td>AL</td><td>MLB</td><td class='borderRight'>DH</td><td align=right>1</td><td align=right> </td><td align=right></td><td align=right></td><td align=right></td><td align=right></td><td align=right>.000</td><td align=right>--</td><td align=right>0.00</td></tr><Tr><td style='background-color:#dddddd;font-size:5px' colspan='30'>&nbsp;</td></tr><Tr><td>2014</td><td><a href='../teams/stats.asp?Y=2014&T=26'><b>Seattle Mariners</b></a></td><td>AL</td><td>MLB</td><td class='borderRight'>LF</td><td align=right>133</td><td align=right>1130</td><td align=right>245</td><td align=right>4</td><td align=right>2</td><td align=right>2</td><td align=right>.992</td><td align=right>1.98</td><td align=right>16.85</td></tr><Tr><td>2014</td><td><a href='../teams/stats.asp?Y=2014&T=26'><b>Seattle Mariners</b></a></td><td>AL</td><td>MLB</td><td class='borderRight'>DH</td><td align=right>8</td><td align=right> </td><td align=right></td><td align=right></td><td align=right></td><td align=right></td><td align=right>.000</td><td align=right>--</td><td align=right>0.00</td></tr><Tr class='firstRow'><td colspan='3'><b>Fielding Totals by Position/League:</b></td><td>MLB</td><td class='borderRight'>1B</td><td align=right>22</td><td align=right>105</td><td align=right>96</td><td align=right>9</td><td align=right>1</td><td align=right>7</td><td align=right>.991</td><td align=right>9.00</td><td align=right>42.95</td></tr><Tr><td colspan='3'>&nbsp;</td><td>MLB</td><td class='borderRight'>2B</td><td align=right>290</td><td align=right>2500</td><td align=right>479</td><td align=right>788</td><td align=right>13</td><td align=right>174</td><td align=right>.990</td><td align=right>4.56</td><td align=right>39.32</td></tr><Tr><td colspan='3'>&nbsp;</td><td>MLB</td><td class='borderRight'>3B</td><td align=right>31</td><td align=right>253</td><td align=right>14</td><td align=right>53</td><td align=right>1</td><td align=right>6</td><td align=right>.985</td><td align=right>2.38</td><td align=right>19.45</td></tr><Tr><td colspan='3'>&nbsp;</td><td>MLB</td><td class='borderRight'>LF</td><td align=right>144</td><td align=right>1211</td><td align=right>265</td><td align=right>5</td><td align=right>2</td><td align=right>3</td><td align=right>.993</td><td align=right>2.01</td><td align=right>16.88</td></tr><Tr><td colspan='3'>&nbsp;</td><td>MLB</td><td class='borderRight'>CF</td><td align=right>50</td><td align=right>413</td><td align=right>114</td><td align=right>0</td><td align=right>1</td><td align=right>0</td><td align=right>.991</td><td align=right>2.48</td><td align=right>20.52</td></tr><Tr><td colspan='3'>&nbsp;</td><td>MLB</td><td class='borderRight'>DH</td><td align=right>13</td><td align=right>0</td><td align=right></td><td align=right></td><td align=right></td><td align=right></td><td align=right>.000</td><td align=right>--</td><td align=right>0.00</td></tr><Tr><td colspan='3'>&nbsp;</td><td>AAA</td><td class='borderRight'>2B</td><td align=right>129</td><td align=right>0</td><td align=right>246</td><td align=right>308</td><td align=right>12</td><td align=right>82</td><td align=right>.979</td><td align=right>--</td><td align=right>38.65</td></tr><Tr><td colspan='3'>&nbsp;</td><td>AAA</td><td class='borderRight'>LF</td><td align=right>4</td><td align=right>0</td><td align=right>7</td><td align=right>0</td><td align=right>0</td><td align=right>0</td><td align=right>1.000</td><td align=right>--</td><td align=right>15.75</td></tr><Tr><td colspan='3'>&nbsp;</td><td>AAA</td><td class='borderRight'>CF</td><td align=right>9</td><td align=right>0</td><td align=right>15</td><td align=right>0</td><td align=right>0</td><td align=right>0</td><td align=right>1.000</td><td align=right>--</td><td align=right>15.00</td></tr><Tr><td colspan='3'>&nbsp;</td><td>AAA</td><td class='borderRight'>OF</td><td align=right>12</td><td align=right>0</td><td align=right>22</td><td align=right>0</td><td align=right>0</td><td align=right>0</td><td align=right>1.000</td><td align=right>--</td><td align=right>16.50</td></tr><Tr><td colspan='3'>&nbsp;</td><td>AA</td><td class='borderRight'>2B</td><td align=right>70</td><td align=right>0</td><td align=right>119</td><td align=right>160</td><td align=right>13</td><td align=right>34</td><td align=right>.955</td><td align=right>--</td><td align=right>35.87</td></tr>
+		
+</table>
+</div><!--Footer Section-->
+	
+		<div align=center style='clear:both;display:inline;float:left;width:1190px'>
+                      <br><Hr style='width:85%'>
+			<a href='../../../about/'>About Us</a>  <b>|</b> 
+			<a href='../../../about/siteMap.asp'>Site Map</a>  <b>|</b> 
+			<a href='../../../about/coverage.asp'>Data Coverage</a>  <b>|</b> 
+                	<a href='../../../about/tipjar.asp'>Support TBC</a> <b>|</b> 
+			<a href='../../../about/privacy.asp'>Privacy Policy</a>  <b>|</b> 
+			<a href='../../../about/contact.asp'>Contact Us</a>
+			
+			<br><br>
+			Boxscores data is obtained free of charge from Retrosheet.org. 
+			
+			<br><br>
+			
+			Please <a href='../../../support/tipjar.asp'>Support The Baseball Cube</a>. 
+			<br><br>
+			
+			<!-- Index Platform: 728x90 (Banner) -->
+		<script type="text/javascript">
+		var CasaleArgs = new Object();
+		CasaleArgs.version = 2;
+		CasaleArgs.adUnits = "2";
+		CasaleArgs.casaleID = 126861;
+		</script>
+		<script type="text/javascript" src="http://js.casalemedia.com/casaleJTag.js"></script>
+		<!-- DO NOT MODIFY -->
+
+		</div>
+	</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
