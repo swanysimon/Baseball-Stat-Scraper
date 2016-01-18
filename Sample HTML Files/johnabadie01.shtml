@@ -1,0 +1,1148 @@
+<!DOCTYPE html><html data-version="the-magglio-475" itemscope itemtype="http://schema.org/website" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" lang="en"><head><title>John Abadie Statistics and History  | Baseball-Reference.com</title><link rel="dns-prefetch" href="http://d2ft4b0ve1aur1.cloudfront.net" /><link rel="dns-prefetch" href="http://m.bbref.com" />
+<link rel=subresource href="http://d2ft4b0ve1aur1.cloudfront.net/js-475/sr-br-min.js.jgz" /><script type="text/javascript">var sr_gzipEnabled = false; var sr_js_loader = new Array();</script><script type="text/javascript" src="http://d2ft4b0ve1aur1.cloudfront.net/js-100/sr.gzipcheck.js.jgz"></script><noscript><link type="text/css" rel="stylesheet" href="http://d2ft4b0ve1aur1.cloudfront.net/css-475/sr-br-min.css"></noscript><script type="text/javascript">
+(function () {var sr_css_file = 'http://d2ft4b0ve1aur1.cloudfront.net/css-475/sr-br-min.css';if (sr_gzipEnabled) {sr_css_file = 'http://d2ft4b0ve1aur1.cloudfront.net/css-475/sr-br-min-gz.css';}var head = document.getElementsByTagName("head")[0];if (head) {var scriptStyles = document.createElement("link");scriptStyles.rel = "stylesheet";scriptStyles.type = "text/css";scriptStyles.href = sr_css_file;head.appendChild(scriptStyles);}}());</script><!-- tiles, touch, favicons --><link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://d2ft4b0ve1aur1.cloudfront.net/images-475/apple-touch-icon-152x152-br-precomposed.png"><link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://d2ft4b0ve1aur1.cloudfront.net/images-475/apple-touch-icon-144x144-br-precomposed.png"><link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://d2ft4b0ve1aur1.cloudfront.net/images-475/apple-touch-icon-120x120-br-precomposed.png"><link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://d2ft4b0ve1aur1.cloudfront.net/images-475/apple-touch-icon-114x114-br-precomposed.png"><link rel="apple-touch-icon-precomposed" sizes="76x76" href="http://d2ft4b0ve1aur1.cloudfront.net/images-475/apple-touch-icon-76x76-br-precomposed.png"><link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://d2ft4b0ve1aur1.cloudfront.net/images-475/apple-touch-icon-72x72-br-precomposed.png"><link rel="apple-touch-icon-precomposed" href="http://d2ft4b0ve1aur1.cloudfront.net/images-475/apple-touch-icon-br-precomposed.png"><link rel=icon href="http://d2ft4b0ve1aur1.cloudfront.net/images-475/favicon_br.png"><!--[if IE]><link rel="shortcut icon" href="http://d2ft4b0ve1aur1.cloudfront.net/images-475/favicon_br.ico"><![endif]--><meta name="msapplication-TileColor" content="#ffffff"/><meta name="msapplication-TileImage" content="http://d2ft4b0ve1aur1.cloudfront.net/images-475/ms-tile-144-br.png" /><link rel=search        type="application/opensearchdescription+xml" href="http://d2ft4b0ve1aur1.cloudfront.net/os-475/opensearch-br.xml" title="B-Ref Search"><!--[if lte IE 7 ]><style type="text/css">
+.uni_holder { display: none; }
+</style><![endif]--><!--[if lte IE 6]><style type="text/css">
+.hovermenu,.hovermenu_ajax,.sub_index,#quick_index {display:none!important}
+</style><![endif]-->
+<script type="text/javascript">
+/* * JS Redirection Mobile
+*
+* Developed and presumably Copyright by
+* Sebastiano Armeli-Battana (@sebarmeli) - http://www.sebastianoarmelibattana.com
+* Release under the MIT licence */
+if(!window.SA){window.SA={}}SA.redirection_mobile=function(f){var j=function(g){var b=new Date();b.setTime(b.getTime()+g);return b};var k=function(b){if(!b){return}var i=document.location.search,p=i&&i.substring(1).split("&"),l=0,n=p.length;for(;l<n;l++){var g=p[l],m=g&&g.substring(0,g.indexOf("="));if(m===b){return g.substring(g.indexOf("=")+1,g.length)}}};var d=navigator.userAgent.toLowerCase(),fls="false",tr="true",host=document.location.host,f=f||{},mobile_protocol=f.mobile_scheme?f.mobile_scheme+":":document.location.protocol,mobile_prefix=f.mobile_prefix||"m",mobile_url=f.mobile_url,cookie_hours=f.cookie_hours||1,redirection_param=f.redirection_paramName||"mobile",redirection_param_long=f.redirection_paramName_long||"mobile_long",mobile_host=mobile_url||mobile_prefix+".",queryValue=k(redirection_param),queryValue_long=k(redirection_param_long),isUAMobile=false;if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino|mobile.+firefox/i.test(d)||/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(d.substr(0,4))){isUAMobile=true}if(queryValue_long===fls){if(window.localStorage){window.localStorage.setItem(redirection_param_long,fls)}else{document.cookie=redirection_param+"="+h+";expires="+j(3600*1000*24*31*cookie_hours).toUTCString()}}else{if((queryValue_long===tr)||(queryValue===tr)){if(window.localStorage){window.localStorage.setItem(redirection_param_long,tr)}else{document.cookie=redirection_param+"="+h+";expires="+j(-3600*1000*cookie_hours).toUTCString()}if(window.sessionStorage){window.sessionStorage.setItem(redirection_param,tr)}else{document.cookie=redirection_param+"="+h+";expires="+j(-3600*1000*cookie_hours*7*24*31).toUTCString()}}else{if(document.referrer.indexOf(mobile_host)>=0||queryValue===fls){if(window.sessionStorage){window.sessionStorage.setItem(redirection_param,fls)}else{document.cookie=redirection_param+"="+h+";expires="+j(3600*1000*cookie_hours).toUTCString()}}}}var a=(window.sessionStorage)?(window.sessionStorage.getItem(redirection_param)===fls):false,e=(window.localStorage)?(window.localStorage.getItem(redirection_param_long)===fls):false,c=document.cookie?(document.cookie.indexOf(redirection_param)>=0):false;if(isUAMobile&&!(c||a||e)){document.location.href=mobile_protocol+"//"+mobile_host}};SA.redirection_mobile({mobile_url:"m.bbref.com/m?p=XXplayersXXaXXabadijo01.shtml",redirection_paramName:"mobile",redirection_paramName_long:"mobile_long",cookie_hours:6});</script><!--  ASYNCHRONOUS:googletag --><script type='text/javascript'>
+var googletag = googletag || {};googletag.cmd = googletag.cmd || [];(function() {var gads = document.createElement('script');gads.async = true;gads.type = 'text/javascript';var useSSL = 'https:' == document.location.protocol;gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';var node = document.getElementsByTagName('script')[0];node.parentNode.insertBefore(gads, node);})();</script><meta name=keywords content=""><meta property="fb:admins"     content="34208645"><meta property="fb:page_id"    content="10515271761"><meta property="og:description" content=""><meta property="og:title" content=""><meta property="og:url" content=""><meta property="og:type" content=""><meta itemprop=name content=""><meta itemprop=description content=""><meta property="og:site_name"  content="Baseball-Reference.com"><meta property="og:image"      content="http://d2ft4b0ve1aur1.cloudfront.net/images-434/apple-touch-icon-152x152-br-precomposed.png"><meta itemprop=image         content="http://d2ft4b0ve1aur1.cloudfront.net/images-434/apple-touch-icon-152x152-br-precomposed.png"><link rel=canonical href="http://www.baseball-reference.com/players/a/abadijo01.shtml"/><meta name=Description content="Career: 0 HR, .224 BA, 5 RBI, 1B, Centennials/Atlantics 1875, b:R/t:R, born in Unite. 1854, died 1905"><meta name="twitter:card"         content="summary"><meta name="twitter:site"         content="@baseball_ref"><meta name="twitter:creator"      content="@baseball_ref"><meta name="twitter:title"        content="John Abadie Statistics and History  | Baseball-Reference.com"><meta name="twitter:description"  content="Career: 0 HR, .224 BA, 5 RBI, 1B, Centennials/Atlantics 1875, b:R/t:R, born in Unite. 1854, died 1905"><meta name="twitter:image"        content=""><meta name="twitter:image:width"  content=""><meta name="twitter:image:height" content=""><meta name="twitter:url"          content="http://www.baseball-reference.com/players/a/abadijo01.shtml"><meta name="twitter:domain"       content="Baseball-Reference.com"></head><body onload=""><div id=page_container><div id=top_nav><!--BEGIN QUALTRICS SITE INTERCEPT-->
+<script type='text/javascript'>
+(function(){var g=function(e,h,f,g){
+this.get=function(a){for(var a=a+"=",c=document.cookie.split(";"),b=0,e=c.length;b<e;b++){for(var d=c[b];" "==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(a))return d.substring(a.length,d.length)}return null};
+this.set=function(a,c){var b="",b=new Date;b.setTime(b.getTime()+6048E5);b="; expires="+b.toGMTString();document.cookie=a+"="+c+b+"; path=/; "};
+this.check=function(){var a=this.get(f);if(a)a=a.split(":");else if(100!=e)"v"==h&&(e=Math.random()>=e/100?0:100),a=[h,e,0],this.set(f,a.join(":"));else return!0;var c=a[1];if(100==c)return!0;switch(a[0]){case "v":return!1;case "r":return c=aMath.floor(100/c),a[2]++,this.set(f,a.join(":")),!c}return!0};
+this.go=function(){if(this.check()){var a=document.createElement("script");a.type="text/javascript";a.src=g+ "&t=" + (new Date()).getTime();document.body&&document.body.appendChild(a)}};
+this.start=function(){var a=this;window.addEventListener?window.addEventListener("load",function(){a.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){a.go()})}};
+try{(new g(100,"r","QSI_S_SI_3CWPKrI10k7ANBX","//zncvfm2dltswdzell-farris.siteintercept.qualtrics.com/WRSiteInterceptEngine/?Q_SIID=SI_3CWPKrI10k7ANBX&Q_LOC="+encodeURIComponent(window.location.href))).start()}catch(i){}})();
+</script><div id='SI_3CWPKrI10k7ANBX'><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+<!--END SITE INTERCEPT-->
+<div id="sr_site_dir">
+ <a class="sr_link" href="//www.sports-reference.com">Sports-Reference</a>:
+<span class="bold_text">Baseball</span> &#183;
+ <a class="sr_link" href="//www.basketball-reference.com">Basketball</a>
+(<a class="sr_link" href="//www.sports-reference.com/cbb/">college</a>) &#183;
+ <a class="sr_link" href="//www.pro-football-reference.com">Football</a> 
+(<a class="sr_link" href="//www.sports-reference.com/cfb/">college</a>) &#183;
+ <a class="sr_link" href="//www.hockey-reference.com/">Hockey</a> &#183;
+ <a class="sr_link" href="//www.sports-reference.com/olympics/">Olympics</a> &#183;
+ <a class="sr_link" href="//www.sports-reference.com/blog/">S-R Blog</a> &#183;
+ <a class="sr_link" href="//www.sports-reference.com/feedback/">Question or Comment?</a>
+</div> 
+
+<div id=site_header>
+<div id=sr_header>
+<div id=sr_header_right_float class="float_right clear_right">
+<div class="float_right">
+<div class="float_left margin_right"><a class="red_text" href="http://www.sports-reference.com/blog/2015/02/get-free-play-index-subscription-with-15-deposit-on-draftkings/">Get a Play Index Sub for just $15</a></div>
+<div id="welcome" class="margin0 padding_bottom_half float_right poptip" tip="Review the details of your account"><span class="greeting"></span><a class="acct_external" href="/my/auth.cgi"></a>&nbsp;</div>
+<div class="clear_both padding_bottom_half">
+<span class="badge ui-corner-all         colors         like_a logged_out"  onclick="return sr_login_popup();" id="login_placeholder" style="display:none;">LOGIN<span id="loginform_container"></span></span>
+<span class="badge ui-corner-all         colors         like_a logged_in"   onclick="return sr_logout();">LOGOUT</span>
+<span class="badge ui-corner-all tooltip disabled_badge like_a adfree ad_free"  onclick="document.location.href='/my/auth.cgi?do=ad_free_browsing'"      tip="Surf Sports Reference without ads">AD FREE</span>
+<span class="badge ui-corner-all tooltip disabled_badge like_a play_index"   onclick="document.location.href='/play-index/'"          tip="Subscribe to the Play Index">PLAY INDEX</span>
+<span class="badge ui-corner-all tooltip disabled_badge like_a is_sponsor"  onclick="document.location.href='/my/auth.cgi?do=sponsor'"          tip="Sponsor a page on Baseball-Reference.com">SPONSOR</span>
+ 
+<span>&nbsp;</span>
+</div>
+</div>
+
+<div class="clearfix float_right clear_both">
+<div class="padding_left_half float_right"><a rel="nofollow" class="sprite-twitter" title="Follow us on Twitter" href="//twitter.com/baseball_ref"></a><a rel="nofollow" class="sprite-facebook" title="Become a Fan on FaceBook" href="//www.facebook.com/Baseball.Reference"></a><a rel="nofollow" class="sprite-youtube" title="Sports Reference Instructional Videos" href="//www.youtube.com/user/sportsreference"></a></div>
+
+<div class=float_right>
+<form  id="f" name="f" action="/search/search.fcgi">
+ <input x-webkit-speech type="search" placeholder="click 'Tips' for shortcuts" id="search" name="search" class="search m_long typeahead"> 
+ <input type="hidden" name="results" value="" data-search-id>
+ <input type=submit value="Search" class="submit">
+ <a class="padding_left_half small_text" href="/about/findstuff.shtml">Tips</a>
+</form>
+</div>
+</div>
+
+</div> 
+</div> 
+
+<div class="float_left">
+<div class="clear_left float_left padding_top padding_bottom_half"><a href="/"><img src="//d2ft4b0ve1aur1.cloudfront.net/images-904/Baseball-Ref.png" width=394 height=73 border="0" alt="Baseball-Reference.com"></a></div>
+</div>
+
+</div> 
+<div id=quick_index><ul class="hovermenu_ajax navbar"><li><a href="/play-index/">play index</a><ul class=li_margin id="header_playindex"></ul></li><li class=active><a href="/players/">players</a><ul class=li_margin id="header_players"></ul></li><li><a href="/teams/">teams</a><ul id=header_teams></ul></li><li><a href="/leagues/">seasons</a><ul class=li_margin id="header_leagues"></ul></li><li><a href="/managers/">managers</a><ul class=li_margin id="header_managers"></ul></li><li><a href="/leaders/">leaders</a><ul class=li_margin id="header_leaders"></ul></li><li><a href="/awards/">awards</a><ul class=li_margin id="header_awards"></ul></li><li><a href="/postseason/">postseason</a><ul class=li_margin id="header_postseason"></ul></li><li><a href="/boxes/">boxes</a><ul class=li_margin id="header_boxes"></ul></li><li><a href="/register/">minors, nlb, japan, &hellip;</a><ul class=li_margin id="header_register"></ul></li><li><a href="/draft/">draft</a><ul class=li_margin id="header_draft"></ul></li><li><a href="">more <span class=arrowsprite_bottom></span></a><ul class=li_margin id="header_more_links"></ul></li><li><a class="no_underline_text padding_top0 padding_bottom_half" href="/random.cgi">&#120701</a><ul class=li_margin id="header_random"></ul></li></ul></div><!-- div#quick_index --><div id=you_are_here><p class=padding_left0><a class=mobile_link href="http://m.bbref.com/m?p=XXplayersXXaXXabadijo01.shtml">Mobile Site</a> <span class=bold_text>You Are Here</span> &gt; <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop=url href="/"><span itemprop=title>BR Home</span></a></span> &gt; <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop=url href="/players/"><span itemprop=title>Encyclopedia of Players</span></a></span> &gt; <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop=url href="/players/a/"><span itemprop=title>A Listing</span></a></span> &gt; <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><b><span itemprop=title>John Abadie Statistics and History</span></b></span></p></div><!-- div#quick_index --><div class="site_news"><p><span class="bold_text">News:</span> <span class="poptip" tip="The 2015 MLB Draft begins Monday, June 8, so here are some tools to get you ready: Baseball-Reference.com Draft section - Search through every pick in the history of the draft, with multiple ways to slice &#38; dice. 2015 MLB Draft Preview - Draft order for the first 3 rounds &#38; best players selected in those slots over [&#8230;]">s-r blog:<a onClick="try { pageTracker._trackEvent('blog','click','area-yah'); } catch (err) {};"
+ href="http://www.sports-reference.com/blog/2015/06/2015-mlb-draft-tools/">2015 MLB Draft Tools</a> <span class="small_text"></span></span></p></div>
+</div><!-- div#top_nav -->
+<!-- no ad -->
+<div id="player_sub_index"  class="freeze_bar sub_index bg_gray float_left width100 border_bottom">
+<ul class="hovermenu navbar">
+<li class="no_border_right bold_text active"><a href="/players/a/abadijo01.shtml" class="no_border_right">John Abadie Player Page</a></li>
+<li><span class="like_a no_border_right">&raquo;</span></li>  <li class=""><a href="/players/a/abadijo01-bat.shtml"> Batting </a></li> <li class=""><a href="/players/a/abadijo01-field.shtml"> Fielding </a></li> <li class=""><a href="/register/player.cgi?id=abadie001joh">Register</a></li> <li class=""><a href="/players/news.cgi?id=abadijo01">News Archive (0)</a></li> <li class=""><a href="/bullpen/John_Abadie">Bullpen</a></li> <li class=""><a href="/oracle/at-distance.cgi?d=1&amp;n1=abadijo01">Oracle</a></li>
+</ul>&nbsp;
+</div>
+<div itemscope="mainContentOfPage" itemtype="http://data-vocabulary.org/Person" id=info_box>
+<div class="rhs_ad_area"><!-- div.#sr_br_300x250_atf1.advert300x250 -->
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/117033896/sr_br_300x250_atf', [300, 250], 'sr_br_300x250_atf1').addService(googletag.pubads());
+    googletag.enableServices();
+  });
+</script>
+<!-- /117033896/sr_br_300x250_atf -->
+<div class="clear_both x_small_text align_right"><a href="/my/auth.cgi?do=ad_free_browsing">Support us without the ads? Go Ad-Free!</a></div>
+<div id="sr_br_300x250_atf1" class="advert300x250">
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('sr_br_300x250_atf1'); });
+</script>
+</div>
+</div>
+ <div class="margin_left float_left margin_top"><span id="player_name" itemprop="name" class="bold_text xx_large_text">John Abadie</span>  </div>
+<div class="padding_top social_media">
+<div class="float_left"><span id="fb-root"></span><fb:like width="200" show_faces="0" height="35" ref="player_like"></fb:like></div>
+<div class="float_left"><div class="g-plusone" data-size="medium" data-annotation="inline" data-width="150"></div></div>
+</div>
+<div class="clear_left"></div>
+<p><strong>John W. Abadie </strong>
+<p><strong>Position</strong>: <span itemprop="role">First Baseman</span>
+<br><strong>Bats:</strong> Right, <strong>Throws:</strong> Right
+<br><strong>Height:</strong> 6' 0", <strong>Weight:</strong> 192 lb.
+<p class="clear_left"><span id="necro-birth" data-birth="1854-11-04"><strong><a href="/bio/">Born</a>:</strong> <a href="/friv/birthdays.cgi?month=11&amp;day=4">November  4</a>, <a href="/leagues/MLB/1854-births.shtml">1854</a> in  Philadelphia, <a href="/bio/PA_born.shtml">PA</a></span><span style="margin-bottom: -5px;" class="margin_left flag us"></span>
+
+ <span class="no_mobile small_text">(<a href="/players/a/abadijo01.shtml#trans">All Transactions</a>)</span><br><strong><a href="/leagues/MLB/1875-debuts.shtml">Debut</A>:</strong> April 26, 1875 (Age 20.173, 256th in MLB history)
+<br><strong>Teams</strong> (by GP): <span itemprop="organization">Centennials/Atlantics 1875</span><br><br><strong><a href="/leagues/MLB/1875-finalyear.shtml">Last Game</A>:</strong> June 10, 1875 (Age 20.218)
+<br><span id="necro-death" data-death="1905-05-17"><strong><a href="/bio/">Died</a>:</strong> <a href="/friv/dateofdeath.cgi?month=5&amp;day=17">May  17</a>, <a href="/leagues/MLB/1905-deaths.shtml">1905</a> in  Pemberton, <a href="/bio/NJ_died.shtml">NJ</a></span>
+<br><strong>Buried:</strong> St. Denis Cemetery, Havertown, <a href="/bio/PA_buried.shtml">PA</a>
+<span class="no_mobile small_text"><br>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/about/bio.shtml">About&nbsp;biographical&nbsp;information</a></span>
+<div class="uni_holder">
+</div>
+
+<!--  no cache --></div><!-- div#info_box itemscope --><div><div class="float_left"  style="margin-bottom:32px"><!-- div.#sr_br_728x90_atf1.advert728x90 -->
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/117033896/sr_br_728x90_atf', [728, 90], 'sr_br_728x90_atf1').addService(googletag.pubads());
+    googletag.enableServices();
+  });
+</script>
+<!-- /117033896/sr_br_728x90_atf -->
+<div class="clear_both x_small_text align_right"><a href="/my/auth.cgi?do=ad_free_browsing">Support us without the ads? Go Ad-Free!</a></div>
+<div id="sr_br_728x90_atf1" class="advert728x90">
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('sr_br_728x90_atf1'); });
+</script>
+</div></div><div id="sponsor_no" class="sponsor_no">
+  <p>Let people know you like this site. <strong><a href="/my/auth.cgi?do=sponsor&ID=blr_abadijo01">Sponsor</a></strong> this page for $5.  Your message will replace this ad.</p>
+</div>
+</div>
+<div id="page_content">
+
+
+<div class="stw_alt div_player_news sr_toggle" id="all_player_news">
+<div class="table_heading"><h2>Player News</h2>
+  <div class="table_heading_text"><a href="/linker/newsfeed.shtml">Add Your Blog Posts Here</a>
+                           &#183; <a href="/players/news.cgi?id=abadijo01">Player News Archive</a>
+                           &#183; <a href="/players/news.cgi?id=abadijo01&amp;rss=1">Player News RSS Feed</a>
+                                  <span class="tooltip toggle_desc_hide"> &#183; Hide Stories</span>
+  </div>
+</div>
+<ul style="margin-bottom:0;" class="small_text">
+<li class="x_large_text"><a href="/play-index/">Try our search tools in the Play Index</a> -- Create custom leaderboards and custom reports. </li>
+</ul>
+</div><!-- div.player_news -->
+
+
+
+
+<div class="stw div_batting_type" id="all_standard_batting">
+<div class="table_heading">
+<h2>Standard Batting</h2><h2 class="alt"><a href="abadijo01-bat.shtml">More Stats</a></h2><div class="table_heading_text"></div></div>
+<div id="stats_sub_index" class="sub_index">
+<ul class="hovermenu menu">
+ <li class=""><a href="/register/player.cgi?id=abadie001joh">Register</a></li> <li class=""><a href="/players/event_hr.cgi?id=abadijo01&amp;t=b">HR Log</a></li>
+ <li class=""><span class="like_a">Finders<span class="arrowsprite_bottom"></span></span>
+<ul class="sub_sub_index">
+  <li><a href="/play-index/game_finder.cgi?type=b&amp;id=abadijo01">Game</a></li>
+  <li><a href="/play-index/streak_finder.cgi?type=b&amp;id=abadijo01">Streak</a></li>
+  <li><a href="/play-index/event_finder.cgi?type=b&amp;id=abadijo01">Event</a></li>
+</ul>
+</li>
+
+</ul>
+</div>
+
+<div class="clear_both"></div>
+<div class="table_container" id="div_batting_standard">
+<table class="sortable  stats_table row_summable" id="batting_standard">
+<colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></colgroup>
+<thead>
+<tr class="">
+  <th data-stat="year_ID" align="left"  class="tooltip sort_default_asc show_partial_when_sorting"  tip="A Star indicates an all-star that season.<br>A Ring indicates the player appeared in WS for winning team.">Year</th>
+  <th data-stat="age" align="center"  class="tooltip sort_default_asc show_partial_when_sorting"  tip="Player&#146;s age at midnight of June 30th of that year">Age</th>
+  <th data-stat="team_ID" align="center"  class="tooltip sort_default_asc show_partial_when_sorting" >Tm</th>
+  <th data-stat="lg_ID" align="center"  class="tooltip sort_default_asc"  tip="<strong>League</strong><br><strong>AL</strong> - American League (1901-present)<br><strong>NL</strong> - National League (1876-present)<br><strong>AA</strong> - American Association (1882-1891)<br><strong>UA</strong> - Union Association (1884)<br><strong>PL</strong> - Players League (1890)<br><strong>FL</strong> - Federal League (1914-1915)<br><strong>NA</strong> - National Association (1871-1875)">Lg</th>
+  <th data-stat="G" align="center"  class="tooltip"  tip="Games Played or Pitched" data-filter="1" data-name="Games Played">G</th>
+  <th data-stat="PA" align="center"  class="tooltip"  tip="<strong>Plate Appearances</strong><br>When available, we use actual plate appearances from play-by-play game accounts<br>Otherwise estimated using AB + BB + HBP + SF + SH,<br>which excludes catcher interferences.<br>When <span class=tooltip>this color</span> click for a summary of each PA." data-filter="1" data-name="Plate Appearances">PA</th>
+  <th data-stat="AB" align="center"  class="tooltip"  tip="At Bats" data-filter="1" data-name="At Bats">AB</th>
+  <th data-stat="R" align="center"  class="tooltip"  tip="Runs Scored/Allowed" data-filter="1" data-name="Runs Scored">R</th>
+  <th data-stat="H" align="center"  class="tooltip"  tip="Hits/Hits Allowed" data-filter="1" data-name="Hits">H</th>
+  <th data-stat="2B" align="center"  class="tooltip"  tip="Doubles Hit/Allowed" data-filter="1" data-name="Doubles">2B</th>
+  <th data-stat="3B" align="center"  class="tooltip"  tip="Triples Hit/Allowed" data-filter="1" data-name="Triples">3B</th>
+  <th data-stat="HR" align="center"  class="tooltip"  tip="Home Runs Hit/Allowed" data-filter="1" data-name="Home Runs">HR</th>
+  <th data-stat="RBI" align="center"  class="tooltip"  tip="Runs Batted In" data-filter="1" data-name="Runs Batted In">RBI</th>
+  <th data-stat="SB" align="center"  class="tooltip"  tip="Stolen Bases" data-filter="1" data-name="Stolen Bases">SB</th>
+  <th data-stat="CS" align="center"  class="tooltip"  tip="Caught Stealing" data-filter="1" data-name="Caught Stealing">CS</th>
+  <th data-stat="BB" align="center"  class="tooltip"  tip="Bases on Balls/Walks" data-filter="1" data-name="Bases on Balls">BB</th>
+  <th data-stat="SO" align="center"  class="tooltip"  tip="Strikeouts" data-filter="1" data-name="Strikeouts">SO</th>
+  <th data-stat="batting_avg" align="center"  class="tooltip hide_non_quals"  tip="<strong>Hits/At Bats</strong><br>For recent years, leaders need 3.1 PA<br>per team game played<br>Bold indicates highest BA using current stats<br><span class=glimmer>Gold</span> means awarded title at end of year." data-filter="1" data-name="Batting Average">BA</th>
+  <th data-stat="onbase_perc" align="center"  class="tooltip hide_non_quals"  tip="<strong>(H + BB + HBP)/(At Bats + BB + HBP + SF)</strong><br>For recent years, leaders need 3.1 PA<br>per team game played" data-filter="1" data-name="On-Base%">OBP</th>
+  <th data-stat="slugging_perc" align="center"  class="tooltip hide_non_quals"  tip="<strong>Total Bases/At Bats or <br>(1B + 2*2B + 3*3B + 4*HR)/AB</strong><br>For recent years, leaders need 3.1 PA<br>per team game played" data-filter="1" data-name="Slugging %">SLG</th>
+  <th data-stat="onbase_plus_slugging" align="center"  class="tooltip hide_non_quals"  tip="<strong>On-Base + Slugging Percentages </strong><br>For recent years, leaders need 3.1 PA<br>per team game played" data-filter="1" data-name="On-Base Plus Slugging">OPS</th>
+  <th data-stat="onbase_plus_slugging_plus" align="center"  class="tooltip hide_non_quals"  tip="<strong>OPS+</strong><br>100*[OBP/lg OBP + SLG/lg SLG - 1]<br>Adjusted to the player&#146;s ballpark(s)" data-filter="1" data-name="Adjusted OPS+">OPS+</th>
+  <th data-stat="TB" align="center"  class="tooltip"  tip="<strong>Total Bases</strong><br>Singles + 2 x Doubles + 3 x Triples + 4 x Home Runs." data-filter="1" data-name="Total Bases">TB</th>
+  <th data-stat="GIDP" align="center"  class="tooltip"  tip="<strong>Double Plays Grounded Into</strong><br>Only includes standard 6-4-3, 4-3, etc. double plays.<br>First tracked in 1933.<br>For gamelogs only in seasons we have play-by-play, we include triple plays as well.<br>All official seasonal totals do not include GITP's." data-filter="1" data-name="Double Plays Grounded Into">GDP</th>
+  <th data-stat="HBP" align="center"  class="tooltip"  tip="Times Hit by a Pitch." data-filter="1" data-name="Hit By Pitch">HBP</th>
+  <th data-stat="SH" align="center"  class="tooltip"  tip="Sacrifice Hits (Sacrifice Bunts)" data-filter="1" data-name="Sacrifice Hits">SH</th>
+  <th data-stat="SF" align="center"  class="tooltip"  tip="<strong>Sacrifice Flies</strong><br>First tracked in 1954." data-filter="1" data-name="Sacrifice Flies">SF</th>
+  <th data-stat="IBB" align="center"  class="tooltip"  tip="<strong>Intentional Bases on Balls</strong><br>First tracked in 1955." data-filter="1" data-name="Intentional Bases on Balls">IBB</th>
+  <th data-stat="pos_season" align="left"  class="tooltip sort_default_asc"  tip="<strong>Position</strong><br>&#146;*&#146; indicates position played in 2/3rds of team games,<br>&#146;/&#146; less than 10 games played.">Pos</th>
+  <th data-stat="award_summary" align="center"  class="tooltip sort_default_asc show_partial_when_sorting"  tip="Summary of how player did in awards voting that year.<br>GG - Gold Glove<br>SS - Silver Slugger<br>MVP - Most Valuable Player<br>CYA - Cy Young Award<br>ROY - Rookie of the Year">Awards</th>
+</tr>
+</thead>
+<tbody>
+<tr  class="full" id="batting_standard.1875">
+   <td align="left"  csk="1875">1875</td>
+   <td align="right" >20</td>
+   <td align="left" >TOT</td>
+   <td align="left" ><a href="/leagues/NA/1875.shtml">NA</a></td>
+   <td align="right" >12</td>
+   <td align="right" >49</td>
+   <td align="right" >49</td>
+   <td align="right" >4</td>
+   <td align="right" >11</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >5</td>
+   <td align="right" >1</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >3</td>
+   <td align="right" >.224</td>
+   <td align="right" >.224</td>
+   <td align="right" >.224</td>
+   <td align="right" >.449</td>
+   <td align="right" >61</td>
+   <td align="right" >11</td>
+   <td align="right" >0</td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="left" >3</td>
+   <td align="left" ></td>
+</tr>
+<tr  class="partial_table">
+   <td align="left"  csk="1875.01">1875</td>
+   <td align="right"  csk="20.01">20</td>
+   <td align="left" ><a href="/teams/CEN/1875.shtml" title="Philadelphia Centennials">CEN</a></td>
+   <td align="left" ><a href="/leagues/NA/1875.shtml">NA</a></td>
+   <td align="right" >11</td>
+   <td align="right" >45</td>
+   <td align="right" >45</td>
+   <td align="right" >3</td>
+   <td align="right" >10</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >4</td>
+   <td align="right" >1</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >3</td>
+   <td align="right" >.222</td>
+   <td align="right" >.222</td>
+   <td align="right" >.222</td>
+   <td align="right" >.444</td>
+   <td align="right" >59</td>
+   <td align="right" >10</td>
+   <td align="right" >0</td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="left" >3</td>
+   <td align="left" ></td>
+</tr>
+<tr  class="partial_table">
+   <td align="left"  csk="1875.02">1875</td>
+   <td align="right"  csk="20.02">20</td>
+   <td align="left" ><a href="/teams/BRA/1875.shtml" title="Brooklyn Atlantics">BRA</a></td>
+   <td align="left" ><a href="/leagues/NA/1875.shtml">NA</a></td>
+   <td align="right" >1</td>
+   <td align="right" >4</td>
+   <td align="right" >4</td>
+   <td align="right" >1</td>
+   <td align="right" >1</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >1</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >.250</td>
+   <td align="right" >.250</td>
+   <td align="right" >.250</td>
+   <td align="right" >.500</td>
+   <td align="right" >84</td>
+   <td align="right" >1</td>
+   <td align="right" >0</td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="left" >/3</td>
+   <td align="left" ></td>
+</tr>
+<tr  class="minors_table hidden">
+   <td align="left" >1877</td>
+   <td align="right" >22</td>
+   <td align="left" ><a href="/register/team.cgi?id=7227d310" title="Auburn (Auburn, NY)">AUB</a></td>
+   <td align="left" >N/A</td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="" ></td>
+   <td align="" ><a href="/register/team.cgi?id=7227d310" title="Auburn (Auburn, NY)">AUB</a>&nbsp;&#183; <a href="/register/league.cgi?id=a9132541" title="League Alliance">LGAL</a></td>
+</tr>
+
+</tbody>
+<tfoot>
+<tr  class=" stat_total">
+   <td align="left"  colspan=4 >1 Yr</td>
+   <td align="right" >12</td>
+   <td align="right" >49</td>
+   <td align="right" >49</td>
+   <td align="right" >4</td>
+   <td align="right" >11</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >5</td>
+   <td align="right" >1</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >3</td>
+   <td align="right" >.224</td>
+   <td align="right" >.224</td>
+   <td align="right" >.224</td>
+   <td align="right" >.449</td>
+   <td align="right" >61</td>
+   <td align="right" >11</td>
+   <td align="right" >0</td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="left" ></td>
+   <td align="left" ></td>
+</tr>
+<tr  class=" stat_total">
+   <td align="left"  colspan=4 ><a href="http://www.baseball-reference.com/about/bat_glossary.shtml#162_avg">162 Game Avg.</a></td>
+   <td align="right" >162</td>
+   <td align="right" >662</td>
+   <td align="right" >662</td>
+   <td align="right" >54</td>
+   <td align="right" >149</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >68</td>
+   <td align="right" >14</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >41</td>
+   <td align="right" >.224</td>
+   <td align="right" >.224</td>
+   <td align="right" >.224</td>
+   <td align="right" >.449</td>
+   <td align="right" >61</td>
+   <td align="right" >149</td>
+   <td align="right" >0</td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="left" ></td>
+   <td align="left" ></td>
+</tr>
+<tr  class="blank_table partial_table stat_total">
+   <td align="left"  colspan=4 ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="left" ></td>
+   <td align="left" ></td>
+</tr>
+<tr  class=" stat_total">
+   <td align="left"  colspan=4 >BRA (1 yr)</td>
+   <td align="right" >1</td>
+   <td align="right" >4</td>
+   <td align="right" >4</td>
+   <td align="right" >1</td>
+   <td align="right" >1</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >1</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >.250</td>
+   <td align="right" >.250</td>
+   <td align="right" >.250</td>
+   <td align="right" >.500</td>
+   <td align="right" >84</td>
+   <td align="right" >1</td>
+   <td align="right" >0</td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="left" ></td>
+   <td align="left" ></td>
+</tr>
+<tr  class=" stat_total">
+   <td align="left"  colspan=4 >CEN (1 yr)</td>
+   <td align="right" >11</td>
+   <td align="right" >45</td>
+   <td align="right" >45</td>
+   <td align="right" >3</td>
+   <td align="right" >10</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >4</td>
+   <td align="right" >1</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >3</td>
+   <td align="right" >.222</td>
+   <td align="right" >.222</td>
+   <td align="right" >.222</td>
+   <td align="right" >.444</td>
+   <td align="right" >59</td>
+   <td align="right" >10</td>
+   <td align="right" >0</td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="left" ></td>
+   <td align="left" ></td>
+</tr>
+</tfoot>
+</table>
+</div><!-- div.table_container#div_xxxx -->
+</div>
+
+<!-- ADADADAD -->
+
+
+<div class="stw div_value_batting" id="all_value_batting">
+<div class="table_heading"><h2 data-mobile-header="Player Value--Batters<p class='desc'>Wins Above Replacement</p>">Player Value--Batters</h2>
+<div class="table_heading_text"><a href="/about/war_explained.shtml">WAR Explained (v2.2)</a>: 8+ MVP, 5+ A-S, 2+ Starter, 0-2 Sub, &lt; 0 Repl</div></div>
+<div class="table_container" id="div_batting_value">
+<table class="sortable  stats_table row_summable" id="batting_value">
+<colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></colgroup>
+<thead>
+<tr class="">
+  <th data-stat="year_ID" align="left"  class="tooltip sort_default_asc show_partial_when_sorting"  tip="A Star indicates an all-star that season.<br>A Ring indicates the player appeared in WS for winning team.">Year</th>
+  <th data-stat="age" align="center"  class="tooltip sort_default_asc show_partial_when_sorting"  tip="Player&#146;s age at midnight of June 30th of that year">Age</th>
+  <th data-stat="team_ID" align="center"  class="tooltip sort_default_asc show_partial_when_sorting" >Tm</th>
+  <th data-stat="lg_ID" align="center"  class="tooltip sort_default_asc"  tip="<strong>League</strong><br><strong>AL</strong> - American League (1901-present)<br><strong>NL</strong> - National League (1876-present)<br><strong>AA</strong> - American Association (1882-1891)<br><strong>UA</strong> - Union Association (1884)<br><strong>PL</strong> - Players League (1890)<br><strong>FL</strong> - Federal League (1914-1915)<br><strong>NA</strong> - National Association (1871-1875)">Lg</th>
+  <th data-stat="G" align="center"  class="tooltip"  tip="Games Played or Pitched" data-filter="1" data-name="Games Played">G</th>
+  <th data-stat="PA" align="center"  class="tooltip"  tip="<strong>Plate Appearances</strong><br>When available, we use actual plate appearances from play-by-play game accounts<br>Otherwise estimated using AB + BB + HBP + SF + SH,<br>which excludes catcher interferences.<br>When <span class=tooltip>this color</span> click for a summary of each PA." data-filter="1" data-name="Plate Appearances">PA</th>
+  <th data-stat="runs_bat" align="center"  class="tooltip"  tip="<strong>Runs Batting</strong><br>Number of runs better or worse than average the player was as a hitter.<br>This is based on a modified version of wRAA.<br>See our about section for a full description of how this is calculated." data-filter="1" data-name="Batting Runs">R<em>bat</em></th>
+  <th data-stat="runs_br" align="center"  class="tooltip"  tip="<strong>Runs from Baserunning</strong><br>Number of runs better or worse than average the player was for all baserunning events.<br>SB, CS, PB, WP, Defensive Indifference.<br>Developed by Sean Smith of BaseballProjection.com" data-filter="1" data-name="Baserunning Runs">R<em>baser</em></th>
+  <th data-stat="runs_dp" align="center"  class="tooltip"  tip="<strong>Runs Grounded into Double Plays</strong><br>Number of runs better or worse than average the player was at avoiding grounding into double plays.<br>Developed by Sean Smith of BaseballProjection.com">R<em>dp</em></th>
+  <th data-stat="runs_fielding" align="center"  class="tooltip"  tip="<strong>Runs from Fielding</strong><br>Number of runs better or worse than average the player was for all fielding.<br>Fielding of balls in play, turning double plays, outfield arms and catcher defense are all included.<br>We use Baseball Info Solutions Defensive Runs Saved when available and<br>Total Zone Rating from Sean Smith when not.<br>Our WAR framework was developed by Sean Smith of BaseballProjection.com" data-filter="1" data-name="Fielding Runs">R<em>field</em></th>
+  <th data-stat="runs_pos" align="center"  class="tooltip"  tip="<strong>Runs from Positional Scarcity</strong><br>Number of runs above or below average due to positional differences.<br>Positions like C, SS, and 2B get a bonus.<br>Positions like 1B, DH, LF get a penalty.<br>Developed by Sean Smith of BaseballProjection.com">R<em>pos</em></th>
+  <th data-stat="runs_above_avg_bat" align="center"  class="tooltip"  tip="<strong>Runs better than Avg</strong><br>It is the number of runs this player is better than a league average player.">RAA</th>
+  <th data-stat="WAA" align="center"  class="tooltip"  tip="<strong>Wins Above Avg</strong><br>This is the wins added by this player above that of an average player.  We compute the waaW-L% using a PythagenPat conversion and then subtract .500 and multiply by the number of games played." data-filter="1" data-name="Wins Above Average">WAA</th>
+  <th data-stat="runs_replacement" align="center"  class="tooltip"  tip="<strong>Runs from Replacement Level</strong><br>Number of runs an average player is better than a replacement player.<br>Replacement is set for a .294 team winning percentage.<br>Stronger leagues may get a larger bonus.<br>Developed by Sean Smith of BaseballProjection.com">R<em>rep</em></th>
+  <th data-stat="runs_above_rep" align="center"  class="tooltip"  tip="<strong>Runs above Replacement Level</strong><br>Total of other columns  It is the number of runs this player is better than a replacement player.  Replacement is set for a .294 team winning percentage.  Developed by Sean Smith of BaseballProjection.com">RAR</th>
+  <th data-stat="WAR" align="center"  class="tooltip"  tip="<strong>Wins Above Replacement</strong><br>A single number that presents the number of wins the player added<br>to the team above what a replacement player (think AAA or AAAA) would add.<br>Scale for a single-season: 8+ MVP Quality, 5+ All-Star Quality, 2+ Starter,<br>0-2 Reserve, &lt; 0 Replacement Level  <br>Developed by Sean Smith of BaseballProjection.com" data-filter="1" data-name="Wins Above Replacement">WAR</th>
+  <th data-stat="waa_win_perc" align="center"  class="tooltip"  tip="<strong>Win-Loss% w/ Avg. Team</strong><br>This is the win-loss of an otherwise average team in ONLY the games this player played in.<br>For example, for a pitcher this would only consider the games the pitcher threw in and ignoring games they did not play in.">waaWL%</th>
+  <th data-stat="waa_win_perc_162" align="center"  class="tooltip"  tip="<strong>Win-Loss% w/ Avg. Team Season</strong><br>This is the win-loss of an otherwise average team for an entire season giving them credit for only the games this player played in.<br>For example, for a pitcher this would be waaW-L%<br>in the games the pitcher threw in and a .500 record otherwise.">162WL%</th>
+  <th data-stat="WAR_off" align="center"  class="tooltip"  tip="<strong>Offensive Wins Above Replacement (everything but Fielding)</strong><br>The same statistic as Wins Above Replacement for Position<br>Players (WAR), but with the fielding value excluded.<br>oWAR + dWAR does not equal WAR.<br>Adding would count positions twice.<br>Contains the factor for batting stats, baserunning, a positional adjustment, and the replacement player adjustment.<br> Factors developed by Sean Smith of BaseballProjection.com" data-filter="1" data-name="Offensive WAR">oWAR</th>
+  <th data-stat="WAR_def" align="center"  class="tooltip"  tip="<strong>Defensive Wins Above Replacement for position players</strong><br>A defensive measure of wins above replacement, but given<br>only the defensive stats of the player and his position adjustment.  For this calculation, we use a<br>replacement level on defense is the league average.<br>Based on Baseball Info Solutions defensive runs saved from 2003 on<br>and total zone rating developed by Sean Smith of BaseballProjection.com previously" data-filter="1" data-name="Defensive WAR">dWAR</th>
+  <th data-stat="runs_above_rep_off" align="center"  class="tooltip"  tip="<strong>Offensive Runs above Replacement Level</strong><br><strong>oWAR + dWAR DOES NOT EQUAL WAR, pos would be counted 2x</strong><br>Total of all columns except for fielding values<br>Includes batting, baserunning, positional adjustment, and a playing time adjustment<br>for the number of runs an average player is better than a replacement player.<br>Replacement is set for a .294 team winning percentage.<br>Developed by Sean Smith of BaseballProjection.com">oRAR</th>
+  <th data-stat="Salary" align="center"  class="tooltip hide_non_quals"  tip="These values may not include every bonus the player received in a season.<br>They are also often missing values for mid-season callups or players acquired in-season.<br>Post-1984 seasons are mostly complete, pre-1985 is mostly incomplete." data-filter="1" data-name="Salary">Salary</th>
+  <th data-stat="pos_season" align="left"  class="tooltip sort_default_asc"  tip="<strong>Position</strong><br>&#146;*&#146; indicates position played in 2/3rds of team games,<br>&#146;/&#146; less than 10 games played.">Pos</th>
+  <th data-stat="award_summary" align="center"  class="tooltip sort_default_asc show_partial_when_sorting"  tip="Summary of how player did in awards voting that year.<br>GG - Gold Glove<br>SS - Silver Slugger<br>MVP - Most Valuable Player<br>CYA - Cy Young Award<br>ROY - Rookie of the Year">Awards</th>
+</tr>
+</thead>
+<tbody>
+<tr  class="full" id="batting_value.1875">
+   <td align="left"  csk="1875">1875</td>
+   <td align="right" >20</td>
+   <td align="left" ><a href="/teams/CEN/1875.shtml" title="Philadelphia Centennials">CEN</a></td>
+   <td align="left" ><a href="/leagues/NA/1875.shtml">NA</a></td>
+   <td align="right" >11</td>
+   <td align="right" >45</td>
+   <td align="right" >-2</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >-1</td>
+   <td align="right" >0</td>
+   <td align="right" >-2</td>
+   <td align="right"  csk="-0.23">-0.2</td>
+   <td align="right" >2</td>
+   <td align="right" >-1</td>
+   <td align="right"  csk="-0.07">-0.1</td>
+   <td align="right" >.480</td>
+   <td align="right" >.499</td>
+   <td align="right"  csk="0.03">0.0</td>
+   <td align="right"  csk="-0.09">-0.1</td>
+   <td align="right" >0</td>
+   <td align="right" ></td>
+   <td align="left" >3</td>
+   <td align="left" ></td>
+</tr>
+<tr  class="full" id="batting_value.1875">
+   <td align="left"  csk="1875">1875</td>
+   <td align="right"  csk="0.2">20</td>
+   <td align="left" ><a href="/teams/BRA/1875.shtml" title="Brooklyn Atlantics">BRA</a></td>
+   <td align="left" ><a href="/leagues/NA/1875.shtml">NA</a></td>
+   <td align="right" >1</td>
+   <td align="right" >4</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right"  csk="0.00">0.0</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right"  csk="0.01">0.0</td>
+   <td align="right" >.500</td>
+   <td align="right" >.500</td>
+   <td align="right"  csk="0.01">0.0</td>
+   <td align="right"  csk="0.00">0.0</td>
+   <td align="right" >0</td>
+   <td align="right" ></td>
+   <td align="left" >/3</td>
+   <td align="left" ></td>
+</tr>
+</tbody>
+<tfoot>
+<tr  class=" stat_total">
+   <td align="left"  colspan=3 >1 Season</td>
+   <td align="left" ></td>
+   <td align="right" >12</td>
+   <td align="right" >49</td>
+   <td align="right" >-2</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >-1</td>
+   <td align="right" >0</td>
+   <td align="right" >-2</td>
+   <td align="right"  csk="-0.23">-0.2</td>
+   <td align="right" >2</td>
+   <td align="right" >-1</td>
+   <td align="right"  csk="-0.06">-0.1</td>
+   <td align="right" >.482</td>
+   <td align="right" >.499</td>
+   <td align="right"  csk="0.04">0.0</td>
+   <td align="right"  csk="-0.09">-0.1</td>
+   <td align="right" >0</td>
+   <td align="right" ></td>
+   <td align="left" ></td>
+   <td align="left" ></td>
+</tr>
+<tr  class="blank_table partial_table stat_total">
+   <td align="left"  colspan=3 ></td>
+   <td align="left" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="left" ></td>
+   <td align="left" ></td>
+</tr>
+<tr  class=" stat_total">
+   <td align="left"  colspan=3 >BRA (1 yr)</td>
+   <td align="left" ></td>
+   <td align="right" >1</td>
+   <td align="right" >4</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right"  csk="0.00">0.0</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right"  csk="0.01">0.0</td>
+   <td align="right" >.500</td>
+   <td align="right" >.500</td>
+   <td align="right"  csk="0.01">0.0</td>
+   <td align="right"  csk="0.00">0.0</td>
+   <td align="right" >0</td>
+   <td align="right" ></td>
+   <td align="left" ></td>
+   <td align="left" ></td>
+</tr>
+<tr  class=" stat_total">
+   <td align="left"  colspan=3 >CEN (1 yr)</td>
+   <td align="left" ></td>
+   <td align="right" >11</td>
+   <td align="right" >45</td>
+   <td align="right" >-2</td>
+   <td align="right" >0</td>
+   <td align="right" >0</td>
+   <td align="right" >-1</td>
+   <td align="right" >0</td>
+   <td align="right" >-2</td>
+   <td align="right"  csk="-0.23">-0.2</td>
+   <td align="right" >2</td>
+   <td align="right" >-1</td>
+   <td align="right"  csk="-0.07">-0.1</td>
+   <td align="right" >.480</td>
+   <td align="right" >.499</td>
+   <td align="right"  csk="0.03">0.0</td>
+   <td align="right"  csk="-0.09">-0.1</td>
+   <td align="right" >0</td>
+   <td align="right" ></td>
+   <td align="left" ></td>
+   <td align="left" ></td>
+</tr>
+</tfoot>
+</table>
+</div><!-- div.table_container#div_xxxx -->
+</div>
+
+<!-- DKDKDKDK -->
+
+
+<div class="stw div_fielding_type show_always" id="all_standard_fielding">
+<div class="table_heading">
+<h2 data-mobile-header="Traditional Fielding<p class='desc'>PO, G, Inn, A, E, RF/9, Field%,... </p>">Standard Fielding</h2><h2 class="alt"><a href="abadijo01-field.shtml">More Stats</a></h2><div class="table_heading_text"></div></div>
+<div id="stats_sub_index" class="sub_index">
+<ul class="hovermenu menu">
+ <li class=""><a href="/register/player.cgi?id=abadie001joh">Register</a></li> <li class=""><a href="/players/a/abadijo01-field.shtml">Advanced Fielding Stats</a></li>
+
+</ul>
+</div>
+
+<div class="clear_both"></div>
+<div class="table_container" id="div_standard_fielding">
+<table data-freeze="4" class="sortable  stats_table" id="standard_fielding">
+<colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></colgroup>
+<thead>
+<tr class="">
+  <th data-stat="year_ID" align="left"  class="tooltip sort_default_asc show_partial_when_sorting"  tip="A Star indicates an all-star that season.<br>A Ring indicates the player appeared in WS for winning team.">Year</th>
+  <th data-stat="team_ID" align="center"  class="tooltip sort_default_asc show_partial_when_sorting" >Tm</th>
+  <th data-stat="lg_ID" align="center"  class="tooltip sort_default_asc"  tip="<strong>League</strong><br><strong>AL</strong> - American League (1901-present)<br><strong>NL</strong> - National League (1876-present)<br><strong>AA</strong> - American Association (1882-1891)<br><strong>UA</strong> - Union Association (1884)<br><strong>PL</strong> - Players League (1890)<br><strong>FL</strong> - Federal League (1914-1915)<br><strong>NA</strong> - National Association (1871-1875)">Lg</th>
+  <th data-stat="age" align="center"  class="tooltip sort_default_asc show_partial_when_sorting"  tip="Player&#146;s age at midnight of June 30th of that year">Age</th>
+  <th data-stat="pos" align="left"  class="tooltip sort_default_asc"  tip="<strong>Position</strong>">Pos</th>
+  <th data-stat="G" align="center"  class="tooltip"  tip="Games Played or Pitched" data-filter="1" data-name="Games Played">G</th>
+  <th data-stat="GS" align="center"  class="tooltip"  tip="Games Started" data-filter="1" data-name="Games Started">GS</th>
+  <th data-stat="CG" align="center"  class="tooltip"  tip="Complete Game" data-filter="1" data-name="Complete Games">CG</th>
+  <th data-stat="Inn_def" align="center"  class="tooltip"  tip="Innings Played in Field">Inn</th>
+  <th data-stat="chances" align="center"  class="tooltip"  tip="<strong>Defensive Chances</strong><br>Putouts + Assists + Errors">Ch</th>
+  <th data-stat="PO" align="center"  class="tooltip"  tip="Putouts">PO</th>
+  <th data-stat="A" align="center"  class="tooltip"  tip="Assists">A</th>
+  <th data-stat="E_def" align="center"  class="tooltip"  tip="Errors Committed">E</th>
+  <th data-stat="DP_def" align="center"  class="tooltip"  tip="Double Plays Turned">DP</th>
+  <th data-stat="fielding_perc" align="center"  class="tooltip"  tip="<strong>Fielding Percentage</strong><br>(Putouts + Assists) / (Putouts + Assists + Errors)" data-filter="1" data-name="Fielding %">Fld%</th>
+  <th data-stat="range_factor_per_nine" align="center"  class="tooltip"  tip="<strong>Range Factor per 9 Inn</strong><br>9 * (Putouts + Assists) / Innings Played" data-filter="1" data-name="Range Factor/9Inn">RF/9</th>
+  <th data-stat="range_factor_per_game" align="center"  class="tooltip"  tip="<strong>Range Factor per Game</strong><br>(Putouts + Assists) / Games Played" data-filter="1" data-name="Range Factor/Game">RF/G</th>
+  <th data-stat="fielding_perc_lg" align="center"  class="tooltip"  tip="<strong>League Fielding Percentage</strong><br>The fielding percentage of the league at this position."><em>lg</em>Fld%</th>
+  <th data-stat="range_factor_per_nine_lg" align="center"  class="tooltip"  tip="<strong>League Range Factor per 9 Inn</strong><br>Average Range Factor the league<br>9 * (Putouts + Assists) / Innings Played"><em>lg</em>RF9</th>
+  <th data-stat="range_factor_per_game_lg" align="center"  class="tooltip"  tip="<strong>League Range Factor per Game</strong><br>Average Range Factor for the league for chances per game<br>(Putouts + Assists) / Games Played"><em>lg</em>RFG</th>
+  <th data-stat="award_summary" align="center"  class="tooltip sort_default_asc show_partial_when_sorting"  tip="Summary of how player did in awards voting that year.<br>GG - Gold Glove<br>SS - Silver Slugger<br>MVP - Most Valuable Player<br>CYA - Cy Young Award<br>ROY - Rookie of the Year">Awards</th>
+</tr>
+</thead>
+<tbody>
+<tr  class=" full" onclick="sumSpan(this);" id="1875:standard_fielding">
+   <td align="left"  csk="1875">1875</td>
+   <td align="left" >TOT</td>
+   <td align="left" ><a href="/leagues/NA/1875.shtml">NA</a></td>
+   <td align="right" >20</td>
+   <td align="left"  csk="1B.187500">1B</td>
+   <td align="right" >12</td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" >104.0</td>
+   <td align="right" >145</td>
+   <td align="right" >129</td>
+   <td align="right" >3</td>
+   <td align="right" >13</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="0.9103448270000">.910</td>
+   <td align="right"  csk="11.423076923077">11.42</td>
+   <td align="right"  csk="11.000000000000">11.00</td>
+   <td align="right"  csk="0.9360000000">.936</td>
+   <td align="right" >10.93</td>
+   <td align="right" >10.92</td>
+   <td align="left" ></td>
+</tr>
+<tr  class="partial_table">
+   <td align="left"  class=" light_text" csk="1875.01">1875</td>
+   <td align="left" ><a href="/teams/CEN/1875.shtml" title="Philadelphia Centennials">CEN</a></td>
+   <td align="left" ><a href="/leagues/NA/1875.shtml">NA</a></td>
+   <td align="right"  class=" light_text" csk="20.01">20</td>
+   <td align="left"  csk="1B.187501">1B</td>
+   <td align="right" >11</td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" >97.0</td>
+   <td align="right" >137</td>
+   <td align="right" >122</td>
+   <td align="right" >3</td>
+   <td align="right" >12</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="0.9124087590000">.912</td>
+   <td align="right"  csk="11.597938144330">11.60</td>
+   <td align="right"  csk="11.363636363000">11.36</td>
+   <td align="right"  csk="0.9359854015">.936</td>
+   <td align="right" >10.93</td>
+   <td align="right" >10.92</td>
+   <td align="left" ></td>
+</tr>
+<tr  class="partial_table">
+   <td align="left"  class=" light_text" csk="1875.02">1875</td>
+   <td align="left" ><a href="/teams/BRA/1875.shtml" title="Brooklyn Atlantics">BRA</a></td>
+   <td align="left" ><a href="/leagues/NA/1875.shtml">NA</a></td>
+   <td align="right"  class=" light_text" csk="20.02">20</td>
+   <td align="left"  csk="1B.187502">1B</td>
+   <td align="right" >1</td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" >7.0</td>
+   <td align="right" >8</td>
+   <td align="right" >7</td>
+   <td align="right" >0</td>
+   <td align="right" >1</td>
+   <td align="right" >0</td>
+   <td align="right"  csk="0.8750000000000">.875</td>
+   <td align="right"  csk="9.000000000000">9.00</td>
+   <td align="right"  csk="7.000000000000">7.00</td>
+   <td align="right"  csk="0.9362500000">.936</td>
+   <td align="right" >10.93</td>
+   <td align="right" >10.90</td>
+   <td align="left" ></td>
+</tr>
+</tbody>
+<tfoot>
+<tr  class=" stat_total">
+   <td align="left" ></td>
+   <td align="left"  colspan=3 >1 Season</td>
+   <td align="left" >1B</td>
+   <td align="right" >12</td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" >104.0</td>
+   <td align="right" >145</td>
+   <td align="right" >129</td>
+   <td align="right" >3</td>
+   <td align="right" >13</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="0.9103448270000">.910</td>
+   <td align="right"  csk="11.423076923077">11.42</td>
+   <td align="right"  csk="11.000000000000">11.00</td>
+   <td align="right"  csk="0.9360000000">.936</td>
+   <td align="right" >10.93</td>
+   <td align="right" >10.92</td>
+   <td align="left" ></td>
+</tr>
+<tr  class=" stat_total">
+   <td align="left" ></td>
+   <td align="left"  colspan=3 >1 Season</td>
+   <td align="left" >TOT</td>
+   <td align="right" >12</td>
+   <td align="right" ></td>
+   <td align="right" ></td>
+   <td align="right" >104.0</td>
+   <td align="right" >145</td>
+   <td align="right" >129</td>
+   <td align="right" >3</td>
+   <td align="right" >13</td>
+   <td align="right" >1</td>
+   <td align="right"  csk="0.9103448270000">.910</td>
+   <td align="right"  csk="11.423076923077">11.42</td>
+   <td align="right"  csk="11.000000000000">11.00</td>
+   <td align="right"  csk="0.9360000000">.936</td>
+   <td align="right" >10.93</td>
+   <td align="right" >10.92</td>
+   <td align="left" ></td>
+</tr>
+</tfoot>
+</table>
+</div><!-- div.table_container#div_xxxx -->
+<div class="blockquote x_small_text"><strong>Note:</strong>
+<a href="/players/a/abadijo01-field.shtml#appearances::none">Complete player games played data</a>.<br>
+Fielding stats are a combination of official records and <a rel="nofollow" href="http://www.retrosheet.org/">RetroSheet</a> records.  Both are likely to have substantial errors and will not match perfectly. </li>
+<div class="padding_top_half sr_toggle"><span class="toggle_desc_display">View Complete Notes on Fielding Data</span>
+<div class="toggle_text">
+Leagues historically made no effort to balance team, league, and player fielding stats.  Since 1990 or so, computers have made this feasible, but prior to that there are hundreds or thousands of discrepancies each year in games played (even whether a player played a position), putouts, assists, double plays and errors.
+<ul class="bullets">
+<li>Pre-1938 SB &amp; CS data for catchers is estimated from catcher assists, games started and opposition stolen bases.</li>
+<li>From 1938 on SB, CS, Pickoff, &amp; WP data for catchers and pitchers is taken from play-by-play accounts in the retrosheet files.  There are several hundred games without pbp from 1938 to 1973 and for those we may not have any data.</li>
+<li>CG &amp; GS come from the retrosheet data and should be complete and pretty accurate from 1914 on.</li>
+<li>Innings played (like SB and CS) come from the retrosheet play-by-play data and should be considered mostly complete from 1938 to 1973 and complete from then on.</li>
+<li>Stats (PO,A,G, etc) for LF-CF-RF positions  (since 1914) is taken from play-by-play or box score data as available.</li>
+<li>Stats (PO,A,G,etc) for C,P,1B,2B,3B,SS,OF positions is taken from the official reported totals and may have been corrected at various times since their publication.</li>
+<li>For detailed information on which games retrosheet is missing play-by-play from 1938 to 1973, please see <a rel="nofollow" href="http://www.retrosheet.org/wanted/index.html">their most wanted games list</a></li>
+<li>For detailed information on the availability of data on this site by year, see our <a href="/about/coverage.shtml">data coverage page</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="all_other">
+
+
+<div class="stw clear_both div_other_type" id="all_transactions_other">
+<a name="trans"></a><div class="table_heading"><h2>
+Transactions</h2></div>
+<div class="small_text mobile_text">
+<ul>
+</ul>
+<div class="blockquote small_text italic_text">
+The transaction information used here was obtained free of charge
+from and is copyrighted by <a 
+rel="nofollow" href="http://www.retrosheet.org/">RetroSheet</a>. We attempt to update transactions throughout the season.
+</div>
+</div></div>
+
+<div class="div_translations clearfix margin_bottom" id="all_translations">
+ <div class="table_heading"><h2>Name + "Statistics" Translations</h2>
+  <br><br><div class="table_heading_text">Note this is done in a automated way, so we apologize for any errors, &amp; please <a href="/feedback/">report any suggested corrections.</a>  "Statistics" is included to allow non-English speakers to find our pages.</div>
+ </div>
+  <div class="clear_both small_text">
+    <div class="float_left margin_top_half"><span class="float_left" style="width:100px">Japanese:</span>  <span class="float_left" style="width:250px">ジョン・アバディー 統計</span></div>
+
+  </div>
+</div>
+</div><!-- div#all_other --><div class="clear_both"></div>
+<div class="sr_tutorial" id="br_player_page">
+  <div class="sr_tutorial_link">
+    <a title="SR video showing player page features" href="http://www.youtube.com/watch?v=O3wNQvJH-5Q" class="lightbox"><span class="tooltip">Hey Sports Fan! Become an SR Ninja. Watch our tutorial &amp; find out what you can do on this page.</span></a>
+  </div>
+  <div class="clear_both small_text float_right">
+    <a rel="nofollow" target="_blank" href="http://www.youtube.com/user/sportsreference">Sports Reference YouTube Channel</a>
+  </div>
+</div>
+
+<div class="table_heading"><h2>Other Resources &amp; Links</h2></div>
+<blockquote>
+<a href="/feedback/index.cgi?url=Error%20with%20abadijo01">Error?</a> &nbsp; &nbsp;
+<a href="/compare.cgi?top=/players/a/abadijo01.shtml">Compare</a> &nbsp; &nbsp;
+ <a rel="nofollow" href="http://www.baseballindex.org/tbi.asp?a=srch&amp;do=true&amp;src=ppl&amp;txtfname=John&amp;txtlname=Abadie">Search&nbsp;SABR's&nbsp;Baseball&nbsp;Index</a>
+  &nbsp; &nbsp; <a rel="nofollow" rel="I MEAN IT"  href="http://www.google.com/custom?q=John+Abadie&sa=Search&client=pub-5319453360923253&forid=1&ie=ISO-8859-1&oe=ISO-8859-1&hl=en&cof=">Other&nbsp;Links@google.com</a>
+ &nbsp; &nbsp; <a rel="nofollow" href="http://www.baseball-almanac.com/players/player.php?p=abadijo01">Baseball-Almanac.com</a> &nbsp; &nbsp;
+<a rel="nofollow" href="http://www.retrosheet.org/boxesetc/A/Pabadj101.htm">Retrosheet</a> &nbsp; &nbsp;
+<a rel="nofollow" href="http://wahoosam.com/baseball-player/?id=abadijo01">WahooSam.com</a> &nbsp; &nbsp;
+</blockquote>
+<br>Name and misspellings: <em>
+John james jim jimmy John jon W. Abadie </em></p>
+
+<div class="clear_both margin_top margin_bottom">
+  <div class="table_heading"><h3>Player Page Tricks and Tips</h3></div>
+<p class="small_text">
+<a name="rowsum_desc">
+  Sum any set of rows by clicking anywhere (not red or blue) on the
+  first and last rows of your selection. We will then compute the
+  totals for the player between and including those two seasons.  
+</a>
+
+<br> Default Setting for this feature:
+  <span id="sr_rowSum_on" class=tooltip onclick="sr_rowSum_on();">Turn On</span> /
+  <span id="sr_rowSum_off" class=tooltip onclick="sr_rowSum_off();">Turn Off</span></form>
+</span>
+
+<br>Summation of season totals only works for the initial case when the table
+is in year order.  On a sorted table the results may get a bit
+goofy.
+
+<br>
+<br>
+HIGHLIGHTING: Adding a range or series of player's career
+seasons or career game numbers (like
+'<a href="/players/a/aaronha01.shtml#1972:batting_standard">#1972:batting_standard</a>',
+'<a href="/players/r/rosepe01.shtml#1970-1980-sum:batting_standard">#1970-1980-sum:batting_standard</a>', or
+'<a href="/players/m/martipe02.shtml#1998,1999,2001,2002,sum:pitching_standard">#1998,1999,2001,2002,sum:pitching_standard</a>')
+
+onto the end of a player page url causes the seasons to the
+highlighted and summed. After changing address bar, reload the page to
+see highlighting.  This will work even in links e-mailed to others.
+Note that for tables with multiple pages the first table is the
+default.  If you want to create a sum for a table other than the first
+one, select the rows and after the summation window appears click on
+"permanent link" link.
+</div>
+<div class="blockquote small_text italic_text clear_both">
+The play-by-play information both shown and used to create certain
+data sets was obtained free of charge from and is copyrighted by <a
+rel="nofollow" href="http://www.retrosheet.org/">RetroSheet</a>.
+</div>
+</div><!-- div.page_content -->
+<!-- SR js files --><!-- PRIVACY_NOTE --><script>
+var sr_note_box_bottom_cookie = 'sr_br_dk';
+function sr_call_check_note_box_bottom() { if (!sr_check_is_pi_user()) { sr_check_note_box_cookie('bottom',sr_note_box_bottom_cookie); } }
+function sr_check_is_pi_user() {
+ var user = $.cookie('SR_user');
+ if (!user) {
+ return false;
+ }
+ var vals = user.split('::');
+ var is_pi = vals[5];
+ if (is_pi) return true;
+ return false;
+}
+sr_js_loader.push(sr_call_check_note_box_bottom);
+</script><div id=note_box_bottom class="hidden"><div class="note_box_bottom note_box small_text"><div onclick="sr_close_note_box('bottom',sr_note_box_bottom_cookie)" class="x_small_text tooltip float_right closing_button">[X]</div><a href="http://www.sports-reference.com/blog/2015/02/get-free-play-index-subscription-with-15-deposit-on-draftkings/">Get a Free Play Index Subscription with $15 Deposit on DraftKings</a><br> Normal price is $36/year.
+</div><!-- div.note_box --></div><!-- div.note_box_bottom --><div id=sr_js></div><script type="text/javascript">
+(function () {var sr_js_file = 'http://d2ft4b0ve1aur1.cloudfront.net/js-475/sr-br-min.js';if (sr_gzipEnabled) {sr_js_file = 'http://d2ft4b0ve1aur1.cloudfront.net/js-475/sr-br-min.js.jgz';}var sr_script_tag = document.getElementById("sr_js");if (sr_script_tag) {var sr_script = document.createElement("script");sr_script.type = "text/javascript";sr_script.charset = "utf-8";sr_script.src = sr_js_file;sr_script_tag.appendChild(sr_script);}}());</script><!-- Google Analytics --><script>
+var sr_cookie = document.cookie;
+String.prototype.sr_isMatch = function(s){
+ return this.match(s)!==null
+}
+function getCookie(name) {
+ var prefix = name + "=";
+ var begin = sr_cookie.indexOf("; " + prefix);
+ if (begin == -1) {
+ begin = sr_cookie.indexOf(prefix);
+ if (begin != 0) return null;
+ }
+ else
+ {
+ begin += 2;
+ var end = document.cookie.indexOf(";", begin);
+ if (end == -1) {
+ end = sr_cookie.length;
+ }
+ }
+ return unescape(sr_cookie.substring(begin + prefix.length, end));
+}
+var sr_cookie = getCookie('SR_user') || '';
+var sr_is_ad_free = sr_cookie.sr_isMatch('Z6SON8tTdJid');
+var sr_is_user = sr_cookie !== null && sr_cookie !== '';
+var sr_seen_modal = getCookie('modal_ad') !== null;
+(function(i,s,o,g,r,a,m){
+ i['GoogleAnalyticsObject']=r;
+ i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();
+ a=s.createElement(o),m=s.getElementsByTagName(o)[0];
+ a.async=1;
+ a.src=g;
+ m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-1890630-1', 'auto');
+ga('require', 'linkid', 'linkid.js');
+ga('require', 'ecommerce', 'ecommerce.js');
+ga('send', 'pageview');
+var trackOutboundLink = function(el, url) {
+ ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+ function () {
+ if (el.target == '_blank') {
+ return true;
+ } else {
+ setTimeout(function() { document.location = url; }, 50);
+ return false;
+ }
+ }
+ });
+}
+/**
+ * Manual callback handler
+ * false == no scroll to track from previous page
+ */
+// The SR overall account.
+ga('create', 'UA-1890630-9', 'auto', {'name': 'sr_tracker', 'allowLinker': true });  // New tracker.
+ga('sr_tracker.require', 'displayfeatures');
+ga('sr_tracker.set', 'dimension1','br');
+ga('sr_tracker.set', 'dimension2',sr_is_ad_free);
+ga('sr_tracker.set', 'dimension3',sr_is_user);
+ga('sr_tracker.set', 'dimension4',sr_seen_modal);
+ga('sr_tracker.send', 'pageview');
+var linker;
+// Cross browser way to listen for events.
+function addListener(element, type, callback) {
+ if (element.addEventListener) element.addEventListener(type, callback);
+ else if (element.attachEvent) element.attachEvent('on' + type, callback);
+}
+var sr_links = document.getElementsByClassName("sr_link");
+Array.prototype.forEach.call(sr_links, function(el) {
+ // Do stuff with the element
+ addListener(el, 'mousedown', decorateMe);
+ addListener(el, 'keydown',   decorateMe);
+});
+function decorateMe(event) {
+ event = event || window.event;                            // Cross browser hoops.
+ var target = event.target || event.srcElement;
+ if (target && target.href) {                              // Ensure this is a link.
+ ga(function(tracker) {
+ var linker = new window.gaplugins.Linker(tracker);
+ var output = linker.decorate(target);
+ });
+ }
+}
+</script><!-- End Google Analytics --><!-- Facebook, and plus one pixels and buttons --><script type="text/javascript">
+function sr_fire_buttons () {if (document.getElementById('sr_suppress_ads')) { return false; }// Facebook ///////////////////////////////////////////////
+window.fbAsyncInit = function() {FB.init({appId: '165379980186112', status: true, cookie: true, xfbml: true, channelUrl  : 'http://www.baseball-reference.com/inc/channel.php'});// track likes.
+FB.Event.subscribe('edge.create', function(targetUrl) {ga('send', 'social', 'facebook', 'like', targetUrl);});};var fb_root = document.getElementById('fb-root');if (fb_root)
+{var e = document.createElement('script');e.type = 'text/javascript';e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';e.async = true;fb_root.appendChild(e);}// plusone ///////////////////////////////////////////////
+var tag = document.createElement('script');tag.type = 'text/javascript';tag.async = true;tag.src = 'https://apis.google.com/js/plusone.js';var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(tag, s);}</script><script type="text/javascript">
+setTimeout(function(){sr_fire_buttons();  }, 0);</script><script src="http://network.yardbarker.com/network/ybn_pixel/12488" type="text/javascript"></script><script type="text/javascript">
+(function () {if (document.getElementById('sr_suppress_ads')) { return false; }// Adiply rails ads
+var scr = document.createElement("script");scr.setAttribute('async', 'true');scr.type = "text/javascript";scr.src = "http://ad.adip.ly/dlvr/adiply_statmarg.min.js?site_id=SportsReference_AP&t=120";((document.getElementsByTagName('head') || [null])[0] ||
+document.getElementsByTagName('script')[0].parentNode).appendChild(scr);}());</script>
+
+
+
+<script src="http://static.bbref.com/js/ads.js"></script>
+<script type="text/javascript">
+  if (typeof sr_test == 'undefined') {
+     document.write('<img class="hidden" src="http://static.spref.com/x.gif?obscured">');
+  } else {
+    document.write('<img class="hidden"  src="http://static.spref.com/x.gif?seen">');
+  }
+</script>
+	      
+
+
+<div id=site_footer>
+
+<!-- sr_pagebottom -->
+
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+      googletag.defineSlot('/117033896/sr_br_bottom', [[970, 90],[970, 525]],  'sr_pagebottom').addService(googletag.pubads());
+      googletag.pubads().collapseEmptyDivs();
+      googletag.pubads().enableSyncRendering();
+      googletag.enableServices();
+  });
+</script>
+<!-- /117033896/sr_br_bottom -->
+<div id="sr_pagebottom" class="margin_bottom"></div>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('sr_pagebottom'); });
+</script>
+
+
+
+
+
+<div id=sr_footer class="bold_text"><div class="margin xx_large_text"><a href="http://www.sports-reference.com/feedback/">Question, Comment, Feedback or Correction?</a></div> Copyright &copy; 2000-2015
+<a href="http://www.sports-reference.com">Sports Reference LLC</a>.
+All rights reserved.
+<form class=inline  name="f_footer" action="/search/search.fcgi" style="margin-left:5em;"><input x-webkit-speech type="text" id="search_footer" name="search" class="search long"><input type=submit value="Search" class="submit"><a class=small_text href="/about/findstuff.shtml">Tips</a></form><div class=margin_top><a href="/linker/">Automatic Player Linking</a> / <a href="/about/sharing.shtml">Statistical Sharing Tool</a> / <a href="/friv/link_players.cgi">Basic Player Linking</a> / <a href="/about/coverage.shtml">Data Coverage</a></div></div><div><a href="/">See Front Page</a> for time of last update</div><div class="blockquote italic_text clear_both margin_top">
+Much of the play-by-play, game results, and transaction information
+both shown and used to create certain data sets was obtained free of
+charge from and is copyrighted by <a
+rel="nofollow" href="http://www.retrosheet.org/">RetroSheet</a>.  </div><div class="blockquote italic_text clear_both margin_top"> Win
+Expectancy, Run Expectancy, and Leverage Index calculations provided by Tom Tango of <a
+rel="nofollow" href="http://www.insidethebook.com/">InsideTheBook.com</a>, and
+co-author of <a class=italic_text
+rel="nofollow" href="http://www.amazon.com/exec/obidos/tg/detail/-/1597971294/">The
+Book: Playing the Percentages in Baseball</a>.</div><div class="blockquote italic_text clear_both margin_top"> <a
+href="/blog/archives/5756">Total Zone Rating</a> and <a
+href="/blog/archives/6063">Wins above Replacement</a> calculations
+provided by Sean Smith of <a
+rel="nofollow" href="http://www.baseballprojection.com/">BaseballProjection.com</a>.</div><div class="blockquote italic_text clear_both margin_top"> Full-year
+historical Major League statistics provided by Pete Palmer and Gary
+Gillette of <a rel="nofollow" href="http://www.247baseball.com/web/?page_id=2">24-7
+Baseball</a>.</div>
+<div class="blockquote italic_text clear_both margin_top">Some defensive statistics Copyright BIS, 2010-2015 <a
+rel="nofollow" href="http://www.baseballinfosolutions.com/" class="sprite-bis_logo"></a>.</div><div class="blockquote italic_text clear_both margin_top">Some high school data is courtesy David McWater.</div><div class="blockquote italic_text clear_both margin_top">Many historical player head
+shots courtesy of David Davis.  Many thanks to him. 
+All images are property the copyright holder and are displayed here for informational purposes only.
+</div>
+<div class="blockquote italic_text clear_both margin_top">Play Index
+Loading Photos from the <a
+rel="nofollow" href="http://www.loc.gov/rr/print/coll/022-2.html">George Grantham
+Bain Collection</a> at the Library of Congress.</div>
+<div class="center margin_top"><a href="http://sportsdirectinc.com" rel="nofollow"><img src="http://d2ft4b0ve1aur1.cloudfront.net/images-436/sports-direct-275x35.png"></a></div>
+<div class="blockquote clear_both margin_top"><a href="http://www.sports-reference.com/">A Sports Reference Site</a>:
+<a href="/about/">About Baseball Reference</a>&nbsp;|
+<a href="/feedback/">Found a bug or have a suggestion?</a><br><a href="http://www.sports-reference.com/privacy.shtml">Privacy Statement</a>&nbsp;|
+<a href="http://www.sports-reference.com/termsofuse.shtml">Conditions &amp; Terms of Service</a> |
+<a href="http://www.sports-reference.com/data_use.shtml">Use of Data</a></div>
+
+
+<div class="clear_both align_center large_text bold_text margin">Part of the <a rel="nofollow" href="http://www.foxsports.com/"><img alt="Fox Sports Engage Network" align="top" border="0" width="300" src="http://d3k2oh6evki4b7.cloudfront.net/images-012/engage.gif" height="33" id="exifviewer-img-1" exifid="1901166157" oldsrc="http://d3k2oh6evki4b7.cloudfront.net/images-012/engage.gif"></a> Network</div>
+
+</div>
+
+
+</div><!-- div#page_container -->
+
+</body><!-- SR -->
+</html>
