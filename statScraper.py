@@ -20,6 +20,7 @@ import sys
 
 
 def iint(string):
+    """Tries to interpret input string as integer using builtin 'int' function. If it cannot, returns 0"""
     try:
         return int(string.strip())
     except:
@@ -27,6 +28,7 @@ def iint(string):
 
 
 def ffloat(string):
+    """Tries to interpret input string as floating point number using builtin 'float' function. If it cannot, returns 0"""
     try:
         return float(string.strip())
     except:
@@ -34,19 +36,22 @@ def ffloat(string):
 
 
 def parsePlayerProfile(path, args):
+    """Creates Player object from stats on the player's profile page on baseball-reference.com"""
     soup = BeautifulSoup(requests.get("{domain}/{pathStr}".format(domain=args.domain[0], pathStr=path)).text, "html.parser")
 
     playerPathName  = re.split("/|\.", path.lower())[-2]
     # set up so a=11, b=12, etc, then joins the values together
     playerID        = "".join([char if char.isdigit() else str(ord(char) % 86) for char in playerPathName])
     birthday        = soup.find("span", id="necro-birth").get("data-birth")
-    primaryPosition = soup.find("strong", string=re.compile(r"^Position")).find_next_sibling("span").string
-    retired         = bool(soup.find("a", string="Last Game"))
+    hasDebuted      = soup.find("a", string="Debut")
+    debut           = isRetired.get("href") if hasDebuted else None
+    isRetired       = soup.find("a", string="Last Game")
+    retired         = isRetired.get("href") if isRetired else None
 
-    player = parseProfileHeader(soup, playerID, birthday, retired, args)
+    player = parseProfileHeader(soup, playerID, birthday, debut, retired, args)
 
     positionTable = soup.find("table", id="standard_fielding")
-    positions     = parsePositionInfo(positionTable, primaryPosition, args)
+    positions     = parsePositionInfo(positionTable, args)
     player.addPositions(positions)
 
     hittingTable = soup.find("table", id="batting_standard")
@@ -61,70 +66,122 @@ def parsePlayerProfile(path, args):
     return player
 
 
-def parseProfileHeader(soup, playerID, birthday, retired, args):
+def parseProfileHeader(soup, playerID, birthday, debut, retired, args):
+    """Grabs the information to create a basic Player object from a player's baseball-reference.com profile page"""
     nameTag      = soup.find("span", id="player_name")
     rosterName   = nameTag.string.strip()
     fullName     = nameTag.find_parent("div").find_next_sibling("p").strong.string.strip()
-    player       = Player(playerID, fullName, rosterName, birthday, retired)
+    player       = Player(playerID, fullName, rosterName, birthday, debut, retired)
     playerString = "Made player profile for {player}".format(player=player) if args.verbose else "Starting processing {name}".format(name=rosterName)
     print(playerString)
 
     return player
 
 
-def parsePositionInfo(fieldingTable, primaryPosition, args):
+def parsePositionInfo(fieldingTable, args):
+    """Parses the standard fielding table from baseball-reference.com. Records:
+        Year played
+        Level played during the year
+        Positions played during the year
+        Number of games played at each position"""
     if not fieldingTable: return {}
     fieldingStats = {}
     fieldingTable = fieldingTable.tbody.find_all("tr", class_=re.compile(r"full"))
 
     if args.verbose: print("Processing {season} seasons of major league fielding stats".format(season=len(fieldingTable)))
 
-    if fieldingTable:
-        for row in fieldingTable:
-            seasonStats = {}
-            stats       = row.find_all("td")
+    for row in fieldingTable:
+        seasonStats = {}
+        stats       = row.find_all("td")
+        year        = iint(stats[0].find(string=True))
+        level       = "mlb"
+        position    = stats[4].string.strip()
+        
+        if position == "OF":
+            continue
 
-            seasonStats["year"]     = iint(stats[0].find(string=True))
-            seasonStats["age"]      = iint(stats[3].find(string=True))
-            seasonStats["level"]    = "mlb"
-            seasonStats["position"] = stats[4].string.strip()
-            seasonStats["games"]    = iint(stats[5].find(string=True))
+        seasonStats["year"]   = year
+        seasonStats["age"]    = iint(stats[3].find(string=True))
+        seasonStats["level"]  = level
+        seasonStats[position] = {
+                "games":   iint(stats[5].find(string=True)),
+                "started": iint(stats[6].find(string=True))
+        }
 
-            year  = seasonStats["year"]
-            level = seasonStats["level"]
+        if year not in fieldingStats.keys():
+            fieldingStats[year] = {}
+        if level not in fieldingStats[year].keys():
+            fieldingStats[year][level] = {}
+        for key in seasonStats.keys():
+            fieldingStats[year][level][key] = seasonStats[key]
 
-            fieldingStats[year]        = {}
-            fieldingStats[year][level] = seasonStats
+    lastYear = sorted(fieldingStats.keys())[-1]
+    lastLevel = sorted(fieldingStats[lastYear].keys())[-1]
+    if args.verbose: print("Processed positions {positions}".format(positions=fieldingStats))
+    if args.verbose: print("Most recent year fielding: {recent}".format(recent=fieldingStats[lastYear][lastLevel]))
 
-            if args.verbose: print("Processed position {season}")
+    finalizedStats = cleanFieldingDict(fieldingStats)
+
+    return finalizedStats
 
 
-    positionDict = {
-            "Pitcher":        ["P"],
-            "Catcher":        ["C"],
-            "First Baseman":  ["1B"],
-            "Second Baseman": ["2B"],
-            "Third Baseman":  ["3B"],
-            "Shortstop":      ["SS"],
-            "Centerfielder":  ["CF", "OF"],
-            "Outfielder":     ["OF"],
-            "Leftfielder":    ["OF"],
-            "Rightfielder":   ["OF"]}
-    brPositions = [position.strip() for position in primaryPosition.split(",|and")]
-    for position in brPositions:
-        if position in positionDict.keys():
-            for pos in positionDict[position]:
-                if pos not in positions:
-                    positions.append(pos)
-                    if args.verbose: print("Adding position {position}".format(position=pos))
-        elif "U" not in positions:
-            positions.append("U")
-            if args.verbose: print("Adding position U")
+def cleanFieldingDict(fieldingDict):
+    fieldingStats = {}
+    for year in fieldingDict.keys():
+        fieldingStats[year] = {}
+        for level in fieldingDict[year].keys():
+            fieldingStats[year][level] = {}
+            outfieldCount              = 0
+            outfieldPos                = ["CF", "OF", "LF", "RF"]
 
-    return positions
+            for position in fieldingDict[year][level].keys():
+                gamesPlayed  = fieldingDict[year][level][position]["games"]
+                gamesStarted = fieldingDict[year][level][position]["started"]
+
+                if position == "DH": position = "U"
+
+                if position in outfieldPos:
+                    outfieldCount += gamesPlayed
+                    if position != "CF": continue
+
+                if position == "P":
+                    position    = "SP"
+                    gamesPlayed = gamesPlayed - gamesStarted
+                    fieldingStats[year][level][position] = gamesStarted
+
+                    if gamesPlayed <= 0: continue
+                    position = "RP"
+
+                fieldingStats[year][level][position] = gamesPlayed
+
+            if outfieldCount > 0:
+                fieldingStats[year][level]["OF"] = outfieldCount
+
+    return fieldingStats
 
 
 def parseBattingTable(battingTable, args):
+    """Parses the standard batting table from baseball-reference.com. Records:
+        Year played
+        Age at the end of the season
+        Level played during the year
+        Total games played during the season
+        Total plate appearances recorded during the year
+        Total hits recorded during the year
+        Total doubles recorded during the year
+        Total triples recorded during the year
+        Total home runs recorded during the year
+        Total times hit by pitches during the year
+        Total runs scored recorded during the year
+        Total runs batted in recorded during the year
+        Total stolen bases recorded during the year
+        Total times caught stealing during the year
+        Total times grounded into a double play during the season
+        Total sacrifice flies recorded during the year
+        Total sacrifice hits recorded during the year
+        Total strikeouts recorded during the year
+        Total walks recorded during the year
+        Total intentional walks recorded during the year"""
     if not battingTable: return {}
     battingStats = {}
     battingTable = battingTable.tbody.select("tr.full")
@@ -134,17 +191,18 @@ def parseBattingTable(battingTable, args):
     for season in battingTable:
         seasonStats = {}
         stats       = season.find_all("td")
+        year        = iint(stats[0].find(string=True))
+        level       = "mlb"
 
-        seasonStats["year"]  = iint(stats[0].find(string=True))
+        seasonStats["year"]  = year
         seasonStats["age"]   = iint(stats[1].find(string=True))
-        seasonStats["level"] = "mlb"
+        seasonStats["level"] = level
         seasonStats["2b"]    = iint(stats[9].find(string=True))
         seasonStats["3b"]    = iint(stats[10].find(string=True))
         seasonStats["bb"]    = iint(stats[15].find(string=True))
         seasonStats["cs"]    = iint(stats[14].find(string=True))
         seasonStats["g"]     = iint(stats[4].find(string=True))
         seasonStats["gdp"]   = iint(stats[23].find(string=True))
-        seasonStats["h"]     = iint(stats[8].find(string=True))
         seasonStats["hbp"]   = iint(stats[24].find(string=True))
         seasonStats["hr"]    = iint(stats[11].find(string=True))
         seasonStats["ibb"]   = iint(stats[27].find(string=True))
@@ -156,11 +214,15 @@ def parseBattingTable(battingTable, args):
         seasonStats["sh"]    = iint(stats[25].find(string=True))
         seasonStats["so"]    = iint(stats[16].find(string=True))
 
-        year  = seasonStats["year"]
-        level = seasonStats["level"]
+        hits = iint(stats[8].find(string=True))
+        seasonStats["1b"] = hits - seasonStats["2b"] - seasonStats["3b"] - seasonStats["hr"]
 
-        battingStats[year]        = {}
-        battingStats[year][level] = seasonStats
+        if year not in battingStats.keys():
+            battingStats[year] = {}
+        if level not in battingStats[year].keys():
+            battingStats[year][level] = seasonStats
+        for key in seasonStats.keys():
+            battingStats[year][level][key] = seasonStats[key]
 
         if args.verbose: print("Processed {season} from {level} level".format(season=year, level=level))
         if args.verbose: print("{stats}".format(stats=seasonStats))
@@ -169,6 +231,29 @@ def parseBattingTable(battingTable, args):
 
 
 def parsePitchingTables(pitchingTable, advancedPathTag, args):
+    """Parses the standard and advanced pitching tables from baseball-reference.com. Records:
+        Year played
+        Age at the end of the season
+        Level played during the year
+        Total games pitched during the season
+        Total games started during the season
+        Total innings pitched during the season
+        Total wins recorded during the year
+        Total losses recorded during the year
+        Total quality starts recorded during the year
+        Total complete games recorded during the year
+        Total shutouts recorded during the year
+        Total saves recorded during the year
+        Total blown saves recorded during the year
+        Total holds recorded during the year
+        Total strikeouts recorded during the year
+        Total walks allowed during the year
+        Total intentional walks recorded during the year
+        Total earned runs allowed during the year
+        Total hits allowed during the year
+        Total home runs allowed during the year
+        Total balks recorded during the year
+        Total wild pitches recorded during the year"""
     if not pitchingTable: return {}
     pitchingStats = {}
     pitchingTable = pitchingTable.tbody.select("tr.full")
@@ -180,10 +265,12 @@ def parsePitchingTables(pitchingTable, advancedPathTag, args):
     for season in pitchingTable:
         seasonStats = {}
         stats       = season.find_all("td")
+        year        = iint(stats[0].find(string=True))
+        level       = "mlb"
 
-        seasonStats["year"]  = iint(stats[0].find(string=True))
+        seasonStats["year"]  = year
         seasonStats["age"]   = iint(stats[1].find(string=True))
-        seasonStats["level"] = "mlb"
+        seasonStats["level"] = level
         seasonStats["bb"]    = iint(stats[19].find(string=True))
         seasonStats["bk"]    = iint(stats[23].find(string=True))
         seasonStats["cg"]    = iint(stats[11].find(string=True))
@@ -202,19 +289,16 @@ def parsePitchingTables(pitchingTable, advancedPathTag, args):
         seasonStats["w"]     = iint(stats[4].find(string=True))
         seasonStats["wp"]    = iint(stats[24].find(string=True))
 
-        year  = seasonStats["year"]
-        level = seasonStats["level"]
         if year in advancedStats.keys() and level in advancedStats[year].keys():
-            seasonStats["bs"]  = advancedStats[year][level]["bs"]
-            seasonStats["hld"] = advancedStats[year][level]["hld"]
-            seasonStats["qs"]  = advancedStats[year][level]["qs"]
-        else:
-            seasonStats["bs"]  = 0
-            seasonStats["hld"] = 0
-            seasonStats["qs"]  = 0
+            for key in advancedStats[year][level].keys():
+                seasonStats[key] = advancedStats[year][level][key]
 
-        pitchingStats[year]        = {}
-        pitchingStats[year][level] = seasonStats
+        if year not in pitchingStats.keys():
+            pitchingStats[year] = {}
+        if level not in pitchingStats[year].keys():
+            pitchingStats[year][level] = seasonStats
+        for key in seasonStats.keys():
+            pitchingStats[year][level][key] = seasonStats[key]
 
         if args.verbose: print("Processed {season} from {level} level".format(season=year, level=level))
         if args.verbose: print("{stats}".format(stats=seasonStats))
@@ -223,6 +307,12 @@ def parsePitchingTables(pitchingTable, advancedPathTag, args):
 
 
 def parseAdvancedPitchingTable(advancedPathTag, args):
+    """Parses the starting pitching and reliever pitching tables from baseball-reference.com. Records:
+        Year played
+        Level played during the season
+        Total blown saves recorded during the season
+        Total holds recorded during the season
+        Total quality starts recorded during the season"""
     if not advancedPathTag: return {}
     advancedPath  = advancedPathTag.get("href")
     soup = BeautifulSoup(requests.get("{domain}/{pathStr}".format(domain=args.domain[0], pathStr=advancedPath)).text, "html.parser")
@@ -236,60 +326,68 @@ def parseAdvancedPitchingTable(advancedPathTag, args):
     for season in relieverTable:
         seasonStats = {}
         stats       = season.find_all("td")
+        year        = iint(stats[0].find(string=True))
+        level       = "mlb"
 
-        seasonStats["year"]  = iint(stats[0].find(string=True))
-        seasonStats["level"] = "mlb"
+        seasonStats["year"]  = year
+        seasonStats["level"] = level
         seasonStats["bs"]    = iint(stats[11].find(string=True))
         seasonStats["hld"]   = iint(stats[14].find(string=True))
 
-        year  = seasonStats["year"]
-        level = seasonStats["level"]
-
-        advancedStats[year]        = {}
-        advancedStats[year][level] = seasonStats
+        if year not in advancedStats.keys():
+            advancedStats[year] = {}
+        if level not in advancedStats[year].keys():
+            advancedStats[year][level] = {}
+        for key in seasonStats.keys():
+            advancedStats[year][level][key] = seasonStats[key]
 
     for season in starterTable:
-        year  = iint(stats[0].find(string=True))
-        level = "mlb"
-        qs    = iint(stats[18].find(string=True))
+        seasonStats = {}
+        stats       = season.find_all("td")
+        year        = iint(stats[0].find(string=True))
+        level       = "mlb"
+        
+        seasonStats["year"]  = year
+        seasonStats["level"] = level
+        seasonStats["qs"]    = iint(stats[18].find(string=True))
 
-        advancedStats[year]              = {}
-        advancedStats[year][level]["qs"] = qs
-
-    for year in advancedStats.keys():
-        for level in year.keys():
-            seasonKeys = level.keys()
-            if "bs" not in seasonKeys: advancedStats[year][level]["bs"] = 0
-            if "hld" not in seasonKeys: advancedStats[year][level]["hld"] = 0
-            if "qs" not in seasonKeys: advancedStats[year][level]["qs"] = 0
+        if year not in advancedStats.keys():
+            advancedStats[year] = {}
+        if level not in advancedStats[year].keys():
+            advancedStats[year][level] = {}
+        for key in seasonStats.keys():
+            advancedStats[year][level][key] = seasonStats[key]
 
     return advancedStats
 
 
 def parsePlayerIndex(args):
+    """Parses a list of links to indexes of player profiles from baseball-reference.com"""
     paths = []
     soup  = BeautifulSoup(requests.get("{domain}/players/".format(domain=args.domain[0])).text, "html.parser")
 
     lettersTags = soup.select("tr td.xx_large_text.bold_text a[href]")
-    [paths.append(tag["href"]) for tag in lettersTags]
+    [paths.append(tag.get("href")) for tag in lettersTags]
     if args.verbose: print("Found {numPaths} last names indices to search".format(numPaths=len(paths)))
 
     return paths
 
 
 def parseLetterIndex(path, args):
+    """Parses a list of links of player profiles from baseball-reference.com"""
     paths = []
     soup  = BeautifulSoup(requests.get("{domain}/{pathStr}".format(domain=args.domain[0], pathStr=path)).text, "html.parser")
 
     playerTags = soup.select("blockquote pre a[href]")
     # when updating, run check aginst DB here on which players to process
-    [paths.append(tag["href"]) for tag in playerTags]
+    [paths.append(tag.get("href")) for tag in playerTags]
     if args.verbose: print("Found {numPaths} players to process".format(numPaths=len(paths)))
 
     return paths
 
 
 def parseArgs(args):
+    """Parses command line arguments given to the program"""
     parser = argparse.ArgumentParser(description = "Scrapes baseball-reference.com for player statistics")
 
     parser.add_argument("-d", "--domain", help="domain to scrape for statistics. Default is baseball-reference.com", nargs=1, default=["http://www.baseball-reference.com"])
@@ -308,17 +406,29 @@ def parseArgs(args):
     return parsedArgs
 
 
-def main(args):
+def scrapePlayerData(args, sqlController):
     playerIDs = []
     letters = parsePlayerIndex(args)
-    for letter in letters:
+    for letter in letters[:1]:
         profiles = parseLetterIndex(letter, args)
-        for profile in profiles:
-            ids = parsePlayerProfile(profile, args)
-            if ids not in playerIDs:
-                playerIDs.append(ids)
-            else:
-                print("overlapping IDs")
+        for profile in profiles[:2]:
+            player = parsePlayerProfile(profile, args)
+
+
+def main(args):
+    """Scrapes baseball-reference.com and enters player information into a database"""
+    sqlController = SQLController(args.filename)
+    if args.reset:
+        confirm = input("Are you sure you want to wipe the database? (y/N) ").lower()
+        if confirm == "y" or confirm == "yes":
+            print("Wiping database")
+            sqlController.resetDB()
+            scrapePlayerData(args, sqlController)
+        else:
+            print("Not wiping database. Exiting.")
+    else:
+        scrapePlayerData(args, sqlController)
+    sqlController.exit()
 
 
 if __name__ == "__main__":
